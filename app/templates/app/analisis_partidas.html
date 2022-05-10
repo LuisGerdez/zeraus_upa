@@ -1,0 +1,180 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    <div class="container bg-light p-3 my-3 shadow-lg">
+        <center><h4>FORMULACIÓN DE ANÁLISIS DE PRECIOS UNITARIOS</h4></center>
+
+        <center>
+            <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                <div class="col">
+                    <label for="partida_codigo">Partida</label>
+                    <select class="form-select form-control form-control-xs" id="partida_codigo">
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="partida_unidad">Unidad</label>
+                    <input type="text" class="form-control form-control-xs" id="partida_unidad" readonly>
+                </div>
+                <div class="col">
+                    <label for="partida_rendimiento">Rendimiento</label>
+                    <input type="number" class="form-control form-control-xs" id="partida_rendimiento" readonly>
+                </div>
+            </div>
+
+            <div class="form-group form-row" style="margin-top: 5px;">
+                <div class="col">
+                    <label for="partida_nombre">Nombre</label>
+                    <input type="text" class="form-control form-control-xs" id="partida_nombre" readonly>
+                </div>
+                <div class="col">
+                    <label for="partida_descripcion">Descripción</label>
+                    <input type="text" class="form-control form-control-xs" id="partida_descripcion" readonly>
+                </div>
+            </div>
+
+            <h5>Materiales</h5>
+            <table class="table table-bordered table-sm compact" id="tabla_analisis_materiales">
+                <thead class="thead-dark" style="font-size: 14px;">
+                    <tr>
+                        <th class="th-hover" scope="col">Código</th>
+                        <th class="th-hover" scope="col">Descripción</th>
+                        <th class="th-hover" scope="col">Unidad</th>
+                        <th class="th-hover" scope="col">Cantidad</th>
+                        <th class="th-hover" scope="col">Acción</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 12px;">
+                </tbody>
+            </table>
+
+            <h5>Equipos</h5>
+            <table class="table table-bordered table-sm compact" id="tabla_analisis_equipos">
+                <thead class="thead-dark" style="font-size: 14px;">
+                    <tr>
+                        <th class="th-hover" scope="col">Código</th>
+                        <th class="th-hover" scope="col">Descripción</th>
+                        <th class="th-hover" scope="col">Unidad</th>
+                        <th class="th-hover" scope="col">Cantidad</th>
+                        <th class="th-hover" scope="col">Acción</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 12px;">
+                </tbody>
+            </table>
+
+            <h5>Mano de obra</h5>
+            <table class="table table-bordered table-sm compact" id="tabla_analisis_personal">
+                <thead class="thead-dark" style="font-size: 14px;">
+                    <tr>
+                        <th class="th-hover" scope="col">Código</th>
+                        <th class="th-hover" scope="col">Descripción</th>
+                        <th class="th-hover" scope="col">Unidad</th>
+                        <th class="th-hover" scope="col">Cantidad</th>
+                        <th class="th-hover" scope="col">Acción</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 12px;">
+                </tbody>
+            </table>
+            
+        </center>
+    </div>
+
+    <div class="modal fade" id="agregarMaterialesModal" tabindex="-1" role="dialog" aria-labelledby="agregarMaterialesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="agregarMaterialesModalLabel">Agregar materiales</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <table class="table table-bordered table-sm compact" id="tabla_materiales_agregar">
+                        <thead class="thead-dark" style="font-size: 14px;">
+                            <tr>
+                                <th class="th-hover" scope="col">Código</th>
+                                <th class="th-hover" scope="col">Descripción</th>
+                                <th class="th-hover" scope="col">Unidad</th>
+                                <th class="th-hover" scope="col">Desperdicio</th>
+                                <th class="th-hover" scope="col">Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody style="font-size: 12px;">
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="agregarEquiposModal" tabindex="-1" role="dialog" aria-labelledby="agregarEquiposModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="agregarEquiposModalLabel">Agregar equipos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <table class="table table-bordered table-sm compact" id="tabla_equipos_agregar">
+                        <thead class="thead-dark" style="font-size: 14px;">
+                            <tr>
+                                <th class="th-hover" scope="col">Código</th>
+                                <th class="th-hover" scope="col">Descripción</th>
+                                <th class="th-hover" scope="col">Unidad</th>
+                                <th class="th-hover" scope="col">Depreciación</th>
+                                <th class="th-hover" scope="col">Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody style="font-size: 12px;">
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="agregarPersonalModal" tabindex="-1" role="dialog" aria-labelledby="agregarPersonalModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="agregarPersonalModalLabel">Agregar personal</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <table class="table table-bordered table-sm compact" id="tabla_personal_agregar">
+                        <thead class="thead-dark" style="font-size: 14px;">
+                            <tr>
+                                <th class="th-hover" scope="col">Código</th>
+                                <th class="th-hover" scope="col">Descripción</th>
+                                <th class="th-hover" scope="col">Unidad</th>
+                                <th class="th-hover" scope="col">Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody style="font-size: 12px;">
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

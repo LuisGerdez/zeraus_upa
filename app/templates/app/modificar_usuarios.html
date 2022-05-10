@@ -1,0 +1,213 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    {% if msg %}
+        <div class="alert {{ alert_type }}" role="alert" style="margin-top: 5px; margin-bottom: 5px; margin-right: 20px; margin-left: 20px;">
+            {{ msg }}
+        </div>
+    {% endif %}
+
+    <div class="container bg-light p-3 my-2 shadow-lg">
+        <center><h4>MODIFICAR USUARIO</h4></center>
+
+        {% if query == False %}
+            <div style="margin: 10px;">
+                <form action="{% url 'modificar_usuarios' %}" method="get" id="form_search">
+                    <center><h6>Buscar usuario</h6></center>
+
+                    <div class="form-group">
+                        <label for="username">Nombre de usuario</label>
+                        <input class="form-control form-control-sm" type="text" name="username" list="dlist" autocomplete="off" required>
+                        <datalist id="dlist">
+                            {% for user in users %}
+                                <option value="{{ user.username }}">{{ user.username }}</option>
+                            {% endfor %}
+                        </datalist>
+                    </div>
+
+                    <input class="btn btn-dark" type="submit" value="Buscar usuario">
+                </form>
+            </div>
+        {% else %}
+            <div style="margin: 10px;">
+                <form action="{% url 'modificar_usuarios' %}" method="post" id="form">
+                    {% csrf_token %}
+                    <input type="hidden" name="username" value="{{ user.username }}">
+
+                    <center><h6>Información de usuario</h6></center>
+
+                    <div class="form-group form-row" style="margin-bottom: 0px;">
+                        <div class="col">
+                            <label for="username">Nombre de usuario</label>
+                            <div class="input-group mb-3">
+                                <input class="form-control form-control-sm" type="text" value="{{ user.username }}" disabled>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <label for="email">Correo electronico</label>
+                            <div class="input-group mb-3">
+                                <input class="form-control form-control-sm" type="email" name="email" value="{{ user.email }}">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                        <div class="col">
+                            <label for="password">Contraseña</label>
+                            <div class="input-group mb-3">
+                                <input class="form-control form-control-sm" type="password" name="password">
+                            </div>
+                            <small id="passwordHelp" class="form-text text-muted">Escribir contraseña en caso de establecer una nueva</small>
+                        </div>
+
+                        <div class="col">
+                            <label for="confirmation">Confirmar contraseña</label>
+                            <div class="input-group mb-3">
+                                <input class="form-control form-control-sm" type="password" name="confirmation">
+                            </div>
+                        </div>
+                    </div>
+
+                    <center><h6>Permisos de usuario</h6></center>
+
+                    <label for="tipo_usuario">Tipo de usuario</label>
+                    <select class="form-control form-control-sm" name="tipo_usuario" id="tipo_usuario" required>
+                        <option value="">Seleccionar tipo de usuario</option>
+                        <option value="1" {% if user.getType == '1' %} selected {% endif %}>Usuario</option>
+                        <option value="2" {% if user.getType == '2' %} selected {% endif %}>Administrador</option>
+                    </select>
+
+                    <br>
+
+                    <div id="container_checkbox" {% if user.getType == '2' %} style="display: none;" {% endif %}>
+                        <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                            <div class="col">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_add_equipos" id="check_add_equipos" {% if 'add_equipos' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_add_equipos">Agregar equipos</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_equipos" id="check_change_equipos" {% if 'change_equipos' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_equipos">Modificar equipos</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_delete_equipos" id="check_delete_equipos" {% if 'delete_equipos' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_delete_equipos">Eliminar equipos</label>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_add_materiales" id="check_add_materiales" {% if 'add_materiales' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_add_materiales">Agregar materiales</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_materiales" id="check_change_materiales" {% if 'change_materiales' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_materiales">Modificar materiales</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_delete_materiales" id="check_delete_materiales" {% if 'delete_materiales' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_delete_materiales">Eliminar materiales</label>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_add_personal" id="check_add_personal" {% if 'add_personal' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_add_personal">Agregar personal</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_personal" id="check_change_personal" {% if 'change_personal' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_personal">Modificar personal</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_delete_personal" id="check_delete_personal" {% if 'delete_personal' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_delete_personal">Eliminar personal</label>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_add_partidas" id="check_add_partidas" {% if 'add_partidas' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_add_partidas">Agregar partidas</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_partidas" id="check_change_partidas" {% if 'change_partidas' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_partidas">Modificar partidas</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_delete_partidas" id="check_delete_partidas" {% if 'delete_partidas' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_delete_partidas">Eliminar partidas</label>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_add_areas" id="check_add_areas" {% if 'add_areas' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_add_areas">Agregar áreas</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_areas" id="check_change_areas" {% if 'change_areas' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_areas">Modificar áreas</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_delete_areas" id="check_delete_areas" {% if 'delete_areas' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_delete_areas">Eliminar áreas</label>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_precioequipos" id="check_change_precioequipos" {% if 'change_precioequipos' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_precioequipos">Precio de equipos</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_preciomateriales" id="check_change_preciomateriales" {% if 'change_preciomateriales' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_preciomateriales">Precio de materiales</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_preciopersonal" id="check_change_preciopersonal" {% if 'change_preciopersonal' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_preciopersonal">Precio de personal</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_analisis" id="check_change_analisis" {% if 'change_analisis' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_analisis">Análisis de precios unitarios</label>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_add_obras" id="check_add_obras" {% if 'add_obras' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_add_obras">Agregar obras</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_obras" id="check_change_obras" {% if 'change_obras' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_obras">Modificar obras</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_delete_obras" id="check_delete_obras" {% if 'delete_obras' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_delete_obras">Eliminar obras</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_change_presupuesto" id="check_change_presupuesto" {% if 'change_presupuesto' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_change_presupuesto">Modificar presupuestos</label>
+                                </div>
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" name="check_report_presupuesto" id="check_report_presupuesto" {% if 'report_presupuesto' in user.permissions %} checked {% endif %}>
+                                    <label class="custom-control-label col-form-label-sm" for="check_report_presupuesto">Reportes de presupuestos</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <input class="btn btn-dark" type="submit" value="Modificar usuario" name="modificar_usuario">
+                    <input class="btn btn-danger" type="submit" value="Eliminar usuario" name="eliminar_usuario">
+                </form>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

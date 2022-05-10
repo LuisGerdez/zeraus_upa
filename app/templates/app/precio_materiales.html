@@ -1,0 +1,46 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    <div class="container bg-light p-3 my-3 shadow-lg">
+        <center><h4>COSTO DE MATERIALES</h4></center>
+
+        <center>
+            <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                <div class="col">
+                    <label for="area_codigo">Área de precios</label>
+                    <div class="input-group mb-3">
+                        <select class="form-select form-control form-control-xs" id="area_codigo">
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="area_descripcion">Descripción</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-xs" id="area_descripcion" readonly>
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="area_tasa">Tasa</label>
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control form-control-xs" id="area_tasa" readonly>
+                    </div>
+                </div>
+            </div>
+
+            <table class="table table-bordered table-sm compact" id="tabla_precio_materiales">
+                <thead class="thead-dark" style="font-size: 14px;">
+                    <tr>
+                        <th class="th-hover" scope="col">Código</th>
+                        <th class="th-hover" scope="col">Descripción del material</th>
+                        <th class="th-hover" scope="col">Unidad</th>
+                        <th class="th-hover" scope="col">Precio Dólar</th>
+                        <th class="th-hover" scope="col">Precio Bs</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 12px;">
+                </tbody>
+            </table>
+            
+        </center>
+    </div>
+{% endblock %}

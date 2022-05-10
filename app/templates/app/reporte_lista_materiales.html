@@ -1,0 +1,83 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    {% if exists == True  %}
+        <div class="container bg-light p-2 my-2 shadow-lg">
+            <center>
+                <a class="btn btn-danger btn-sm" href="{% url 'pdf_lista_materiales' obra.codigo %}" target="_blank" role="button"><i class="bi bi-file-pdf"></i> Reporte en PDF</a>
+                
+                <a class="btn btn-success btn-sm" href="{% url 'excel_lista_materiales' obra.codigo %}" target="_blank" role="button"><i class="bi bi-file-excel"></i> Reporte en Excel</a>
+            </center>
+        </div>
+        
+        <div class="container bg-light p-3 my-3 shadow-lg">
+            <center><h4>LISTADO DE MATERIALES</h4></center>
+
+            <form>
+                <center>
+                    <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                        <div class="col">
+                            <label for="equipo_codigo">Código obra</label>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control form-control-xs" id="obra_codigo" maxlength="6" value="{{ obra.codigo }}" readonly>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="obra_descripcion">Descripción</label>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control form-control-xs" id="obra_descripcion" value="{{ obra.descripcion }}" readonly>
+                            </div>
+                        </div>
+                    </div>
+
+                    <table class="table table-bordered table-sm compact" id="tabla_lista_materiales">
+                        <thead class="thead-dark" style="font-size: 14px;">
+                            <tr>
+                                <th class="text-center" scope="col">#</th>
+                                <th class="text-center" scope="col">Código</th>
+                                <th scope="col">Descripción</th>
+                                <th class="text-center" scope="col">Unidad</th>
+                                <th class="text-center" scope="col">Cant.</th>
+                                <th class="text-center" scope="col">Precio Unitario Bs.</th>
+                                <th class="text-center" scope="col">Precio Total Bs.</th>
+                            </tr>
+                        </thead>
+                        <tbody style="font-size: 12px;">
+                            {% for material in lista_materiales %}
+                                <tr>
+                                    <td>{{ material.num }}</td>
+                                    <td>{{ material.codigo }}</td>
+                                    <td>{{ material.descripcion }}</td>
+                                    <td class="text-center">{{ material.unidad }}</td>
+                                    <td class="text-center">{{ material.cantidad }}</td>
+                                    <td class="text-right">{{ material.price }}</td>
+                                    <td class="text-right">{{ material.price_total }}</td>
+                                </tr>
+                            {% endfor %}
+                            <tr>
+                                <td colspan="6" class="text-right">Total materiales: Bs.</td>
+                                <td class="text-right">{{ materiales_total }}</td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="text-right">Total + Tarifa transporte ({{ obra.tarifa_transporte }} %): Bs.</td>
+                                <td class="text-right">{{ materiales_total_transporte }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
+            </form>
+        </div>
+    {% else %}
+        <div class="container bg-light p-2 my-2 shadow-lg">
+            <center>
+                <h1 class="display-2">Error</h1>
+
+                <div style="font-size: 120px;">
+                    <i class="bi bi-exclamation-circle"></i>
+                </div>
+                
+                <h1 class="display-4">Obra no encontrada!</h1>
+            </center>
+        </div>
+    {% endif %}
+{% endblock %}

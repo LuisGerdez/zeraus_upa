@@ -1,0 +1,185 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    {% if msg %}
+        <div class="alert {{ alert_type }}" role="alert" style="margin-top: 5px; margin-bottom: 5px; margin-right: 20px; margin-left: 20px;">
+            {{ msg }}
+        </div>
+    {% endif %}
+
+    <div class="container bg-light p-3 my-2 shadow-lg">
+        <center><h4 style="margin-bottom: 0px;">PERFIL DE USUARIO</h4></center>
+
+        <div class="card-body text-center">
+            <div class="mt-3 mb-4">
+                <div style="font-size: 120px; margin: 0px;">
+                    <i class="bi bi-person-circle"></i>
+                </div>
+            </div>
+
+            <h5 style="margin: 0px;">{{ user.username }}</h5>
+
+            <p class="text-muted mb-4">Último ingreso: <span class="mx-2">|</span> {{ user.last_login }}</p>
+
+            {% if user.getType == "1" %}
+                <h4>Permisos</h4>
+                <div style="overflow-y: scroll; height:100px;">
+                    <div {% if "view_equipos" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver equipos
+                    </div>
+                    <div {% if "add_equipos" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Agregar equipos
+                    </div>
+                    <div {% if "change_equipos" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar equipos
+                    </div>
+                    <div {% if "delete_equipos" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Eliminar equipos
+                    </div>
+
+                    <div {% if "view_materiales" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver materiales
+                    </div>
+                    <div {% if "add_materiales" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Agregar materiales
+                    </div>
+                    <div {% if "change_materiales" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar materiales
+                    </div>
+                    <div {% if "delete_materiales" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Eliminar materiales
+                    </div>
+
+                    <div {% if "view_personal" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver mano de obra
+                    </div>
+                    <div {% if "add_personal" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Agregar mano de obra
+                    </div>
+                    <div {% if "change_personal" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar mano de obra
+                    </div>
+                    <div {% if "delete_personal" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Eliminar mano de obra
+                    </div>
+
+                    <div {% if "view_partidas" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver partidas
+                    </div>
+                    <div {% if "add_partidas" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Agregar partidas
+                    </div>
+                    <div {% if "change_partidas" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar partidas
+                    </div>
+                    <div {% if "delete_partidas" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Eliminar partidas
+                    </div>
+
+                    <div {% if "view_areas" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver áreas
+                    </div>
+                    <div {% if "add_areas" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Agregar áreas
+                    </div>
+                    <div {% if "change_areas" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar áreas
+                    </div>
+                    <div {% if "delete_areas" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Eliminar áreas
+                    </div>
+
+                    <div {% if "view_precioequipos" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver precio de equipos
+                    </div>
+                    <div {% if "change_precioequipos" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar precio de equipos
+                    </div>
+
+                    <div {% if "view_preciomateriales" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver precio de materiales
+                    </div>
+                    <div {% if "change_preciomateriales" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar precio de materiales
+                    </div>
+
+                    <div {% if "view_preciopersonal" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver precio de mano de obra
+                    </div>
+                    <div {% if "change_preciopersonal" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar precio de mano de obra
+                    </div>
+
+                    <div {% if "view_analisis" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver análisis de precio unitario
+                    </div>
+                    <div {% if "change_analisis" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar análisis de precio unitario
+                    </div>
+
+                    <div {% if "view_analisis" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver análisis de precio unitario
+                    </div>
+                    <div {% if "change_analisis" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar análisis de precio unitario
+                    </div>
+
+                    <div {% if "view_obras" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver obras
+                    </div>
+                    <div {% if "add_obras" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Agregar obras
+                    </div>
+                    <div {% if "change_obras" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar obras
+                    </div>
+                    <div {% if "delete_obras" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Eliminar obras
+                    </div>
+
+                    <div {% if "view_presupuesto" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver presupuestos
+                    </div>
+                    <div {% if "change_presupuesto" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Modificar presupuestos
+                    </div>
+                    <div {% if "report_presupuesto" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver reportes de presupuestos
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="container bg-light p-3 my-2 shadow-lg">
+        <div>
+            <center><h4>Cambio de contraseña</h4></center>
+
+            <br>
+
+            <form action="{% url 'perfil' %}" method="post">
+                {% csrf_token %}
+                <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                    <div class="col">
+                        <label for="password">Contraseña</label>
+                        <div class="input-group mb-3">
+                            <input class="form-control form-control-sm" type="password" name="password">
+                        </div>
+                        <small id="passwordHelp" class="form-text text-muted">Escribir contraseña en caso de establecer una nueva</small>
+                    </div>
+
+                    <div class="col">
+                        <label for="confirmation">Confirmar contraseña</label>
+                        <div class="input-group mb-3">
+                            <input class="form-control form-control-sm" type="password" name="confirmation">
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <input class="btn btn-dark" type="submit" value="Modificar usuario" name="modificar_usuario">
+            </form>
+        </div>
+    </div>
+{% endblock %}

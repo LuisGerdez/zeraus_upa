@@ -1,0 +1,214 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    {% if exists == True  %}
+        <div class="container bg-light p-2 my-2 shadow-lg">
+            <center>
+                <a class="btn btn-danger btn-sm" href="{% url 'pdf_apu' obra.codigo %}" target="_blank" role="button"><i class="bi bi-file-pdf"></i> Reporte en PDF</a>
+                
+                <a class="btn btn-success btn-sm" href="{% url 'excel_apu' obra.codigo %}" target="_blank" role="button"><i class="bi bi-file-excel"></i> Reporte en Excel</a>
+            </center>
+        </div>
+        
+        <div class="container bg-light p-3 my-3 shadow-lg">
+            <center><h4>ANÁLISIS DE PRECIOS UNITARIOS</h4></center>
+
+            {% for partida in partidas %}
+                <div class="accordion shadow" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header bg-dark">
+                            <button class="btn text-light" type="button" data-toggle="collapse" data-target="#collapse_{{ partida.codigo }}" aria-expanded="true" aria-controls="collapseOne">
+                                <h6>Partida {{ partida.codigo }} - {{ partida.descripcion }}</h6>
+                            </button>
+                        </div>
+
+                        <div id="collapse_{{ partida.codigo }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p style="margin: 0;"><b>Código de la partida</b>: {{ partida.codigo }}</p>
+                                <p style="margin: 0;"><b>Descripción de la partida</b>: {{ partida.descripcion }}</p>
+                                <p style="margin: 0;"><b>Unidad</b>: {{ partida.unidad }}</p>
+                                <p style="margin: 0;"><b>Rendimiento</b>: {{ partida.rendimiento }}</p>
+
+                                <br>
+
+                                <h5>Materiales</h5>
+                                <table class="table table-bordered table-sm compact" id="tabla_materiales_{{ obra.codigo }}">
+                                    <thead class="thead-dark" style="font-size: 14px;">
+                                        <tr>
+                                            <th class="text-center" scope="col">Código</th>
+                                            <th scope="col">Descripción</th>
+                                            <th class="text-center" scope="col">Unidad</th>
+                                            <th class="text-center" scope="col">Cantidad</th>
+                                            <th class="text-center" scope="col">Costo Bs.</th>
+                                            <th class="text-center" scope="col">Total Bs.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody style="font-size: 12px;">
+                                        {% for material in partida.materiales %}
+                                            <tr>
+                                                <td>{{ material.codigo }}</td>
+                                                <td>{{ material.descripcion }}</td>
+                                                <td class="text-center">{{ material.unidad }}</td>
+                                                <td class="text-center">{{ material.cantidad }}</td>
+                                                <td class="text-right">{{ material.price }}</td>
+                                                <td class="text-right">{{ material.price_total }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-right font-weight-bold">Total Materiales: Bs.</td>
+                                            <td class="text-right font-weight-bold">{{ partida.materiales_total }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-right font-weight-bold">Unitario de Materiales: Bs.</td>
+                                            <td class="text-right font-weight-bold">{{ partida.materiales_unitario }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <h5>Equipos</h5>
+                                <table class="table table-bordered table-sm compact" id="tabla_equipos_{{ obra.codigo }}">
+                                    <thead class="thead-dark" style="font-size: 14px;">
+                                        <tr>
+                                            <th class="text-center" scope="col">Código</th>
+                                            <th scope="col">Descripción</th>
+                                            <th class="text-center" scope="col">Cantidad</th>
+                                            <th class="text-center" scope="col">COP</th>
+                                            <th class="text-center" scope="col">Costo Bs.</th>
+                                            <th class="text-center" scope="col">Total Bs.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody style="font-size: 12px;">
+                                        {% for equipo in partida.equipos %}
+                                            <tr>
+                                                <td>{{ equipo.codigo }}</td>
+                                                <td>{{ equipo.descripcion }}</td>
+                                                <td class="text-center">{{ equipo.cantidad }}</td>
+                                                <td class="text-center">{{ equipo.depreciacion }}</td>
+                                                <td class="text-right">{{ equipo.price }}</td>
+                                                <td class="text-right">{{ equipo.price_total }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-right font-weight-bold">Total Equipos: Bs.</td>
+                                            <td class="text-right font-weight-bold">{{ partida.equipos_total }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-right font-weight-bold">Unitario de Equipos: Bs.</td>
+                                            <td class="text-right font-weight-bold">{{ partida.equipos_unitario }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <h5>Mano de obra</h5>
+                                <table class="table table-bordered table-sm compact" id="tabla_equipos_{{ obra.codigo }}">
+                                    <thead class="thead-dark" style="font-size: 14px;">
+                                        <tr>
+                                            <th class="text-center" scope="col">Código</th>
+                                            <th scope="col">Descripción</th>
+                                            <th class="text-center" scope="col">Cantidad</th>
+                                            <th class="text-center" scope="col">Jornal Bs.</th>
+                                            <th class="text-center" scope="col">Total Bs.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody style="font-size: 12px;">
+                                        {% for personal in partida.personal %}
+                                            <tr>
+                                                <td>{{ personal.codigo }}</td>
+                                                <td>{{ personal.descripcion }}</td>
+                                                <td class="text-center">{{ personal.cantidad }}</td>
+                                                <td class="text-right">{{ personal.price }}</td>
+                                                <td class="text-right">{{ personal.price_total }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                        <tr>
+                                            <td colspan="4" class="text-right font-weight-bold">Total Mano de Obra: Bs.</td>
+                                            <td class="text-right font-weight-bold">{{ partida.personal_total }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right">Factor de costos asociados al salario ({{ obra.fcas }}%): Bs.</td>
+                                            <td class="text-right">{{ partida.personal_fcas }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right">Total Mano de Obra + Factor de Costos: Bs.</td>
+                                            <td class="text-right">{{ partida.personal_total_fcas }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right">Bono de Alimentación (Bs. {{ obra.bono_alimentacion }} X {{ partida.personal_cant }}): Bs.</td>
+                                            <td class="text-right">{{ partida.personal_alimentacion }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right">Mano de Obra + Bono de Alimentación + Factor de Costos: Bs.</td>
+                                            <td class="text-right">{{ partida.personal_total_fcas_alimentacion }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right font-weight-bold">Unitario Mano de Obra: Bs.</td>
+                                            <td class="text-right font-weight-bold">{{ partida.personal_unitario }}</td>
+                                        </tr>
+
+                                        
+                                        <tr>
+                                            <td colspan="5"><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right">Costo Directo Por Unidad: Bs.</td>
+                                            <td class="text-right">{{ partida.costo_directo_unidad }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right">Administración ({{ obra.f_administracion }}%): Bs.</td>
+                                            <td class="text-right">{{ partida.f_administracion }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right">Sub Total Administración + Costo Directo por Unidad: Bs.</td>
+                                            <td class="text-right">{{ partida.costo_directo_unidad_administracion }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right">Utilidad ({{ obra.f_utilidad }}%): Bs.</td>
+                                            <td class="text-right">{{ partida.f_utilidad }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right">Sub Total Utilidad + Administración + Costo Directo por Unidad: Bs.</td>
+                                            <td class="text-right">{{ partida.costo_directo_unidad_administracion_utilidad }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4" class="text-right font-weight-bold">Precio Unitario: Bs.</td>
+                                            <td class="text-right font-weight-bold">{{ partida.unitario }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+    {% else %}
+        <div class="container bg-light p-2 my-2 shadow-lg">
+            <center>
+                <h1 class="display-2">Error</h1>
+
+                <div style="font-size: 120px;">
+                    <i class="bi bi-exclamation-circle"></i>
+                </div>
+                
+                <h1 class="display-4">Obra no encontrada!</h1>
+            </center>
+        </div>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,106 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PRESUPUESTO DE OBRA - {{ obra.codigo }}</title>
+        <style>
+            @page {
+                size: a4 portrait;
+                @frame header_frame {           /* Static Frame */
+                    -pdf-frame-content: header_content;
+                    left: 50pt; width: 512pt; top: 20pt; height: 20pt;
+                }
+                @frame content_frame {          /* Content Frame */
+                    left: 45pt; width: 518pt; top: 50pt; height: 732pt;
+                }
+                @frame footer_frame {           /* Another static Frame */
+                    -pdf-frame-content: footer_content;
+                    left: 50pt; width: 512pt; top: 800pt; height: 20pt;
+                }
+            }
+
+            table, td, th {
+                text-align: center;
+                padding: 2px;
+                border: 1px solid black;
+            }
+
+            table {
+                width: 100%;
+            }
+        </style>
+	</head>
+
+	<body>
+        <div id="header_content">Fecha: {% now "d/m/Y" %}</div>
+
+        <div id="footer_content">
+            Página <pdf:pagenumber> de <pdf:pagecount>
+        </div>
+
+        <table style="border: none;">
+            <tr>
+                <td width="85px" style="border: none;">
+                    <div style="text-align: left; font-weight: bold;">Código de obra:</div>
+                </td>
+                <td style="border: none;">
+                    <div style="text-align: left;">{{ obra.codigo }}</div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="85px" style="border: none;">
+                    <div style="text-align: left; font-weight: bold;">Descripción:</div>
+                </td>
+                <td style="border: none;">
+                    <div style="text-align: left;">{{ obra.descripcion }}</div>
+                </td>
+            </tr>
+        </table>
+
+        <h1 style="text-align: center;">PRESUPUESTO DE OBRA</h1>
+
+		<table>
+            <thead>
+                <tr>
+					<th width="40px">#</th>
+                    <th width="50px">Código</th>
+                    <th>Descripción</th>
+                    <th width="50px">Unidad</th>
+                    <th width="60px">Cantidad</th>
+                    <th width="95px">Precio Unitario Bs.</th>
+                    <th width="90px">Precio Total Bs.</th>
+                </tr>
+            </thead>
+
+			<tbody>
+				{% for partida in partidas %}
+                    <tr>
+                        <td width="40px">{{ partida.num }}</td>
+                        <td width="50px">{{ partida.codigo }}</td>
+                        <td style="text-align: left;">{{ partida.descripcion }}</td>
+                        <td width="50px" style="text-align: center;">{{ partida.unidad }}</td>
+                        <td width="60px" style="text-align: center;">{{ partida.cantidad }}</td>
+                        <td width="95px" style="text-align: right;">{{ partida.unitario }}</td>
+                        <td width="90px" style="text-align: right;">{{ partida.price_total }}</td>
+                    </tr>
+				{% endfor %}
+                <tr style="border: none;">
+                    <td colspan="5" style="text-align: left; border: none;">Dificultad de la Obra: Bs. ????</td>
+                    <td style="text-align: right; border: none;">Subtotal: Bs.</td>
+                    <td style="text-align: right; border: none;">{{ obra.subtotal }}</td>
+                </tr>
+                <tr style="border: none;">
+                    <td colspan="5" style="text-align: left; border: none;">Transporte ({{ obra.tarifa_transporte }}%): Bs. {{ obra.transporte }}</td>
+                    <td style="text-align: right; border: none;">{{ obra.iva }}% IVA: Bs.</td>
+                    <td style="text-align: right; border: none;">{{ obra.t_iva }}</td>
+                </tr>
+                <tr style="border: none;">
+                    <td colspan="6" style="text-align: right; border: none;">Total: Bs.</td>
+                    <td style="text-align: right; border: none;">{{ obra.total }}</td>
+                </tr>
+			</tbody>
+		</table>
+	</body>
+</html>

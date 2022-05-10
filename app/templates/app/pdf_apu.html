@@ -1,0 +1,241 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ANÁLISIS DE PRECIOS UNITARIOS - {{ obra.codigo }}</title>
+        <style>
+            @page {
+                size: a4 portrait;
+                @frame header_frame {           /* Static Frame */
+                    -pdf-frame-content: header_content;
+                    left: 50pt; width: 512pt; top: 20pt; height: 20pt;
+                }
+                @frame content_frame {          /* Content Frame */
+                    left: 45pt; width: 518pt; top: 40pt; height: 780pt;
+                }
+                @frame footer_frame {           /* Another static Frame */
+                    -pdf-frame-content: footer_content;
+                    left: 50pt; width: 512pt; top: 820pt; height: 16pt;
+                }
+            }
+
+            table, td, th {
+                text-align: center;
+                padding: 1.5px;
+                border: 1px solid black;
+            }
+
+            table {
+                width: 100%;
+            }
+        </style>
+	</head>
+
+	<body>
+        <div id="header_content">Fecha: {% now "d/m/Y" %}</div>
+
+        <div id="footer_content">
+            Página <pdf:pagenumber> de <pdf:pagecount>
+        </div>
+
+        {% for partida in partidas %}
+            <h1 style="text-align: center; margin: 0px;">ANÁLISIS DE PRECIOS UNITARIOS</h1>
+
+            <table style="border: none;">
+                <tr>
+                    <td width="140px" style="border: none;">
+                        <div style="text-align: left; font-weight: bold;">Código de la partida:</div>
+                    </td>
+                    <td style="border: none;">
+                        <div style="text-align: left;">{{ partida.codigo }}</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="140px" style="border: none;">
+                        <div style="text-align: left; font-weight: bold;">Descripción de la partida:</div>
+                    </td>
+                    <td style="border: none;">
+                        <div style="text-align: left;">{{ partida.descripcion }}</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="140px" style="border: none;">
+                        <div style="text-align: left; font-weight: bold;">Unidad:</div>
+                    </td>
+                    <td style="border: none;">
+                        <div style="text-align: left;">{{ partida.unidad }}</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="140px" style="border: none;">
+                        <div style="text-align: left; font-weight: bold;">Rendimiento:</div>
+                    </td>
+                    <td style="border: none;">
+                        <div style="text-align: left;">{{ partida.rendimiento }}</div>
+                    </td>
+                </tr>
+            </table>
+
+            <h2 style="text-align: left; margin: 0px;">Materiales</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th width="50px">Código</th>
+                        <th>Descripción</th>
+                        <th width="50px">Unidad</th>
+                        <th width="60px">Cantidad</th>
+                        <th width="95px">Costo Bs.</th>
+                        <th width="90px">Total Bs.</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for material in partida.materiales %}
+                        <tr>
+                            <td width="50px">{{ material.codigo }}</td>
+                            <td style="text-align: left;">{{ material.descripcion }}</td>
+                            <td width="50px" style="text-align: center;">{{ material.unidad }}</td>
+                            <td width="60px" style="text-align: center;">{{ material.cantidad }}</td>
+                            <td width="95px" style="text-align: right;">{{ material.price }}</td>
+                            <td width="90px" style="text-align: right;">{{ material.price_total }}</td>
+                        </tr>
+                    {% endfor %}
+                    <tr style="border: none;">
+                        <td colspan="5" style="text-align: right; font-weight: bold; border: none;">Total Materiales: Bs.</td>
+                        <td style="text-align: right; font-weight: bold; border: none;">{{ partida.materiales_total }}</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td colspan="5" style="text-align: right; font-weight: bold; border: none;">Unitario de Materiales: Bs.</td>
+                        <td style="text-align: right; font-weight: bold; border: none;">{{ partida.materiales_unitario }}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2 style="text-align: left; margin-bottom: 0px; margin-top: 5px;">Equipos</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th width="50px">Código</th>
+                        <th>Descripción</th>
+                        <th width="60px">Cantidad</th>
+                        <th width="60px">COP</th>
+                        <th width="95px">Costo Bs.</th>
+                        <th width="90px">Total Bs.</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for equipo in partida.equipos %}
+                        <tr>
+                            <td width="50px">{{ equipo.codigo }}</td>
+                            <td style="text-align: left;">{{ equipo.descripcion }}</td>
+                            <td width="50px" style="text-align: center;">{{ equipo.cantidad }}</td>
+                            <td width="60px" style="text-align: center;">{{ equipo.depreciacion }}</td>
+                            <td width="95px" style="text-align: right;">{{ equipo.price }}</td>
+                            <td width="90px" style="text-align: right;">{{ equipo.price_total }}</td>
+                        </tr>
+                    {% endfor %}
+                    <tr style="border: none;">
+                        <td colspan="5" style="text-align: right; font-weight: bold; border: none;">Total Equipos: Bs.</td>
+                        <td style="text-align: right; font-weight: bold; border: none;">{{ partida.equipos_total }}</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td colspan="5" style="text-align: right; font-weight: bold; border: none;">Unitario de Equipos: Bs.</td>
+                        <td style="text-align: right; font-weight: bold; border: none;">{{ partida.equipos_unitario }}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2 style="text-align: left; margin-bottom: 0px; margin-top: 5px;">Mano de obra</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th width="50px">Código</th>
+                        <th>Descripción</th>
+                        <th width="60px">Cantidad</th>
+                        <th width="95px">Jornal Bs.</th>
+                        <th width="90px">Total Bs.</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for personal in partida.personal %}
+                        <tr>
+                            <td width="50px">{{ personal.codigo }}</td>
+                            <td style="text-align: left;">{{ personal.descripcion }}</td>
+                            <td width="50px" style="text-align: center;">{{ personal.cantidad }}</td>
+                            <td width="95px" style="text-align: right;">{{ personal.price }}</td>
+                            <td width="90px" style="text-align: right;">{{ personal.price_total }}</td>
+                        </tr>
+                    {% endfor %}
+                    <tr style="border: none;">
+                        <td colspan="4" style="text-align: right; font-weight: bold; border: none;">Total Mano de Obra: Bs.</td>
+                        <td style="text-align: right; font-weight: bold; border: none;">{{ partida.personal_total }}</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td colspan="4" style="text-align: right; border: none;">Factor de costos asociados al salario ({{ obra.fcas }}%): Bs.</td>
+                        <td style="text-align: right; border: none;">{{ partida.personal_fcas }}</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td colspan="4" style="text-align: right; border: none;">Total Mano de Obra + Factor de Costos: Bs.</td>
+                        <td style="text-align: right; border: none;">{{ partida.personal_total_fcas }}</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td colspan="4" style="text-align: right; border: none;">Bono de Alimentación (Bs. {{ obra.bono_alimentacion }} X {{ partida.personal_cant }}): Bs.</td>
+                        <td style="text-align: right; border: none;">{{ partida.personal_alimentacion }}</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td colspan="4" style="text-align: right; border: none;">Mano de Obra + Bono de Alimentación + Factor de Costos: Bs.</td>
+                        <td style="text-align: right; border: none;">{{ partida.personal_total_fcas_alimentacion }}</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td colspan="4" style="text-align: right; font-weight: bold; border: none;">Unitario Mano de Obra: Bs.</td>
+                        <td style="text-align: right; font-weight: bold; border: none;">{{ partida.personal_unitario }}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <table style="border: none;">
+                <tr style="border: none;">
+                    <td colspan="4" style="text-align: right; border: none;">Costo Directo Por Unidad: Bs.</td>
+                    <td width="90px" style="text-align: right; border: none;">{{ partida.costo_directo_unidad }}</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: right; border: none;">Administración ({{ obra.f_administracion }}%): Bs.</td>
+                    <td width="90px" style="text-align: right; border: none;">{{ partida.f_administracion }}</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: right; border: none;">Sub Total Administración + Costo Directo por Unidad: Bs.</td>
+                    <td width="90px" style="text-align: right; border: none;">{{ partida.costo_directo_unidad_administracion }}</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: right; border: none;">Utilidad ({{ obra.f_utilidad }}%): Bs.</td>
+                    <td width="90px" style="text-align: right; border: none;">{{ partida.f_utilidad }}</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: right; border: none;">Sub Total Utilidad + Administración + Costo Directo por Unidad: Bs.</td>
+                    <td width="90px" style="text-align: right; border: none;">{{ partida.costo_directo_unidad_administracion_utilidad }}</td>
+                </tr>
+                <tr style="border: none;">
+                    <td colspan="4" style="text-align: right; font-weight: bold; border: none;">Precio Unitario: Bs.</td>
+                    <td width="90px" style="text-align: right; font-weight: bold; border: none;">{{ partida.unitario }}</td>
+                </tr>
+            </table>
+
+            <div> 
+               <pdf:nextpage /> 
+            </div>
+        {% endfor %}
+
+		
+	</body>
+</html>

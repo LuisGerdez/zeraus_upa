@@ -1,0 +1,100 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    <div class="container bg-light p-3 my-3 shadow-lg">
+        <center><h4>ÁREAS DE PRECIOS</h4></center>
+
+        <center>
+            <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                <div class="col">
+                    <label for="area_codigo">Código área</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-xs" id="area_codigo" maxlength="3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                <div class="col">
+                    <label for="area_descripcion">Descripción</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-xs" id="area_descripcion">
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="area_tasa">Tasa de dólar</label>
+                    <input name="area_tasa" type="number" min="0" value="0" step=".01" onkeyup="if(this.value<0){this.value= this.value * -1}" class="form-control form-control-xs" id="area_tasa">
+                </div>
+            </div>
+
+            <table class="table table-bordered table-sm compact" id="tabla_areas">
+                <thead class="thead-dark" style="font-size: 14px;">
+                    <tr>
+                        <th class="th-hover" scope="col">Código</th>
+                        <th class="th-hover" scope="col">Descripción del área</th>
+                        <th scope="col">Tasa</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 12px;">
+                </tbody>
+            </table>
+
+            {% if "add_areas" in user.getPermissions %}
+                <button type="button" id="btn_agregar" class="btn btn-dark btn-sm">Agregar nuevo</button>
+            {% else %}
+                <button type="button" id="btn_agregar" class="btn btn-dark btn-sm" disabled>Agregar nuevo</button>
+            {% endif %}
+
+            {% if "change_areas" in user.getPermissions %}
+                <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#modificarModal">Modificar</button>
+                <div class="modal fade" id="modificarModal" tabindex="-1" role="dialog" aria-labelledby="modificarModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modificarModalLabel">¿Está seguro de modificar esta área?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                La información modificada no podrá ser recuperada!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" id="btn_modificar" class="btn btn-danger" data-dismiss="modal">Modificar área</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <button type="button" class="btn btn-dark btn-sm" id="btn_modificar" disabled>Modificar</button>
+            {% endif %}
+
+            {% if "delete_areas" in user.getPermissions %}
+                <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#eliminarModal">Eliminar</button>
+                <div class="modal fade" id="eliminarModal" tabindex="-1" role="dialog" aria-labelledby="eliminarModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="eliminarModalLabel">¿Está seguro de eliminar esta área?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                La información borrada no podrá ser recuperada!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" id="btn_eliminar" class="btn btn-danger" data-dismiss="modal">Eliminar área</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <button type="button" class="btn btn-dark btn-sm" id="btn_eliminar" disabled>Eliminar</button>
+            {% endif %}
+
+        </center>
+    </div>
+{% endblock %}

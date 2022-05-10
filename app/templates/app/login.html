@@ -1,0 +1,26 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    {% if msg %}
+        <div class="alert {{ alert_type }}" role="alert" style="margin-top: 5px; margin-bottom: 5px; margin-right: 20px; margin-left: 20px;">
+            {{ msg }}
+        </div>
+    {% endif %}
+
+    <div class="container bg-light p-3 my-2 shadow-lg">
+        <center><h4>INICIO DE SESIÓN</h4></center>
+
+        <form action="{% url 'login' %}" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="username">Nombre de usuario</label>
+                <input class="form-control form-control-sm" type="text" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input class="form-control form-control-sm" type="password" name="password" required>
+            </div>
+            <input class="btn btn-dark" type="submit" value="Iniciar sesión">
+        </form>
+    </div>
+{% endblock %}

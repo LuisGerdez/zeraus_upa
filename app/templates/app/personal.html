@@ -1,0 +1,100 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    <div class="container bg-light p-3 my-3 shadow-lg">
+        <center><h4>MANO DE OBRA</h4></center>
+
+        <center>
+            <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                <div class="col">
+                    <label for="personal_codigo">Código personal</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-xs" id="personal_codigo" maxlength="6">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                <div class="col">
+                    <label for="personal_descripcion">Descripción</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-xs" id="personal_descripcion">
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="personal_unidad">Unidad</label>
+                    <input name="personal_unidad" type="text" class="form-control form-control-xs" id="personal_unidad">
+                </div>
+            </div>
+
+            <table class="table table-bordered table-sm compact" id="tabla_personal">
+                <thead class="thead-dark" style="font-size: 14px;">
+                    <tr>
+                        <th class="th-hover" scope="col">Código</th>
+                        <th class="th-hover" scope="col">Descripción de personal</th>
+                        <th style="display: none;" scope="col">Unidad</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 12px;">
+                </tbody>
+            </table>
+
+            {% if "add_personal" in user.getPermissions %}
+                <button type="button" id="btn_agregar" class="btn btn-dark btn-sm">Agregar nuevo</button>
+            {% else %}    
+                <button type="button" id="btn_agregar" class="btn btn-dark btn-sm" disabled>Agregar nuevo</button>
+            {% endif %}    
+
+            {% if "change_personal" in user.getPermissions %}
+                <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#modificarModal">Modificar</button>
+                <div class="modal fade" id="modificarModal" tabindex="-1" role="dialog" aria-labelledby="modificarModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modificarModalLabel">¿Está seguro de modificar este personal?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                La información modificada no podrá ser recuperada!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" id="btn_modificar" class="btn btn-danger" data-dismiss="modal">Modificar personal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <button type="button" class="btn btn-dark btn-sm" id="btn_modificar" disabled>Modificar</button>
+            {% endif %} 
+
+            {% if "delete_personal" in user.getPermissions %}
+                <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#eliminarModal">Eliminar</button>
+                <div class="modal fade" id="eliminarModal" tabindex="-1" role="dialog" aria-labelledby="eliminarModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="eliminarModalLabel">¿Está seguro de eliminar este personal?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                La información borrada no podrá ser recuperada!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" id="btn_eliminar" class="btn btn-danger" data-dismiss="modal">Eliminar personal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <button type="button" class="btn btn-dark btn-sm" id="btn_eliminar" disabled>Eliminar</button>
+            {% endif %}
+
+        </center>
+    </div>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "app/layout.html" %}
+
+{% load static %}
+
+{% block body %}
+    
+    <div class="container p-5 my-5 shadow-lg" style="background-color: #ffffffb3;">
+        {% if user.is_authenticated %}
+            <center>
+                <h1 class="display-3">Bienvenido a Zeraus UPA</h1>
+                <div id="carouselSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1 class="display-4">Accede a las funciones disponibles a través del menú de navegación!</h1>
+                        </div>
+
+                        <div class="carousel-item">
+                            <h1 class="display-4">Crea reportes en formatos PDF y Microsoft Office Excel!</h1>
+                        </div>
+
+                        <div class="carousel-item">
+                            <h1 class="display-4">Fácil de usar</h1>
+                        </div>
+
+                        <div class="carousel-item">
+                            <h1 class="display-4">Tablas con opciones de búsqueda y filtrado!</h1>
+                        </div>
+                    </div>
+                </div>                
+            </center>
+        {% else %}
+            <center>
+                <img src="{% static 'app/images/zs-logo.png' %}" style="margin: 0px;" width="160px" height="150px">
+            </center>
+            <br>
+            <header class="masthead">
+                <div class="masthead-subheading">
+                    Herramienta para ejecutar actividades de formulación de presupuestos de obras bajo la elaboración previa de análisis de precios unitarios, que es un modelo práctico para determinar los costos por unidad de las partidas que conforman los presupuestos de obras.
+                </div>
+
+                <a class="btn btn-light btn-lg rounded-pill border border-dark shadow" href="{% url 'login' %}" role="button">Comenzar</a>
+            </header>
+        {% endif %}
+    </div>
+    
+{% endblock %}

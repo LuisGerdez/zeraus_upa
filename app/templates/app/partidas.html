@@ -1,0 +1,147 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    <div class="container bg-light p-3 my-3 shadow-lg">
+        <center><h4>PARTIDAS</h4></center>
+
+        <center>
+            <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                <div class="col">
+                    <label for="partida_codigo">Código partida</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-xs" id="partida_codigo" maxlength="6">
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="partida_nombre">Nombre</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-xs" id="partida_nombre">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                <div class="col">
+                    <label for="partida_descripcion">Descripción</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-xs" id="partida_descripcion">
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="partida_unidad">Unidad</label>
+                    <input name="partida_unidad" type="text" class="form-control form-control-xs" id="partida_unidad">
+                </div>
+            </div>
+
+            <table class="table table-bordered table-sm compact" id="tabla_partidas">
+                <thead class="thead-dark" style="font-size: 14px;">
+                    <tr>
+                        <th class="th-hover" scope="col">Código</th>
+                        <th class="th-hover" scope="col">Descripción de partidas</th>
+                        <th style="display: none;" scope="col">Nombre</th>
+                        <th style="display: none;" scope="col">Unidad</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 12px;">
+                </tbody>
+            </table>
+
+            {% if "add_partidas" in user.getPermissions %}
+                <button type="button" id="btn_agregar" class="btn btn-dark btn-sm">Agregar nuevo</button>
+            {% else %}
+                <button type="button" id="btn_agregar" class="btn btn-dark btn-sm" disabled>Agregar nuevo</button>
+            {% endif %}
+
+            {% if "add_partidas" in user.getPermissions %}
+                <button type="button" class="btn btn-dark btn-sm" id="btn_copiar_modal">Copiar partida</button>
+                <div class="modal fade" id="copiarModal" tabindex="-1" role="dialog" aria-labelledby="copiarModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="copiarModalLabel">¿Quieres crear una copia de esta partida?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h6>Ingresa el código de la partida copia a crear!</h6>
+                                <br>
+                                <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                                    <div class="col">
+                                        <label for="copiar_original">Código partida original</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control form-control-xs" id="copiar_original" maxlength="6" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <label for="copiar_nueva">Código partida nueva</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control form-control-xs" id="copiar_nueva" maxlength="6">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" id="btn_copiar" class="btn btn-danger" data-dismiss="modal">Copiar partida</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <button type="button" class="btn btn-dark btn-sm" id="btn_copiar" disabled>Copiar</button>
+            {% endif %}
+
+            {% if "change_partidas" in user.getPermissions %}
+                <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#modificarModal">Modificar</button>
+                <div class="modal fade" id="modificarModal" tabindex="-1" role="dialog" aria-labelledby="modificarModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modificarModalLabel">¿Está seguro de modificar esta partida?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                La información modificada no podrá ser recuperada!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" id="btn_modificar" class="btn btn-danger" data-dismiss="modal">Modificar partida</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <button type="button" class="btn btn-dark btn-sm" id="btn_modificar" disabled>Modificar</button>
+            {% endif %}
+
+            {% if "delete_partidas" in user.getPermissions %}
+                <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#eliminarModal">Eliminar</button>
+                <div class="modal fade" id="eliminarModal" tabindex="-1" role="dialog" aria-labelledby="eliminarModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="eliminarModalLabel">¿Está seguro de eliminar esta partida?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                La información borrada no podrá ser recuperada!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" id="btn_eliminar" class="btn btn-danger" data-dismiss="modal">Eliminar partida</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <button type="button" class="btn btn-dark btn-sm" id="btn_eliminar" disabled>Eliminar</button>
+            {% endif %}
+
+        </center>
+    </div>
+{% endblock %}

@@ -1,0 +1,131 @@
+{% extends "app/layout.html" %}
+
+{% block body %}
+    <div class="container bg-light p-3 my-3 shadow-lg">
+        <center><h4>FORMULACIÓN DE PRESUPUESTO DE OBRA</h4></center>
+
+        <center>
+            <div class="form-group form-row" style="margin-bottom: 0px; margin-top: 0px;">
+                <div class="col">
+                    <label for="area_codigo">Obra</label>
+                    <div class="input-group mb-3">
+                        <select class="form-select form-control form-control-xs" id="obra_codigo">
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="area_descripcion">Descripción</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-xs" id="obra_descripcion" readonly>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary form-control-xs" type="button" id="btn_datos">Ver datos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <table class="table table-bordered table-sm compact" id="tabla_presupuestos">
+                <thead class="thead-dark" style="font-size: 14px;">
+                    <tr>
+                        <th class="th-hover" scope="col">Código</th>
+                        <th class="th-hover" scope="col">Nombre de la partida</th>
+                        <th class="th-hover" scope="col">Unidad</th>
+                        <th class="th-hover" scope="col">Cantidad</th>
+                        <th class="th-hover" scope="col">Acción</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 12px;">
+                </tbody>
+            </table>
+
+            <button type="button" id="btn_computos_metricos" class="btn btn-dark btn-sm">Ver cómputos métricos</button>
+            <button type="button" id="btn_lista_materiales" class="btn btn-dark btn-sm">Ver listado de materiales</button>
+            <button type="button" id="btn_analisis_precios_unitarios" class="btn btn-dark btn-sm">Ver análisis de precios unitarios</button>
+            
+        </center>
+    </div>
+
+    <div class="modal fade" id="agregarPartidasModal" tabindex="-1" role="dialog" aria-labelledby="agregarPartidasModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="agregarPartidasModalLabel">Agregar partidas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <table class="table table-bordered table-sm compact" id="tabla_partidas_agregar">
+                        <thead class="thead-dark" style="font-size: 14px;">
+                            <tr>
+                                <th class="th-hover" scope="col">Código</th>
+                                <th class="th-hover" scope="col">Nombre</th>
+                                <th class="th-hover" scope="col">Descripción</th>
+                                <th class="th-hover" scope="col">Unidad</th>
+                                <th class="th-hover" scope="col">Rendimiento</th>
+                                <th class="th-hover" scope="col">Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody style="font-size: 12px;">
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="datosModal" tabindex="-1" role="dialog" aria-labelledby="datosModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="datosModalLabel">Datos de la obra</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Área de precios</label>
+                        <input type="text" class="form-control form-control-xs" id="datos_area" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>FCAS</label>
+                        <input type="text" class="form-control form-control-xs" id="datos_fcas" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Utilidad</label>
+                        <input type="text" class="form-control form-control-xs" id="datos_utilidad" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Administración</label>
+                        <input type="text" class="form-control form-control-xs" id="datos_administracion" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Bono alimentación</label>
+                        <input type="text" class="form-control form-control-xs" id="datos_alimentacion" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Dificultad</label>
+                        <input type="text" class="form-control form-control-xs" id="datos_dificultad" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Transporte</label>
+                        <input type="text" class="form-control form-control-xs" id="datos_transporte" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>IVA</label>
+                        <input type="text" class="form-control form-control-xs" id="datos_iva" readonly>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
