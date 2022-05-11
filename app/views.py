@@ -21,7 +21,7 @@ from app.utils import numberCurrencyFormat, currencyToFloat, render_to_pdf
 
 
 def index(request):
-    print(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "EQUIPOS.txt")
+    print(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "Prueba.txt")
     if request.user.username == "admin":
         try:
             file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "EQUIPOS.txt", "r")
