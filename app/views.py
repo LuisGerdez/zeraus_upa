@@ -58,7 +58,7 @@ def load_data(request, accion):
                 for line in lines:
                     current = current + 1
                     data = line.split(";")
-                    
+
                     try:
                         material = Materiales.objects.create(codigo=data[0], descripcion=data[2], unidad=data[3])
                         print(material, "se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
@@ -68,6 +68,26 @@ def load_data(request, accion):
             except FileNotFoundError:
                 print("Archivo no encontrado!")
 
+        elif accion == "personal":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PERSONAL.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                        
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+                    
+                    try:
+                        personal = Personal.objects.create(codigo=data[0], descripcion=data[1], unidad=data[2])
+                        print(personal, "se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+                    except IntegrityError:
+                        print("Personal " + data[0] + " no se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
         
     return HttpResponseRedirect(reverse("index"))
 
