@@ -39,20 +39,30 @@ def load_data(request, accion):
                     data = line.split(";")
                     try:
                         equipo = Equipos.objects.create(codigo=data[0], descripcion=data[1], unidad=data[2])
-                        print(equipo, "se ha creado correctamente", "(" + total + "/" + current + ")")
+                        print(equipo, "se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
-                        print("Equipo " + data[0] + " no se ha creado correctamente", "(" + total + "/" + current + ")")
+                        print("Equipo " + data[0] + " no se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
             except FileNotFoundError:
                 print("Archivo no encontrado!")
+
         elif accion == "materiales":
             try:
                 file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "MATERIALES.txt", "r", errors='replace')
                 lines = file.readlines()
+
+                total = len(lines)
+                current = 0
                 
                 for line in lines:
-                    print(line)
-                    
+                    current = current + 1
+                    data = line.split(";")
+                    try:
+                        material = Materiales.objects.create(codigo=data[0], descripcion=data[2], unidad=data[3])
+                        print(material, "se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+                    except IntegrityError:
+                        print("Material " + data[0] + " no se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
             except FileNotFoundError:
                 print("Archivo no encontrado!")
 
