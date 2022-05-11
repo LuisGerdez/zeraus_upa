@@ -25,7 +25,7 @@ def index(request):
 
 
 def load_data(request, accion):
-    if request.is_superuser:
+    if request.user.is_superuser:
         if accion == "equipos":
             try:
                 file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "EQUIPOS.txt", "r", errors='replace')
