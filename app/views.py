@@ -37,8 +37,11 @@ def load_data(request, accion):
                 for line in lines:
                     current = current + 1
                     data = line.split(";")
-                    equipo = Equipos.objects.create(codigo=data[0], descripcion=data[1], unidad=[2])
-                    print(equipo, "se ha creado correctamente", "(" + total + "/" + current + ")")
+                    try:
+                        equipo = Equipos.objects.create(codigo=data[0], descripcion=data[1], unidad=[2])
+                        print(equipo, "se ha creado correctamente", "(" + total + "/" + current + ")")
+                    except IntegrityError:
+                        print("Equipo " + data[0] + " no se ha creado correctamente", "(" + total + "/" + current + ")")
 
             except FileNotFoundError:
                 print("Archivo no encontrado!")
