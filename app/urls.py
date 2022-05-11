@@ -42,6 +42,8 @@ urlpatterns = [
     path("api/agregar/<str:tipo>", views.agregar_api, name="agregar_api"),
     path("api/modificar/<str:tipo>", views.modificar_api, name="modificar_api"),
     path("api/eliminar/<str:tipo>", views.eliminar_api, name="eliminar_api"),
+
+    path("data/load/<str:accion>", views.load_data, name="load_data"),
 ]
 
 

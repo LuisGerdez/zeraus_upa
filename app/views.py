@@ -21,17 +21,33 @@ from app.utils import numberCurrencyFormat, currencyToFloat, render_to_pdf
 
 
 def index(request):
-    print(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "Prueba.txt")
-    if request.user.username == "admin":
-        try:
-            file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "EQUIPOS.txt", "r", errors='replace')
-
-            lines = file.readlines()
-            for line in lines:
-                print(line)
-        except FileNotFoundError:
-            print("Archivo no encontrado!")
     return render(request, "app/index.html")
+
+
+def load_data(request, accion):
+    if request.is_superuser:
+        if accion == "equipos":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "EQUIPOS.txt", "r", errors='replace')
+                lines = file.readlines()
+                
+                for line in lines:
+                    print(line)
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+        elif accion == "materiales":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "MATERIALES.txt", "r", errors='replace')
+                lines = file.readlines()
+                
+                for line in lines:
+                    print(line)
+                    
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+
+    return HttpResponseRedirect(reverse("index"))
 
 
 def error_no_permission(request):
