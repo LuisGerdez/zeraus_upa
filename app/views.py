@@ -46,7 +46,7 @@ def load_data(request, accion):
             except FileNotFoundError:
                 print("Archivo no encontrado!")
 
-        elif accion == "materiales":
+        if accion == "materiales":
             try:
                 file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "MATERIALES.txt", "r", errors='replace')
                 lines = file.readlines()
@@ -66,7 +66,7 @@ def load_data(request, accion):
             except FileNotFoundError:
                 print("Archivo no encontrado!")
 
-        elif accion == "personal":
+        if accion == "personal":
             try:
                 file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PERSONAL.txt", "r", errors='replace')
                 lines = file.readlines()
