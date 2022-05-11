@@ -30,9 +30,15 @@ def load_data(request, accion):
             try:
                 file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "EQUIPOS.txt", "r", errors='replace')
                 lines = file.readlines()
+
+                total = len(lines)
+                current = 0
                 
                 for line in lines:
-                    print(line)
+                    current = current + 1
+                    data = line.split(";")
+                    equipo = Equipos.objects.create(codigo=data[0], descripcion=data[1], unidad=[2])
+                    print("Se ha creado " + equipo + " correctamente", "(" + total + "/" + current + ")")
 
             except FileNotFoundError:
                 print("Archivo no encontrado!")
