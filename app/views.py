@@ -66,6 +66,43 @@ def load_data(request, accion):
             except FileNotFoundError:
                 print("Archivo no encontrado!")
 
+        elif accion == "personal":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PERSONAL.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+                    try:
+                        personal = Personal.objects.create(codigo=data[0], descripcion=data[1], unidad=data[2])
+                        print(personal, "se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+                    except IntegrityError:
+                        print("Personal " + data[0] + " no se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+        elif accion == "partidas":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PARTIDAS.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+                    try:
+                        partida = Partidas.objects.create(codigo=data[0], nombre=data[3], descripcion=data[1], unidad=data[2], rendimiento=data[4].replace(",", "."))
+                        print(partida, "se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+                    except IntegrityError:
+                        print("Partida " + data[0] + " no se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+
     return HttpResponseRedirect(reverse("index"))
 
 
