@@ -1,0 +1,180 @@
+ALB004; Albañil de 2a ;día
+ALB005; Albañil de 1a ;día
+ALB125; Albañil refractario;día
+ALI145; Alineador de grua (regge) ;día
+ARM146; Armador metálico;día
+ASI105; Asistente;día
+ASI230; Asistente de arquitecto o ingeniero ;día
+AUX036; Auxiliar de deposito ;día
+AYU002; Ayudante ;día
+AYU049; Ayudante de operadores ;día
+AYU065; Ayudante de mecanico diesel ;día
+AYU084; Ayudante de topografo ;día
+AYU111; Ayudante de soldador;día
+AYU126; Ayudante de minero ;día
+AYU231; Ayudante de topografo ( fuera del tabulador);día
+CAB010; Cabillero de 2a;día
+CAB011; Cabillero de 1a ;día
+CAP003; Caporal ;día
+CAP064; Caporal de equipo;día
+CAR006; Carpintero de 2a ;día
+CAR007; Carpintero de 1a ;día
+CAU118; Cauchero de equipo pesado ;día
+CAU119; Cauchero ;día
+CHE123; Chequeador (no incluido en tabul;día
+CHO037; Chofer de 4a;día
+CHO038; Chofer de 3a;día
+CHO039; Chofer de 2a;día
+CHO040; Chofer de 1a;día
+CHO041; Chofer de camion (mayor de 15 ton) ;día
+CHO042; Chofer de gandola de 2a (15 a 40 ton) ;día
+CHO043; Chofer de gandola de 1a (cualq. ton) ;día
+CHO044; Chofer de camion mezclador dia ;día
+CHO131; Chofer de camion mezclador de 8 ;día
+CHO139; Chocritero guniitero;día
+COM233; Computista ( fuera del tabulador C.V.C );día
+CUA088; Cuadrilla colocacion concreto;día
+CUA089; Cuadrilla de albañileria ;día
+CUA090; Cuadrilla de cabilla ;día
+CUA091; Cuadrilla de carpinteria ;día
+CUA092; Cuadrilla de encofrado ;día
+CUA093; Cuadrilla de preparacion ;día
+CUA094; Cuadrilla para excavacion;día
+CUA095; Cuadrilla de pintura ;día
+CUA096; Cuadrilla para instalacion de ca;día
+CUA097; Cuadrilla para instalaciones san;día
+CUA098; Cuadrilla para pulitura de grani;día
+CUA099; Cuadrilla de cerrajeria ;día
+CUA100; Cuadrilla de impermeabilizacion ;día
+CUA101; Cuadrilla para instalacion de tu;día
+CUA102; Cuadrilla # 1 para instalacion e;día
+CUA103; Cuadrilla # 2 para instalacion e;día
+CUA104; Cuadrilla elaboracion estructura;día
+CUA121; Cuadrilla operadora de planta de;día
+DEL132; Delegado sindical ;día
+DEL133; Delegado supervisor de higiene y;día
+DEP129; Depositario;día
+DIB232; Dibujante ( fuera del tabulador C.V.C ) ;día
+DIN047; Dinamitero;día
+DUC130; Ductero ;día
+ELC016; Electricista de 2a;día
+ELC017; Electricista de 1a;día
+ENC117; Encofrador de casa prefabricada;día
+ENG066; Engrasador ;día
+ESP086; Espesorista ;día
+FAB141; Fabricador armador ;día
+GRA019; Granitero de 2a ;día
+GRA020; Granitero de 1a ;día
+IMP025; Impermeabilizador ;día
+ING200; Profesional CIV tipo p1 entre 0 a 1 año;día
+ING201; Profesional CIV tipo p1 entre 1 a 2 años;día
+ING202; Profesional CIV tipo p2 entre 2 a 3 años;día
+ING203; Profesional CIV tipo p2 entre 3 a 4 años;día
+ING204; Profesional CIV tipo p2 entre 4 a 5 años;día
+ING205; Profesional CIV tipo p3 entre 5 a 6 años;día
+ING206; Profesional CIV tipo p3 entre 6 a 7 años;día
+ING207; Profesional CIV tipo p4 entre 7 a 8 años;día
+ING208; Profesional CIV tipo p4 entre 8 a 9 años;día
+ING209; Profesional CIV tipo p5 entre 9 a 10 años;día
+ING210; Profesional CIV tipo p5 entre 10 a 11 años;día
+ING211; Profesional CIV tipo p6 entre 11 a 12 años;día
+ING212; Profesional CIV tipo p6 entre 12 a 13 años;día
+ING213; Profesional CIV tipo p7 entre 13 a 14 años;día
+ING214; Profesional CIV tipo p7 entre 14 a 15 años;día
+ING215; Profesional CIV tipo p8 entre 15 a 16 años;día
+ING216; Profesional CIV tipo p8 entre 16 a 17 años;día
+ING217; Profesional CIV tipo p8 entre 17 a 18 años;día
+ING218; Profesional CIV tipo p8 entre 18 a 19 años;día
+ING219; Profesional CIV tipo p9 entre 19 a 20 años;día
+ING220; Profesional CIV tipo p9a entre 20 a 21 años;día
+ING221; Profesional CIV tipo p9a entre 21 a 22 años;día
+ING222; Profesional CIV tipo p9a entre 22 a 23 años;día
+ING223; Profesional CIV tipo p9a entre 23 a 24 años;día
+ING224; Profesional CIV tipo p9a entre 24 a 25 años;día
+ING225; Profesional CIV tipo p10 entre 25 a 26 años;día
+ING226; Profesional CIV tipo p10 entre 26 a 27 años;día
+ING227; Profesional CIV tipo p10 entre 27 a 28 años;día
+ING228; Profesional CIV tipo p10 entre 28 a 29 años;día
+ING229; Profesional CIV tipo p10 entre 29 a 30 años;día
+ING234; Profesional CIV más de 30 años ;día
+INS078; Instalador electromecanico de 2a;día
+INS079; Instalador electromecanico de 1a;día
+INS138; Instalador de medidor de gas ;día
+JAR122; Jardinero (no incluido en tabula;día
+LAT076; Latonero de 2a ;día
+LAT077; Latonero de 1a ;día
+LIN080; Liniero de 1a ;día
+LIS113; Listero;día
+MAE008; Maestro carpintero 1a;día
+MAE009; Maestro carpintero 2a;día
+MAE012; Maestro cabillero;día
+MAE015; Maestro plomero ;día
+MAE018; Maestro electricista;día
+MAE021; Maestro granitero ;día
+MAE024; Maestro pintor ;día
+MAE027; Maestro impermeabilizador;día
+MAE028; Maestro de obra de 2a;día
+MAE029; Maestro de obras de 1a;día
+MAE048; Maestro de voladuras ;día
+MAE074; Maestro mecanico ;día
+MAE081; Maestro de obras electromecanica;día
+MAE106; Maestro albañil ;día
+MAQ031; Maquinista de concreto de 2a ;día
+MAQ032; Maquinista de concreto de 1a ;día
+MEC070; Mecánico de gasolina de 2a ;día
+MEC071; Mecánico de gasolina de 1a ;día
+MEC072; Mecánico de equipo pesado de 2a;día
+MEC073; Mecánico de equipo pesado de 1a;día
+MIN134; Mineros ;día
+MON075; Montador ;día
+OBR001; Obrero de primera;día
+OFC120; Oficial especialista de 2a ;día
+OPE030; Operador de equipo de elevacion;día
+OPE033; Operador de planta fija de 2a;día
+OPE034; Operador de planta fija de 1a;día
+OPE045; Operador de martillo perforador ;día
+OPE046; Operador de equipo perforador ;día
+OPE050; Operador de equipo liviano ;día
+OPE051; Operador de equipo pesado;día
+OPE052; Operador de equipo pesado;día
+OPE055; Operador de mototrailla de 2a;día
+OPE056; Operador de mototrailla de 1a;día
+OPE057; Operador de pala hasta 1 yarda;día
+OPE058; Operador de pala mas de 1 yardas de 2da;día
+OPE059; Operador de pala mas de 1 yardas de 1ra;día
+OPE060; Operador de motoniveladora de 2a;día
+OPE061; Operador de motoniveladora de 1a;día
+OPE062; Operador de grua (gruero) de 2a;día
+OPE063; Operador de grua (gruero) de 1a;día
+OPE082; Operador maquinas-herramientas ;día
+OPE087; Operador de pavimentadora;día
+OPE108; Operador de camion roquero ;día
+OPE109; Operador de martillo electrico;día
+OPE124; Operador equipo de sandblasting;día
+OPE127; Operador de mini-sower ;día
+OPE135; Operador de equipo de electrofuc;día
+OPE142; Operador de frezadora (rotomill);día
+OPE143; Operador de martillo hidroneumat;día
+OPE144; Operador de planta ;día
+OPE148; Operador de aliva ;día
+PAL110; Palero de asfalto;día
+PIN022; Pintor;día
+PLO013; Plomero de 2a ;día
+PLO014; Plomero de 1a ;día
+PLO116; Ploguero (maquinista ploga);día
+PRO147; Proyectador de concreto;día
+RAS085; Rastrillero ;día
+RAS112; Rastrillero de asfalto;día
+RIG128; Riger o emparejador;día
+SOL067; Soldador de 3a ;día
+SOL068; Soldador de 2a ;día
+SOL069; Soldador de 1a ;día
+SOL136; Soldador de acero al carbon;día
+SOL137; Soldador de argon ;día
+TOP114; Topografo (no incluido en tabula;día
+TRA053; Tractorista de 2da;día
+TRA054; Tractorista de 1ra;día
+TRA140; Trazador cortador ;día
+TUB107; Tubero fabricador;día
+VIB115; Vibradorista de concreto ;día
+VIG035; Vigilante;día

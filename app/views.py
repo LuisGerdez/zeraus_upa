@@ -1,5 +1,6 @@
 import datetime
 import json
+import os
 from django.core.paginator import Paginator
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
@@ -20,6 +21,15 @@ from app.utils import numberCurrencyFormat, currencyToFloat, render_to_pdf
 
 
 def index(request):
+    if request.user.username == "admin":
+        try:
+            file = open(os.path.abspath(os.path.dirname(__file__)) + "\\data\\" + "EQUIPOS.txt", "r")
+
+            lines = file.readlines()
+            for line in lines:
+                print(line)
+        except FileNotFoundError:
+            print("Archivo no encontrado!")
     return render(request, "app/index.html")
 
 

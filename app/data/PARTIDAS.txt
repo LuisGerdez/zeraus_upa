@@ -1,0 +1,523 @@
+AP1400;Brazo de alumbrado público de ¾' X 1.20 m con luminaria  M-520  en poste de sección 3 ½".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.3 1/2".;16,00
+AP1401;Brazo de alumbrado público de ¾' X 1.20 m con luminaria  M-520  en poste de sección 4 ½".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.4 1/2".;16,00
+AP1402;Brazo de alumbrado público de ¾' X 1.20 m con luminaria  M-520  en poste de sección 5 ½".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.5 1/2".;16,00
+AP1403;Brazo de alumbrado público de ¾' X 1.20 m con luminaria  M-520  en poste de sección  6 ?".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.6 5/8".;16,00
+AP1412;Brazo de alumbrado público  cuello cisne de 2.20 M  luminaria VS M-200 150 W montada en poste de sección 3 ½".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.3 1/2";14,00
+AP1413;Brazo de alumbrado público  cuello cisne de 2.20 m  luminaria VS M-200-150 W montada en poste de sección 4 ½".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.4 1/2";14,00
+AP1414;Brazo de alumbrado público  cuello cisne de 2.20 m  luminaria VS M-200-150 W montada en poste de sección 5 ½".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.5 1/2";14,00
+AP1415;Brazo de alumbrado público  cuello cisne de 2.20 m  luminaria VS M-200-150 W montada en poste de sección 6 ?".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.6 5/8";14,00
+AP1422;Brazo de alumbrado público  cuello cisne de 3.20 m  luminaria VS M-400-250 W montada en poste de sección 3 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc.3 1/2";12,00
+AP1423;Brazo de alumbrado público  cuello cisne de 3.20 m  luminaria VS M-400-250 W montada en poste de sección 4 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc.4 1/2";12,00
+AP1424;Brazo de alumbrado público  cuello cisne de 3.20 m  luminaria VS M-400 250 W montada en poste de sección 5 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc. 5 1/2";12,00
+AP1425;Brazo de alumbrado público  cuello cisne de 3.20 m  luminaria VS M-400 250 W montada en poste de sección 6 ?".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc.6 5/8";12,00
+AP1428;Brazo de alumbrado público  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de sección 3 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.3 1/2";12,00
+AP1429;Brazo de alumbrado público  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de sección 4 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.4 1/2";12,00
+AP1430;Brazo de alumbrado público  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de sección 5 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.5 1/2";12,00
+AP1431;Brazo de alumbrado público  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de sección 6 ?".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.6 5/8";12,00
+AP1432;Brazo de alumbrado publico tipo trebol de  cuatro (04)  luminaria  M-400-400 W montada en poste tubular de acero de 20 m.;und;Brazo de A.P. tipo trebol de  cuatro (04)  luminaria  M-400-400 W montada en poste 20 m.;6,00
+AP1434;Brazo de alumbrado publico tipo margarita de  seis (06)  luminaria  M-400-400 W montada en poste de acero de 20 m.;und;Brazo de AP tipo margarita de seis (06) luminaria M-400-400 W en poste de 20 m.;5,00
+AP1470;Equipo para control de alumbrado público tipo Still Electronic o similar.;und;Equipo para control de alumbrado público tipo Still Electronic o similar.;10,00
+AP1480;Luminaria vapor de sodio M-400 400 W en brazo de alumbrado público existente.;und;Luminaria vapor de sodio M-400 400 W en brazo de alumbrado público existente.;10,00
+AP1483;Luminaria Metal Halide M-400 250 W en brazo de alumbrado público existente.;und;Luminaria Metal Halide M-400 250 W en brazo de alumbrado público existente.;10,00
+AR1730;Poda de arboles.;und;Poda de arboles.;32,00
+AR1734;Pica liviana de 7 m de ancho fácil acceso.;km;Pica liviana de 7 mts de ancho fácil acceso.;0,90
+AR1738;Pica pesada de 7 m de ancho fácil acceso.;km;Pica pesada de 7 mts de ancho fácil acceso.;0,70
+AR1742;Tala de  arboles de 15 a 40 cm de diámetro fácil acceso.;und;Tala de  arboles de 15 a 40 cm de diámetro fácil acceso.;10,00
+AR1746;Tala de  arboles de 45 a 60 cm de diámetro fácil acceso.;und;Tala de  arboles de 45 a 60 cm de diámetro fácil acceso.;7,00
+CA0719;Conector automático para conductor Arvidal del Nº 2 a 4/0.;und;Conector automático para conductor Arvidal del Nº 2 a 4/0.;16,00
+CA1303;Bajante para transformador monofásico de 37.5 kVA  con  relación 13800/120-240 V.;und;Bajante p/transformador monofásico de 37.5 kVA 13800/120-240 V.;10,00
+CA1304;Bajante para transformador monofásico de 50 kVA con relación 13800/120-240 V.;und;Bajante p/transformador monofásico de 50 kVA 13800/120-240 V.;10,00
+CA1310;Bajante  para banco  trifásico  con tres transformadores de 37.5 kVA con relación 13800/120-240 V.;und;Bajante p/banco trifásico con tres transformadores de 37.5 kVA 13800/120-240 V.;5,00
+CA1311;Bajante  para  banco trifásico  con tres transformadores de  50 kVA con  relación 13800/120-240 V.;und;Bajante p/banco trifásico con tres transformadores de 50 kVA 13800/120-240 V.;5,00
+CA1315;Bajante de 13.8 kV con copas terminales tipo exterior a red subterránea para cable Nº 2 AWG XLPE-PVC °C 15 kV.;und;Bajante de 13.8 kV con copas terminales t/ext. red subterránea p/cable Nº 2 AWG XLPE-PVC °C 15 kV.;3,00
+CA1316;Bajante  de 13.8 kV con copas terminales tipo exterior a red subterránea para cable Nº 4/0 AWG XLPE-PVC.;und;Bajante 13.8 kV con copas terminales t/ext. cable Nº 4/0 AWG XLPE-PVC;5,00
+CA1317;Bajante de 13.8 kV  con copas terminales tipo exterior a red subterránea para cable Nº 500 kcmil XLPE-PVC.;und;Bajante 13.8 kV con copas terminales t/ext. Cable Nº 500 kcmil XLPE-PVC;2,00
+CA1318;Bajante de 13.8 kV  con copas terminales tipo exterior a red subterránea para cable Nº 750 kcmil XLPE-PVC.;und;Bajante 13.8 kV con copas terminales t/ext. Cable Nº 750 kcmil XLPE-PVC;2,00
+CA1322;Bajante de 34.5 kV con  copas terminales tipo exterior a red subterránea para cable Nº 2 AWG XLPE-PVC.;und;Bajante de 34.5 kV con  copas terminales t/ext. cable Nº 2 AWG XLPE-PVC;5,00
+CA1323;Bajante de 34.5 kV con  copas terminales tipo exterior a red subterránea para cable Nº 4/0 AWG XLPE-PVC.;und;Bajante de 34.5 kV con  copas terminales t/ext. cable Nº 4/0 AWG XLPE-PVC;5,00
+CA1324;Bajante de  34.5 kV con copas terminales tipo exterior a red subterránea para cable Nº 350 kcmil XLPE-PVC.;und;Bajante de  34.5 kV con copas terminales t/ext. cable Nº 350 kcmil XLPE-PVC;3,00
+CA1325;Bajante de 34.5 kV con copas terminales tipo exterior a red subterránea para cable Nº 500 kcmil XLPE-PVC-90°C 34 kV.;und;Bajante de 34.5 kV con copas terminales t/ext. red subterránea p/cable Nº 500 kcmil XLPE-PVC-90°C 34 kV.;2,00
+CA1330;Bajante  de  baja  tensión  con cable de cobre Nº 2 AWG TTU 90 °C 600 V.;und;Bajante  de  baja  tensión  con cable de cobre Nº 2 AWG TTU 90 °C 600 V.;7,00
+CA1331;Bajante  de  baja  tensión  con cable de cobre Nº 2/0 AWG TTU 90 °C 600 V.;und;Bajante  de  baja  tensión  con cable de cobre Nº 2/0 AWG TTU 90 °C 600 V.;5,00
+CA1332;Bajante  de  baja  tensión  con cable de cobre Nº 4/0 AWG TTU 90 °C 600 V.;und;Bajante  de  baja  tensión  con cable de cobre Nº 4/0 AWG TTU 90 °C 600 V.;5,00
+CA1333;Bajante  de  baja  tensión  con cable de cobre  Nº 350 kcmil TTU 90 °C 600 V.;und;Bajante  de  baja  tensión  con cable de cobre  Nº 350 kcmil TTU 90 °C 600 V.;3,00
+CA1334;Bajante  de  baja  tensión con  cable de cobre  Nº 500 kcmil TTU 90 °C 600 V.;und;Bajante  de  baja  tensión con  cable de cobre  Nº 500 kcmil TTU 90 °C 600 V.;3,00
+CA1340;Cableado de cable  de control PVC-PVC Nº 4X12 AWG en tubería.;m;Cableado de cable  de control PVC-PVC Nº 4X12 AWG en tubería;120,00
+CA1341;Cableado de cable  de control PVC-PVC Nº 6X10 AWG en tubería.;m;Cableado de cable  de control PVC-PVC Nº 6X10 AWG en tubería;120,00
+CA1345;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 8 AWG en tubería.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 8 AWG en tubería.;100,00
+CA1346;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 6 AWG en tubería.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 6 AWG en tubería.;100,00
+CA1347;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 2 AWG en tubería.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 2 AWG en tubería.;80,00
+CA1349;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 2/0 AWG en tubería.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 2/0 AWG en tubería.;60,00
+CA1354;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 2 AWG en tubería.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 2 AWG en tubería;40,00
+CA1356;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 2/0 AWG en tubería.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 2/0 AWG en tubería;20,00
+CA1358;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 4/0 AWG en tubería.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 4/0 AWG en tubería.;10,00
+CA1360;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 350 kcmil en tubería.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 350 kcmil en tubería.;12,00
+CA1361;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 500 kcmil en tubería.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 500 kcmil en tubería.;10,00
+CA1374;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 KV Nº 2 AWG en tubería.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 KV Nº 2 AWG en tubería;20,00
+CA1378;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 4/0 AWG en tubería.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 4/0 AWG en tubería;20,00
+CA1380;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 500 kcmil en tubería.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 500 kcmil en tubería;10,00
+CA1381;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 750 kcmil en tubería.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 750 kcmil en tubería;8,00
+CA1389;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 KV Nº 2 AWG en tubería.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 KV Nº 2 AWG en tubería;20,00
+CA1390;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV Nº 4/0 AWG en tubería.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV Nº 4/0 AWG en tubería;10,00
+CA1392;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV Nº 500 kcmil en tubería.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV Nº 500 kcmil en tubería;10,00
+CA1600;Adaptadores para conexión de acometidas en baja tensión red monofásica.;und;Adaptadores para conexión  de acometidas en baja tensión red monofásica;50,00
+CA1601;Adaptadores para conexión  de acometidas en baja tensión red trifásica.;Und;Adaptadores para conexión  de acometidas en baja tensión red trifásica;30,00
+CA1602;Acometida residencial subterránea en baja tensión calibre 2X6 + 1X8 AWG.;und;Acometida residencial subterránea en baja tensión calibre 2X6 + 1X8 AWG.;10,00
+CA1603;Acometida residencial aérea en baja tensión calibre 2X8 + 1X10 AWG.;und;Acometida  residencial  aérea   en  baja tensión calibre 2x8 + 1x10 AWG.;30,00
+CA1604;Acometida residencial aérea en baja tensión calibre 3X8 + 1X10 AWG.;und;Acometida  residencial  aérea   en  baja tensión calibre 3x8 + 1x10 AWG.;25,00
+CA1605;Acometida residencial aérea en baja tensión calibre 3X6 + 1X8 AWG.;und;Acometida  residencial  aérea   en  baja tensión calibre 3x6 + 1x8 AWG.;20,00
+CA1606;Reconexión  acometida  residencial aérea calibre 2X8 + 1X10 AWG.;und;Reconexión  acometida  residencial aérea calibre 2x8 + 1x10 AWG.;35,00
+CO0495;Conectores para  puente   aéreo  en baja tensión en red monofásica Arv.;und;Conectores para  puente   aéreo  en baja tensión en red monofásica Arv.;14,00
+CO0496;Conectores para  puente   aéreo  en baja tensión en red trifásica Arv.;und;Conectores para  puente   aéreo  en baja tensión en red trifásica Arv.;14,00
+CO0497;Conectores  para percha  terminal en red monofásica Arv.;und;Conectores  para percha  terminal en red monofásica Arv.;14,00
+CO0498;Conectores para  percha terminal  en red trifásica Arv.;und;Conectores para  percha terminal  en red trifásica Arv.;14,00
+CO0677;Conector terminal  de dos ojos para  conductor  Arvidal del  Nº 2/0  al 4/0 AWG.;und;Conector terminal  de dos ojos para  conductor  Arvidal del  Nº 2/0  al 4/0 AWG.;16,00
+CO0692;Cadena de aisladores poliméricos 34.5 kV en cruceta existente.;und;Cadena de aisladores poliméricos 34.5 kV en cruceta existente.;16,00
+CO0693;Cadena de aisladores poliméricos 34.5 kV en  cruceta  existente  línea  Arv. 394.5 kcmil.;und;Cadena de aisladores poliméricos 34.5 kV en  cruceta  existente  linea  Arv 394.5 kcmil;16,00
+CO0698;Grapa terminal de  aluminio tipo mordaza para conductor Arvidal del Nº 2 al 4/0.;und;Grapa terminal de  aluminio tipo mordaza p/conductor Arvidal del N.º 2 al 4/0.;16,00
+CO0699;Grapa terminal de  aluminio tipo mordaza para conductor  Arvidal del  Nº 266,5 al 556,5 kcmil.;und;Grapa terminal de  aluminio tipo mordaza p/cond.  Arvidal  del  Nº 266,5 al 556,5 kcmil;16,00
+CO0705;Grapa de aluminio tipo pistola para conductor Arvidal del Nº 2/0 al 4/0.;und;Grapa de aluminio tipo pistola para conductor Arvidal del Nº 2/0 al 4/0.;16,00
+CO0706;Grapa de aluminio tipo pistola para conductor Arvidal Nº 394.5 kcmil.;und;Grapa de aluminio tipo pistola para conductor Arvidal N.º 394.5 kcmil;16,00
+CO0712;Conector a compresión aluminio YHD para conductor Arvidal Nº 2/0 al 4/0.;und;Conector a compresión aluminio YHD para conductor Arvidal Nº 2/0 al 4/0.;16,00
+CO0713;Conector a  compresión  aluminio tipo H para conductor Arvidal 394.5 kcmil.;und;Conector a  compresión  aluminio tipo H para conductor Arvidal 394.5 kcmil.;16,00
+CO0740;Brida de sujeción  para cable de guarda en alineación.;und;Brida de sujeción  para cable de guarda en alineación;16,00
+CO0741;Brida de sujeción para  cable de guarda en amarre.;und;Brida de sujeción para  cable de guarda en amarre.;16,00
+CO0742;Brida de sujeción  para cable de guarda en terminal.;und;Brida de sujeción  para cable de guarda en terminal.;16,00
+CO1200;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG media tensión.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG media tensión.;10,00
+CO1201;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG media tensión.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG media tensión.;9,00
+CO1202;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG media tensión.;8000;6000;8,00
+CO1203;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG media tensión.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG media tensión.;7,00
+CO1207;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 394.5 kcmil media tensión.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 394.5 kcmil media tensión.;5,00
+CO1211;Tensado sobre aisladores de 100 m de conductor ACSR Nº 266.8 kcmil media tensión.;hm;Tensado sobre aisladores de 100 m de conductor ACSR Nº 266.8 kcmil media tensión.;5,00
+CO1212;Tensado sobre aisladores de 100 m de conductor ACSR Nº 336.4 kcmil media tensión.;hm;Tensado sobre aisladores de 100 m de conductor ACSR Nº 336.4 kcmil media tensión.;5,00
+CO1217;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG media tensión.;hm;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG media tensión.;12,00
+CO1218;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG media tensión.;hm;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG media tensión.;11,00
+CO1219;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG media tensión.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG media tensión.;10,00
+CO1220;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG media tensión.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG media tensión.;9,00
+CO1221;Retenzado sobre aisladores de 100 m de conductor ACSR  Nº 336.4 kcmil media tensión.;hm;Retenzado sobre aisladores de 100 m de conductor ACSR  Nº 336.4 kcmil media tensión.;7,00
+CO1222;Retensado sobre aisladores de 100 m de conductor Arvidal  Nº 394.5 kcmil media tensión.;hm;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 394.5 kcmil media tensión.;7,00
+CO1230;Tensado sobre aisladores de 100 m de conductor Arvidal N° 2 AWG baja tensión.;hm;Tensado sobre aisladores de 100m de conductor Arvidal N° 2 AWG baja tensión.;8,00
+CO1231;Tensado sobre aisladores 100 m de conductor Arvidal Nº 1/0 AWG baja tensión.;hm;Tensado sobre aisladores 100 m de conductor Arvidal Nº 1/0 AWG baja tensión.;7,00
+CO1232;Tensado sobre aisladores de 100 m de conductor Arvidal N° 2/0 AWG baja tensión.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal N° 2/0 AWG baja tensión.;6,00
+CO1233;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG baja tensión.;hm;Tensado sobreaisladores de 100 m de conductor Arvidal Nº 4/0 AWG baja tensión.;5,00
+CO1240;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG baja tensión.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG baja tensión.;10,00
+CO1241;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG baja tensión.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG baja tensión.;9,00
+CO1242;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG baja tensión.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG baja tensión.;8,00
+CO1243;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG baja tensión.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG baja tensión.;7,00
+CO1250;Tensado de 100 m de guaya de acero 5/16" para cable guarda línea de MT;hm;Tensado de 100 m de guaya de acero 5/16" para cable guarda línea de MT;10,00
+CO1255;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 2 AWG.;und;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 2 AWG.;18,00
+CO1256;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 1/0 AWG.;und;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 1/0 AWG.;18,00
+CO1257;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 2/0 AWG.;und;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 2/0 AWG.;18,00
+CO1258;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 4/0 AWG.;und;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 4/0 AWG.;18,00
+CO1259;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 394.5 kcmil.;und;Juego de varilla de armado para linea trifásica conductor Arvidal Nº 394.5 kcmil.;16,00
+CO1260;Juego de varilla de armado para linea trifásica conductor ACSR desde Nº 266.8 hasta 336.4 kcmil.;und;Juego de varilla de armado para linea trifásica conductor ACSR desde Nº 266.8 hasta 336.4 kcmil.;16,00
+CO9025;Estribos en linea   trifásica a 13.8 kV con cuadrilla de líneas energizadas.;und;Estribos en linea trifásica a 13.8 kV con cuadrilla de líneas energizadas.;16,00
+CR0504;Cruceta de 1.80 m en alineación  montada en poste de sección 4 ½" línea monofásica 13.8 kV Arv.;und;Cruceta de 1.80 m en alineación p/poste de sec.4 1/2" línea 1f 13.8 kV Arv.;13,00
+CR0505;Cruceta de 1.80 m en alineación  montada en poste de sección 4 ½"  línea trifásica 13.8 kV Arv.;und;Cruceta de 1.80 m en alineación p/poste de sec. 4 1/2"  línea 3f 13.8 kV Arv.;12,00
+CR0506;Cruceta de 1.80 m en alineación montada en poste de sección 5 ½"  linea trifásica 13.8 kV Arv.;und;Cruceta de 1.80 m en alineación p/poste de sec. 5 1/2"  linea 3f 13.8 kV Arv.;12,00
+CR0509;Cruceta de 2.40 m en alineación  montada en poste de sección 4 ½"  linea trifásica 13.8 kV Arv.;und;Cruceta de 2.40 m en alineación p/poste de sec. 4 1/2"  linea 3f 13.8 kV Arv.;10,00
+CR0510;Cruceta de 2.40 m en alineación  montada en poste de sección 5 ½"  línea trifásica 13.8 kV Arv.;und;Cruceta de 2.40 m en alineación p/poste de sec. 5 1/2"  línea 3f 13.8 kV Arv.;10,00
+CR0513;Cruceta de 2.40 m en alineación  montada en poste de sección 4 ½"  línea trifásica 34.5 kV Arv.;und;Cruceta de 2.40 m en alineación p/poste de sec. 4 1/2"  línea 3f 34.5 kV Arv.;10,00
+CR0514;Cruceta de 2.40 m en alineación  montada en poste de sección 5 ½"  línea trifásica 34.5 kV Arv.;und;Cruceta de 2.40 m en alineación p/poste de sec. 5 1/2"  línea 3f 34.5 kV Arv.;10,00
+CR0517;Cruceta sencilla de 2.40 m en suspensión montada en poste de sección  4 ½" línea trifásica 13.8 kV Arv.;und;Cruceta de 2.40 m en suspensión p/poste de sec. 4 1/2" línea 3f 13.8 kV Arv.;10,00
+CR0518;Cruceta sencilla de 2.40 m en suspensión montada en poste de sección 5 ½" línea trifásica 13.8 kV Arv.;und;Cruceta de 2.40 m en suspensión p/poste de sec. 5 1/2" línea 3f 13.8 kV Arv.;10,00
+CR0519;Cruceta sencilla de 2.40 m en suspensión montada  en poste de sección 5 ½" línea trifásica 13.8 kV Arv. 394.5 kcmil;und;Cruceta de 2.40 m en suspensión p/poste de sec. 5 1/2" línea 3f 13.8 kV Arv.394.5 kcmil;10,00
+CR0522;Cruceta sencilla de 2.40 m en suspensión montada  en poste de sección  4 ½" linea trifásica 34.5 kV Arv.;und;Cruceta de 2.40 m en suspensión p/poste de sec. 4 1/2" linea 3f 34.5 kV Arv.;10,00
+CR0523;Cruceta sencilla de 2.40 m en suspensión montada  en poste de sección  5 ½" línea trifásica 34.5 kV Arv;und;Cruceta de 2.40 m en suspensión p/poste de sec. 5 1/2" línea 3f 34.5 kV Arv;10,00
+CR0524;Cruceta sencilla de 2.40 m en suspensión montada  en poste de sección  5 ½" línea trifásica 34.5 kV Arv;und;Cruceta de 2.40 m en suspensión p/poste de sec. 5 1/2" línea 3f 34.5 kV Arv;10,00
+CR0527;Cruceta sencilla de 3.20 m en suspensión montada  en poste de sección  5 ½" linea trifásica 13.8 kV Arv.;und;Cruceta de 3.20 m en suspensión p/poste de sec. 5 1/2" linea 3f 13.8 kV Arv.;8,00
+CR0528;Cruceta sencilla de 3.20 m en suspensión montada  en poste de sección  5 ½" línea trifásica 34.5 kV Arv.;und;Cruceta de 3.20 m en suspensión p/poste de sec. 5 1/2" línea 3f 34.5 kV Arv.;8,00
+CR0531;Tres crucetas sencillas de 2.40m en suspensión en poste 5 ½" linea doble terna trifásica 13.8 kV Arv. 394 kcmil.;und;Tres crucetas de 2.40m en suspensión p/poste 5 1/2" linea DT 3f 13.8 kV 394 kcmil.;3,00
+CR0532;Tres crucetas sencillas de 2.40m en suspensión en poste 5 ½" línea doble terna trifásica 34.5 kV Arv.;und;Tres crucetas de 2.40m en suspensión en p/poste sec.5 1/2" línea DT 3f 34.5 kV;3,00
+CR0539;Dos crucetas sencillas de 1.80 m para cruzamiento montadas en poste sección 4 ½" linea monofásica 13,8 kV Arv.;und;Dos  crucetas de 1.80 m p/cruzamiento en  p/poste sec.1/2" linea 1f 13,8 kV Arv.;7,00
+CR0540;Dos crucetas sencillas de 1.80 m para cruzamiento montadas en poste sección 4 ½" linea trifásica 13,8 kV Arv.;und;Dos  crucetas de 1.80 m para cruzamiento p/poste sec.4 1/2" linea 3f 13,8 kV Arv;7,00
+CR0541;Dos crucetas sencillas de 1.80 m para cruzamiento montadas en poste sección 5 ½" linea trifásica 13,8 kV Arv.;und;Dos  crucetas de 1.80 m para cruzamiento p/poste sec.5 1/2" linea 3f 13,8 kV Arv;7,00
+CR0543;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste sección 4 ½" línea trifásica 13,8 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.4 1/2" línea 3f 13,8 kV Arv.;5,00
+CR0544;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste sección 5 ½" línea trifásica 13,8 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.5 1/2" línea 3f 13,8 kV Arv.;5,00
+CR0547;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste sección 4 ½" línea trifásica 34,5 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.41/2" línea 3f 34,5 kV Arv.;5,00
+CR0548;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste sección 5 ½" línea trifásica 34,5 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.5 1/2" línea 3f 34,5 kV Arv.;5,00
+CR0553;Cruceta doble de 1.80 m para ángulos 170°-180° montada en poste de sección 4 ½" línea monofásica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para ángulos 170°-180° p/poste de sec.4 1/2" línea 1f 13,8 kV Arv.;7,00
+CR0554;Cruceta doble de 1.80 m para ángulos 170°-180° montada en poste de sección 4 ½" línea trifásica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para ángulos 170°-180° p/poste de sec.4 1/2" línea 3f 13,8 kV Arv.;7,00
+CR0555;Cruceta doble de 1.80 m para ángulos 170°-180° montada en poste de sección 5 ½" línea  trifásica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para ángulos 170°-180° p/poste de sec.5 1/2" línea 3f 13,8 kV Arv.;7,00
+CR0558;Cruceta  doble  de  2.40 m  para ángulos 170°-180°  montada  en poste de  sección 4 ½" línea  trifásica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para ángulos 170°-180° p/poste de sec.4 1/2" línea 3f 13,8 kV Arv.;5,00
+CR0559;Cruceta  doble  de  2.40 m  para ángulos 170°-180°  montada  en poste de  sección 5 ½" línea  trifásica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para ángulos 170°-180° p/poste de sec.5 1/2" línea 3f 13,8 kV Arv.;5,00
+CR0562;Cruceta  doble  de  2.40 m  para ángulos 170°-180°  montada  en poste de  sección 4 ½" línea  trifásica 34,5 kV Arv.;und;Cruceta doble de 2.40 m para ángulos 170°-180° p/poste de sec.4 1/2" línea 3f 34,5 kV Arv.;5,00
+CR0563;Cruceta  doble  de  2.40 m  para ángulos 170°-180°  montada  en poste de  sección 5 ½" línea  trifásica 34,5 kV Arv.;und;Cruceta doble de 2.40 m para ángulos 170°-180° p/poste de sec.5 1/2" línea 3f 34,5 kV Arv.;5,00
+CR0569;Cruceta doble de 1.80 m para ángulos 120°-170° montada en poste de sección 4 ½" línea monofásica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para ángulos 120°-170° p/poste de sec.4 1/2" línea 1f 13,8 kV Arv.;7,00
+CR0570;Cruceta doble de 1.80 m para ángulos 120°-170° montada en poste de sección 4 ½" línea Trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para ángulos 120°-170° p/poste de sec.4 1/2" línea 3f 13,8 kV Arv.;7,00
+CR0571;Cruceta doble de 1.80 m para ángulos 120°-170° montada en poste de sección 5½" línea Trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para ángulos 120°-170° p/poste de sec.5 1/2" línea 3f 13,8 kV Arv.;7,00
+CR0574;Cruceta  doble  de  2.40 m  para ángulos 120°-170°  montada  en poste de  sección 4 ½" línea trifásica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para ángulos 120°-170° p/poste de sec.4 1/2" línea 3f 13,8 kV Arv.;5,00
+CR0575;Cruceta  doble  de  2.40 m  para ángulos 120°-170°  montada  en poste de  sección 5 ½" línea trifásica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para ángulos 120°-170° p/poste de sec.5 1/2" línea 3f 13,8 kV Arv.;5,00
+CR0576;Cruceta doble de 2.40m para ángulos 120°-170° montada en poste de sección 5 ½" linea trifásica 13.8 kV Arv 394.5 kcmil;und;Cruceta doble de 2.40 m para ángulos 120°-170° p/poste de sec.5 1/2" línea 3f 13,8 kV Arv. 394.5 kcmil;5,00
+CR0579;Cruceta  doble  de  2.40 m  para ángulos 120°-170°  montada  en poste de  sección 4 ½" línea trifásica 34,5 kV Arv.;und;Cruceta doble de 2.40 m para ángulos 120°-170° p/poste de sec.4 1/2" línea 3f 34,5 kV Arv.;5,00
+CR0580;Cruceta  doble  de  2.40 m  para ángulos 120°-170°  montada  en poste de  sección 5 ½" línea trifásica 34,5 kV Arv.;und;Cruceta doble de 2.40 m para ángulos 120°-170° p/poste de sec.5 1/2" línea 3f 34,5 kV Arv.;5,00
+CR0581;Cruceta doble de 2.40m para ángulos 120°-170° montada en poste de sección 5 ½" línea trifásica 34.5 kV Arv 394.5 kcmil;und;Cruceta doble de 2.40 m para ángulos 120°-170° p/poste de sec.5 1/2" línea 3f 34,5 kV Arv 394.5 kcmil.;5,00
+CR0584;Dos crucetas dobles de 1.80 m para ángulos 90°-120° montadas en poste de sección 4 ½" línea monofásica 13,8 kV Arv.;und;Dos crucetas dobles de 1.80 m para ángulos 90°-120° p/poste de secc.4 1/2" línea 1f 13,8 kV Arv.;3,00
+CR0585;Dos crucetas dobles de 1.80 m para ángulos 90°-120° montadas en poste de sección 4 ½" línea trifásica 13,8  kV Arv.;und;Dos crucetas dobles de 1.80 m para ángulos 90°-120° p/poste de secc.4 1/2" línea 3f 13,8 kV Arv.;3,00
+CR0586;Dos crucetas dobles de 1.80 m para ángulos 90°-120° montadas en poste de sección 5 ½" línea trifásica 13,8  kV Arv.;und;Dos crucetas dobles de 1.80 m para ángulos 90°-120° p/poste de secc.5 1/2" línea 3f 13,8 kV Arv.;3,00
+CR0589;Dos crucetas dobles de 2.40 m para ángulos 90°-120° montadas en poste de sección 4 ½" línea trifásica 13,8 kV Arv.;und;Dos crucetas dobles de 2.40 m para ángulos 90°-120° p/poste de secc.4 1/2" línea 3f 13,8 kV Arv.;2,00
+CR0590;Dos crucetas dobles de 2.40 m para ángulos 90°-120° montadas en poste de sección 5 ½" línea trifásica 13,8 kV Arv;und;Dos crucetas dobles de 2.40 m para ángulos 90°-120° p/poste de secc.5 1/2" línea 3f 13,8 kV Arv.;2,00
+CR0591;Dos crucetas dobles de 2.40 m para ángulos 90°-120° montadas en poste de sección 5 ½" línea Trifásica 13.8 kV Arv 394.5 kcmil.;und;Dos crucetas dobles de 2.40 m para ángulos 90°-120° p/poste de secc.5 1/2" línea 3f 13,8 kV Arv 394.5 kcmil.;2,00
+CR0594;Dos crucetas dobles de 2.40 m para ángulos 90°-120° montadas en poste de sección 4 ½" línea trifásica 34,5 kV Arv.;und;Dos crucetas dobles de 2.40 m para ángulos 90°-120° p/poste de secc.4 1/2" línea 3f 34,5 kV Arv.;2,00
+CR0595;Dos crucetas dobles de 2.40 m para ángulos 90°-120° montadas en poste de sección 5 ½" línea trifásica a 34,5 kV Arv.;und;Dos crucetas dobles de 2.40 m para ángulos 90°-120° p/poste de secc.5 1/2" línea 3f 34,5 kV Arv.;2,00
+CR0596;Dos crucetas dobles de  2.40 m para ángulos 90°-120° montadas en poste de sección 5 ½" línea Trifásica 34.5 kV Arv 394.5 kcmil;und;Dos crucetas dobles de 2.40 m para ángulos 90°-120° p/poste de secc.5 1/2" línea 3f 34,5 kV Arv 394.5 kcmil;2,00
+CR0602;Cruceta doble de 1.80 m para terminal montada en poste de sección 4 ½" línea monofásica 13.8 kV Arv.;und;Cruceta doble de 1.80 m para terminal p/poste de sec.4 1/2" línea 1f 13.8 kV Arv.;8,00
+CR0603;Cruceta doble de 1.80 m para terminal montada en poste de sección 4 ½" línea trifásica 13.8 kV Arv.;und;Cruceta doble de 1.80 m para terminal p/poste de sec.4 1/2" línea 3f 13.8 kV Arv.;7,00
+CR0604;Cruceta doble de 1.80 m para terminal montada en poste de sección 5 ½" línea trifásica 13.8 kV Arv.;und;Cruceta doble de 1.80 m para terminal p/poste de sec.5 1/2" línea 3f 13.8 kV Arv.;7,00
+CR0607;Cruceta doble de 2.40 m para terminal montada en poste de sección 4 ½" línea trifásica 13.8 kV Arv.;und;Cruceta doble de 2.40 m para terminal p/poste de sec.4 1/2" línea 3f 13.8 kV Arv.;5,00
+CR0608;Cruceta doble de 2.40 m para terminal montada en poste de sección 5 ½" línea trifásica 13.8 kV Arv.;und;Cruceta doble de 2.40 m para terminal p/poste de sec.5 1/2" línea 3f 13.8 kV Arv.;5,00
+CR0609;Cruceta doble de 2.40 m para terminal montada en poste de sección 5 ½" línea trifásica 13.8 kV Arv.;und;Cruceta doble de 2.40 m para terminal p/poste de sec.5 1/2" línea 3f 13.8 kV Arv 394.5 kcmil.;5,00
+CR0612;Cruceta doble de 2.40 m para terminal montada en poste de sección 4 ½" línea trifásica 34.5 kV Arv.;und;Cruceta doble de 2.40 m para terminal p/poste de sec.4 1/2" línea 3f 34.5 kV Arv.;5,00
+CR0613;Cruceta doble de 2.40 m para terminal montada en poste de sección 5 ½" línea trifásica 34.5 kV Arv.;und;Cruceta doble de 2.40 m para terminal p/poste de sec.5 1/2" línea 3f 34.5 kV Arv.;5,00
+CR0614;Cruceta doble de 2.40 m para terminal montada en poste de sección 5 ½" línea trifásica 34.5 kV Arv. 394.5 kcmil;und;Cruceta doble de 2.40 m para terminal p/poste de sec.5 1/2" línea 3f 34.5 kV Arv 394.5 kcmil;5,00
+CR0620;Cruceta doble de 1.80 m  para derivación montada en poste de sección 4 ½" línea monofásica 13.8 kV Arv.;und;Cruceta doble de 1.80 m  para derivación p/poste de sec.4 1/2" línea 1f 13.8 kV Arv.;8,00
+CR0621;Cruceta doble de 1.80 m  para derivación montada en poste de sección 4 ½" línea trifásica 13.8 kV Arv.;und;Cruceta doble de 1.80 m  para derivación p/poste de sec.4 1/2" línea 3f 13.8 kV Arv.;7,00
+CR0622;Cruceta doble de 1.80 m  para derivación montada en poste de sección 5 ½" línea trifásica 13.8 kV Arv.;und;Cruceta doble de 1.80 m  para derivación p/poste de sec.5 1/2" línea 3f 13.8 kV Arv.;7,00
+CR0625;Cruceta doble de 2.40 m  para derivación montada en poste de sección 4 ½" línea trifásica 13.8 kV Arv.;und;Cruceta doble de 2.40 m  para derivación p/poste de sec.4 1/2" línea 3f 13.8 kV Arv.;5,00
+CR0626;Cruceta doble de 2.40 m  para derivación montada en poste de sección 5 ½" línea trifásica 13.8 kV Arv.;und;Cruceta doble de 2.40 m  para derivación p/poste de sec.5 1/2" línea 3f 13.8 kV Arv.;5,00
+CR0627;Cruceta doble de 2.40 m  para derivación montada en poste de sección 5 ½" línea trifásica 13.8 kV Arv. 394.5 kcmil;und;Cruceta doble de 2.40 m  para derivación p/poste de sec.5 1/2" línea 3f 13.8 kV Arv 394.5 kcmil;5,00
+CR0630;Cruceta doble de 2.40 m  para derivación montada en poste de sección 4 ½" línea trifásica 34.5 kV Arv.;und;Cruceta doble de 2.40 m  para derivación p/poste de sec.4 1/2" línea 3f 34.5 kV Arv.;5,00
+CR0631;Cruceta doble de 2.40 m  para derivación montada en poste de sección 5 ½" línea Trifasica 34.5 kV Arv.;und;Cruceta doble de 2.40 m  para derivación p/poste de sec.5 1/2" línea 3f 34.5 kV Arv.;5,00
+CR0632;Cruceta doble de 2.40 m  para derivación montada en poste de sección 5 ½" linea trifásica 34.5 kV Arv. 394.5 kcmil.;und;Cruceta doble de 2.40 m  para derivación p/poste de sec.5 1/2" línea 3f 34.5 kV Arv 394.5 kcml;5,00
+CR0638;Una cruceta sencilla y otra doble de 1.80 m para derivación monofásica en poste de sección 4 ½" línea 13,8 kV Arv.;und;Una cruceta sencilla y otra doble de 1.80 m p/derivación 1f p/poste de sec.4 1/2" línea 13,8 kV Arv.;4,00
+CR0639;Una cruceta sencilla y otra doble de 1.80 m para derivación trifásica en poste de sección 4 ½" línea 13,8 kV Arv.;und;Una cruceta sencilla y otra doble de 1.80 m p/derivación 3f p/poste de sec.4 1/2" línea 13,8 kV Arv.;4,00
+CR0640;Una cruceta sencilla y otra doble de 1.80 m para derivación trifásica en poste de sección 5 ½" línea 13,8 kV Arv.;und;Una cruceta sencilla y otra doble de 1.80 m p/derivación 3f p/poste de sec.5 1/2" línea 13,8 kV Arv.;4,00
+CR0643;Una cruceta sencilla y otra doble de 2.40 m para derivación trifásica en poste de sección 4 ½" línea 13,8 kV Arv.;und;Una cruceta sencilla y otra doble de 2.40 m p/derivación 3f p/poste de sec.4 1/2" línea 13,8 kV Arv.;3,00
+CR0644;Una cruceta sencilla y otra doble de 2.40 m para derivación trifásica en poste de sección 5 ½" línea 13,8 kV Arv.;und;Una cruceta sencilla y otra doble de 2.40 m p/derivación 3f p/poste de sec.5 1/2" línea 13,8 kV Arv.;3,00
+CR0645;Una cruceta sencilla y otra doble de 2.40 m para derivación trifásica en poste de sección 5 ½" línea 13.8 kV Arv. 394.5 kcmil.;und;Una cruceta sencilla y otra doble de 2.40 m p/derivación 3f p/poste de sec.5 1/2" línea 13,8 kV Arv 394.5 kcmil.;3,00
+CR0648;Una cruceta sencilla y otra doble de 2.40 m para derivación trifásica en poste de sección 4 ½" línea 34,5 kV Arv.;und;Una cruceta sencilla y otra doble de 2.40 m p/derivación 3f p/poste de sec.4 1/2" línea 34,5 kV Arv.;3,00
+CR0649;Una cruceta sencilla y otra doble de 2.40 m para derivación trifásica en poste de sección 5 ½" linea 34,5 kV Arv.;und;Una cruceta sencilla y otra doble de 2.40 m p/derivación 3f p/poste de sec.5 1/2" línea 34,5 kV Arv.;3,00
+CR0656;Cruceta doble 3.20 m para ángulos 120°-170° en postes tipo "H" de sección 5 ½" linea trifasica 13.8 kV Arv.;und;Cruceta doble 3.20 m para ángulos 120°-170° en postes tipo "H"  de sec.5 1/2" linea 3f 13.8 kV Arv;3,00
+CR0657;Cruceta doble 3.20 m para ángulos 120°-170° en postes tipo "H"  de sección 5 ½"  línea Trifásica 34,5 kV Arv.;und;Cruceta doble 3.20 m para ángulos 120°-170° en postes tipo "H"  de sec.5 1/2" linea 3f 34.5 kV Arv;3,00
+CR0663;Montaje vertical en poste sección 5 ½" para ángulos menores a 60° línea  trifásica 13.8 kV Arv.;und;Montaje vertical en poste secc. 5 ½" para ángulos menores a 60° linea 3f 13.8 kV Arv.;9,00
+CR0664;Montaje vertical en poste sección 5 ½" para ángulos menores a 60° línea  trifásica 34.5 kV Arv.;und;Montaje vertical  en poste secc. 5 ½" para ángulos menores a 60° línea 3f 34.5 kV Arv.;9,00
+CR0667;Montaje vertical en poste sección 5 ½" para ángulos mayores a 60° línea  trifásica 13.8 kV Arv.;und;Montaje vertical en poste secc. 5 ½" para ángulos mayores a 60° línea 3f 13.8 kV Arv.;11,00
+CR0668;Montaje vertical en poste sección 5 ½" para ángulos mayores a 60° línea  trifásica 34.5 kV Arv.;und;Montaje vertical en poste secc.5 ½" para ángulos mayores a 60° línea 3f 34.5 kV Arv.;11,00
+CR0671;Montaje vertical en poste sección 5  ½"para terminal línea trifásica 13.8 kV Arv.;und;Montaje  vertical  en poste secc. 5  ½"para terminal trifásica 13.8 kV Arv.;13,00
+CR0672;Montaje vertical en poste sección 5 ½" para terminal línea trifásica 34.5 kV Arv.;und;Montaje  vertical  en poste secc. 5 ½" para terminal trifásica 34.5 kV Arv.;13,00
+CR0674;Aislador de espiga de 15 kV con su palillo en cruceta existente.;und;Aislador de espiga de 15 kV con su palillo en cruceta existente.;16,00
+CR0675;Aislador de espiga de 34.5 kV con su palillo en cruceta existente.;und;Aislador de espiga de 34.5 kV con su palillo en cruceta existente.;16,00
+CR0681;Tres aisladores de espiga de  15 kV  con sus palillos en cruceta existente.;und;Tres aisladores de espiga de  15 kV  con sus palillos en cruceta existente.;15,00
+CR0682;Tres aisladores de espiga de 34.5 kV con sus  palillos  en cruceta existente.;und;Tres aisladores de espiga de 34.5 kV con sus  palillos  en cruceta existente.;15,00
+CR0688;Cadena de aisladores polimericos 13.8 kV en cruceta existente.;und;Cadena de aisladores polimericos 13.8 kV en cruceta existente.;16,00
+CR0689;Cadena de aisladores poliméricos 13.8 kV en  cruceta  existente  linea  Arv 394.5 kcmil.;und;Cadena de aisladores poliméricos 13.8 kV en  cruceta  existente  linea  Arv 394.5 kcmil;16,00
+CR9040;Cruceta doble para instalación de medición indirecta incluye caja de medición de 50X38X18 cm en poste tubular;und;Cruceta doble para instalación de medición indirecta caja de 50X38X18 cm en poste tubular;10,00
+FU0200;Fundación  para poste de  8.23 m en alineación.;und;Fundación  para poste de  8.23 m en alineación.;8,00
+FU0201;Fundación para poste de  8.23 m en ángulo y/o amarre.;und;Fundación para poste de  8.23 m en ángulo y/o amarre.;8,00
+FU0202;Fundación para poste de 9.14 m en alineación.;und;Fundación para poste de 9.14 m en alineación.;8,00
+FU0203;Fundación para poste de 9.75 m en ángulo y/o amarre.;und;Fundación para poste de 9.75 m en ángulo y/o amarre.;8,00
+FU0204;Fundación para  poste de 10.67 m en alineación.;und;Fundación para  poste de 10.67 m en alineación.;7,00
+FU0205;Fundación para poste de 10.67 m en angulo y/o amarre.;und;Fundación para poste de 10.67 m en angulo y/o amarre.;7,00
+FU0206;Fundación para  poste de 11.28 m en alineación.;und;Fundación para  poste de 11.28 m en alineación.;6,00
+FU0207;Fundación para poste de 11.28 m en angulo y/o amarre.;und;Fundación para poste de 11.28 m en angulo y/o amarre.;6,00
+FU0208;Fundación para  poste de 12.20 m en alineación.;und;Fundación para  poste de 12.20 m en alineación.;6,00
+FU0209;Fundación para poste de 12.20 m en angulo y/o amarre.;und;Fundación para poste de 12.20 m en angulo y/o amarre.;6,00
+FU0210;Fundación para  poste de 13.72 m en alineación en cualquier terreno.;und;Fundación para  poste de 13.72 m en alineación en cualquier terreno.;5,00
+FU0211;Fundación para poste de 13.72 m en ángulo y/o amarre.;und;Fundación para poste de 13.72 m en ángulo y/o amarre.;5,00
+FU0212;Fundación para  poste de 15.00 m en alineación en cualquier terreno.;und;Fundación para  poste de 15.00 m en alineación en cualquier terreno.;5,00
+FU0213;Fundación para poste de 15.00 m en ángulo y/o amarre.;und;Fundación para poste de 15.00 m en ángulo y/o amarre.;5,00
+FU0215;Fundación para  poste de 20.00 m en alineación en cualquier terreno.;und;Fundación para  poste de 20.00 m en alineación en cualquier terreno.;4,00
+FU0216;Fundación para viento a contraviento.;und;Fundación para viento a contraviento.;8,00
+FU0217;Fundación para viento.;und;Fundación para viento.;7,00
+FU0218;Fundación para  poste hexagonal con tanquilla adosada.;und;Fundación para  poste hexagonal con tanquilla adosada.;8,00
+FU0220;Fundación para estructura autosoportante con postes  de 8.23 m  de 0.8X0.8X1.5 m.;und;Fundación para estructura autosoportante con postes  de 8.23 m  de 0.8X0.8X1.5 m.;6,00
+FU0221;Fundación para estructura autosoportante con postes  de 9.75 m de  0.8X0.8X1.7 m.;und;Fundación para estructura autosoportante con postes  de 9.75 m de  0.8X0.8X1.7 m.;6,00
+FU0222;Fundación para estructura autosoportante con postes  de 10.67 m de 0.8X0.8X1.7 m.;und;Fundación para estructura autosoportante con postes  de 10.67 m de 0.8X0.8X1.7 m.;6,00
+FU0223;Fundación para estructura autosoportante con postes de 11.28 m de 1X1X1.8 m.;und;Fundación para estructura autosoportante con postes de 11.28 m de 1X1X1.8 m.;5,00
+FU0224;Fundación para estructura autosoportante con postes de 12.20 m de 1X1X1.9 m.;und;Fundación para estructura autosoportante con postes de 12.20 m de 1X1X1.9 m.;5,00
+FU0225;Fundación para estructura autosoportante con postes de 13.72 m de 1X1X2.10 m.;und;Fundación para estructura autosoportante con postes de 13.72 m de 1X1X2.10 m.;5,00
+FU0226;Fundación para estructura autosoportante con postes de 15.00 m de 1X1X2.30 m.;und;Fundación para estructura autosoportante con postes de 15.00 m de 1X1X2.30 m.;5,00
+FU0228;Fundación para estructura autosoportante de tres postes de 13.72 hasta 15.00 m.;und;Fundación para estructura autosoportante de tres postes de 13.72 hasta 15.00 m.;4,00
+FU0230;Fundación especial  para estructura de 12.20 m  1.50 X 1.50 X 1.90 m incluye acero de refuerzo.;und;Fundación especial  para estructura de 12.20 m  1.50X1.50X1.90 m incluye acero de refuerzo.;4,00
+FU0231;Fundación  especial  para estructura de 13.72 m 1.50 X 1.50 X 2.10 m incluye acero de refuerzo.;und;Fundación especial  para estructura de 13.72 m 1.50X1.50X2.10 m   incluye acero de refuerzo.;3,00
+FU0232;Fundación especial para estructura de 15.00 m 1.50 X 1.50 X 2.30 m incluye acero de refuerzo.;und;Fundación  especial  para estructura de 15.00 m 1.50X1.50X2.30 m incluye acero de refuerzo.;3,00
+FU0234;Fundación  para  poste  de  10.67 m para pórtico subestación de distribución;und;Fundación  para  poste  de  10.67 m para pórtico subestación de distribución;6,00
+FU0238;Fundación para un tornapunta  para retenida en baja tensión con  poste de 7.10 m.;und;Fundación para un tornapunta  para retenida en baja tensión con  poste de 7.10 m.;8,00
+FU0239;Fundación para un tornapunta para retenida en media tensión con poste de 9.7 m;UND;Fundación para un tornapunta para retenida en media tensión con poste de 9.7 m;7,00
+ME1608;Punto de medición directa 2X120/208 V incluye acometida contador y caja de medición (contador suministrado por Corpoelec);und;Punto de medición directa 2x120/208 V (contador suministrado por Corpoelec);10,00
+ME1609;Medidor de energía eléctrica 2X20/208 V3 H 80 A suministrado por CORPOELEC.;und;Medidor de energía eléctrica 2X120/208 V3 H  80 A suministrado por CORPOELEC.;20,00
+MI1770;Replanteo de la ruta de línea.;poste;Replanteo de la ruta de línea;30,00
+MI1771;Acarreo de materiales.;dia;Acarreo de materiales;1,00
+MI9000;Desmontaje y  traslado al  almacén de un poste  tubular  de acero de baja tensión.;und;Desmontaje y  traslado al  almacén de un poste  tubular  de acero de baja tensión;15,00
+MI9001;Desmontaje y traslado  al almacén  de un poste tubular de  acero de media tensión.;und;Desmontaje y traslado  al almacén  de un poste tubular de  acero de media tensión;10,00
+MI9002;Desmontaje y traslado al almacén de una estructura  autosoportante  de baja tensión.;und;Desmontaje y traslado al almacén de una estructura  autosoportante  de baja tensión.;10,00
+MI9003;Desmontaje y  traslado al almacén de una estructura  autosoportante de media tensión.;und;Desmontaje y  traslado al almacén de una estructura  autosoportante de media tensión.;7,00
+MI9005;Desmontaje  y traslado  al almacén de un brazo de  alumbrado público con su luminaria.;und;Desmontaje  y traslado  al almacén de un brazo de  alumbrado público con su luminaria.;20,00
+MI9006;Desmontaje  y  traslado al almacén de un sistema de control para alumbrado público.;und;Desmontaje  y  traslado al almacén de un sistema de control para alumbrado público.;20,00
+MI9008;Desmontaje  y traslado al almacén de una percha con sus aisladores.;und;Desmontaje  y traslado al almacén de una percha con sus aisladores.;20,00
+MI9009;Desmontaje  y traslado al almacén de una retenida.;und;Desmontaje  y traslado al almacén de una retenida.;16,00
+MI9010;Desmontaje y  traslado al almacén de una cruceta de acero con sus herrajes.;und;Desmontaje y  traslado al almacén de una cruceta de acero con sus herrajes.;14,00
+MI9011;Desmontaje y  traslado  al almacén de un seccionador.;und;Desmontaje y  traslado  al almacén de un seccionador.;15,00
+MI9012;Desmontaje  y  traslado al almacén de un pararrayo.;und;Desmontaje  y  traslado al almacén de un pararrayo.;17,00
+MI9013;Desmontaje y  traslado  al almacén de un cortacorriente.;und;Desmontaje y  traslado  al almacén de un cortacorriente.;16,00
+MI9015;Desmontaje y  traslado  al almacén de un transformador de  distribución  con  sus accesorios.;und;Desmontaje y  traslado  al almacén de un transformador de  distribución;10,00
+MI9016;Desmontaje y traslado al almacén de tres transformadores  de distribución con sus accesorios.;und;Desmontaje y traslado al almacén de tres transformadores de distribución ;5,00
+MI9018;Desmontaje y  traslado  al almacén de un (1) kg de conductor de cobre.;kg;Desmontaje y  traslado  al almacén de un (1) kg de conductor de cobre.;120,00
+MI9019;Desmontaje y  traslado  al almacén de un (1) kg de conductor de aluminio.;kg;Desmontaje y  traslado  al almacén de un (1) kg de conductor de aluminio;140,00
+MI9020;Desmontaje y  traslado al almacén de una cadena de  aisladores de suspensión y/o aislador de espiga.;und;Desmontaje y traslado al almacén de aisladores de suspensión y/o de espiga.;25,00
+MI9027;Trabajo en linea de media tensión a 13.8 kV con cuadrilla de líneas energizadas.;h;Trabajo en linea de media tensión a 13.8kV con cuadrilla de líneas energizadas;8,00
+MI9030;Trabajo thermovisión en redes de distribución.;h;Trabajo thermovisión en redes de distribución;8,00
+PE0401;Percha de dos aisladores para alineación montada en poste de sección 3 ½" Arv.;und;Percha de dos aisladores para alineación montada en poste de secc.3 1/2" Arv.;14,00
+PE0402;Percha de dos aisladores para alineación montada en poste de sección 4 ½" Arv.;und;Percha de dos aisladores para alineación montada en poste de secc.4 1/2" Arv.;14,00
+PE0403;Percha de dos aisladores para alineación montada en poste de sección 5 ½" Arv.;und;Percha de dos aisladores para alineación montada en poste de secc.5 1/2" Arv.;14,00
+PE0404;Percha  de dos  aisladores  para alineación montadas en poste de sección 6 ?" Arv.;und;Percha  de dos  aisladores  p/alineación montadas en poste de sección 6 5/8" Arv;14,00
+PE0405;Percha de cuatro aisladores para alineación montada en poste de sección 3 ½" Arv.;und;Percha de cuatro aisladores p/alineación montada en poste de sección 3 1/2" Arv.;12,00
+PE0406;Percha de cuatro aisladores para alineación montada en poste de sección 4 ½" Arv.;und;Percha de cuatro aisladores p/alineación montada en poste de sección 4 1/2" Arv.;12,00
+PE0407;Percha de cuatro aisladores para alineación montada en poste de sección 5 ½" Arv.;und;Percha de cuatro aisladores p/alineación montada en poste de sección 5 1/2" Arv.;12,00
+PE0408;Percha de cuatro aisladores para alineación montadas en poste de sección 6 ?" Arv.;und;Percha de cuatro aisladores p/alineación montadas en poste de secc.6 5/8" Arv;12,00
+PE0409;Percha de cinco  aisladores para alineación montadas en poste de sección 3 ½" Arv.;und;Percha de cinco  aisladores p/alineación montadas en poste de sección 3 1/2" Arv;10,00
+PE0410;Percha de cinco  aisladores para alineación montadas en poste de sección 4 ½" Arv.;und;Percha de cinco  aisladores p/alineación montadas en poste de sección 4 1/2" Arv;10,00
+PE0411;Percha de cinco  aisladores para alineación montadas en poste de sección 5 ½" Arv.;und;Percha de cinco  aisladores p/alineación montadas en poste de sección 5 1/2" Arv;10,00
+PE0412;Percha de cinco aisladores  para alineación montadas en poste de sección 6 ?" Arv.;und;Percha de cinco aisladores  p/alineación montadas en poste de secc.6 5/8" Arv;10,00
+PE0413;Percha de  dos  aisladores  para  amarre terminal en poste de sección 4 ½" Arv.;und;Percha de  dos  aisladores  para  amarre terminal en poste de secc.4 1/2" Arv;14,00
+PE0414;Percha de dos aisladores para amarre terminal en poste de sección 5 ½" Arv.;und;Percha  de  dos  aisladores para  amarre terminal en poste de secc.5 1/2" Arv;14,00
+PE0415;Percha  de  dos  aisladores para  amarre terminal  montadas  en  poste de sección 6 ?" Arv.;und;Percha de dos aisladores para amarre terminal p/poste de sección 6 5/8" Arv.;14,00
+PE0416;Percha  de cuatro aisladores para amarre terminal  montada  en  poste de  sección 4 ½" Arv.;und;Percha de cuatro aisladores para amarre terminal p/poste de sección 4 1/2" Arv.;11,00
+PE0417;Percha  de cuatro aisladores para amarre terminal  montada  en  poste de  sección 5 ½" Arv.;und;Percha de cuatro aisladores para amarre terminal p/poste de  sección 5 1/2" Arv.;11,00
+PE0418;Percha  de cuatro aisladores para amarre terminal   montada  en poste de  sección 6 ?" Arv.;und;Percha de cuatro aisladores para amarre terminal p/poste de  sección 6 5/8" Arv.;11,00
+PE0419;Percha  de cinco  aisladores para amarre terminal  montada  en  poste  de sección 4 ½" Arv.;und;Percha de cinco aisladores para amarre terminal p/poste  de sección 4 1/2" Arv.;9,00
+PE0420;Percha de cinco  aisladores para  amarre terminal  montada  en  poste de  sección 5 ½" Arv.;und;Percha de cinco aisladores para amarre terminal  p/poste de  sección 5 1/2" Arv.;9,00
+PE0421;Percha de cinco aisladores  para  amarre terminal  montadas  en  poste de sección 6 ?" Arv.;und;Percha de cinco aisladores para amarre terminal p/poste de sección 6 5/8" Arv;9,00
+PE0422;Percha de cuatro aisladores para conexión "T" montadas  en poste de sección 4 ½" Arv.;und;Percha de cuatro aisladores   p/conexión "T" montadas  en poste de sección 4 ½" Arv.;10,00
+PE0423;Percha de cuatro aisladores para conexión"T" montadas  en poste de sección 5 ½"Arv.;und;Percha de cuatro aisladores   p/conexión"T" montadas  en poste de sección 5 1/2"Arv.;10,00
+PE0425;Percha de cinco  aisladores para conexión "T" montadas  en poste de sección 4 ½"Arv.;und;Percha de cinco  aisladores   p/conexión "T" montadas  en poste de sección 4 1/2"Arv.;8,00
+PE0426;Percha de cinco  aisladores para conexión "T" montadas en poste de  sección 5 ½" Arv.;und;Percha de cinco  aisladores   p/conexión "T" montadas en poste de  sección 5 ½" Arv.;8,00
+PE0428;Percha de cuatro  aisladores para completar 90° y 180° poste de sección 4 ½" Arv.;und;Percha de cuatro  aisladores p/completar 90° y 180° poste de sección 4 1/2" Arv.;12,00
+PE0429;Percha de cuatro aisladores para completar 90° y 180° poste de sección 5 ½" Arv.;und;Percha de cuatro aisladores  p/completar 90° y 180° poste de sección 5 1/2" Arv.;12,00
+PE0431;Percha de cinco  aisladores para completar 90° y 180° poste de sección 4 ½" Arv.;und;Percha de cinco  aisladores  p/completar 90° y 180° poste de secc.4 1/2" Arv.;10,00
+PE0432;Percha de cinco  aisladores para completar 90° y 180° poste de sección 5 ½" Arv.;und;Percha de cinco  aisladores  p/completar 90° y 180° poste de secc.5 1/2" Arv.;10,00
+PE0434;Dos perchas de dos aisladores para conexión  "L" montadas  en  poste de sección 4 ½" Arv.;und;Dos perchas de dos aisladores para conexión "L" montadas en poste de sec.4 ½" Arv.;7,00
+PE0435;Dos perchas de dos aisladores para conexión  "L"  montadas en poste  de sección 5 ½" Arv.;und;Dos perchas de dos aisladores para conexión "L" montadas en poste de sec.5 ½" Arv.;7,00
+PE0437;Dos perchas de cuatro aisladores para conexión en "L" montadas en poste de sección 4 ½" Arv.;und;Dos perchas de cuatro aisladores p/conexión en "L" p/poste de sección 4 1/2" Arv.;6,00
+PE0438;Dos perchas de cuatro aisladores para conexión en "L" montadas en poste de sección 5 ½" Arv.;und;Dos perchas de cuatro aisladores p/conexión en "L"p/poste de sección 5 1/2" Arv.;6,00
+PE0440;Dos perchas de cinco aisladores para conexión en "L" montadas en poste de sección 4 ½" Arv.;und;Dos perchas de cinco aisladores  p/conexión en "L" p/poste de sección 4 1/2" Arv.;5,00
+PE0441;Dos perchas de cinco aisladores para conexión en "L" montadas en poste de sección 5 ½ Arv.;und;Dos perchas de cinco aisladores  p/conexión en "L" p/poste de sección 5 1/2" Arv.;5,00
+PE0443;Dos perchas de dos  aisladores para cruzamiento  montadas  en poste  de sección 3 ½" Arv.;und;Dos perchas de dos  aisladores para cruzamiento p/poste  de sección 3 1/2" Arv.;7,00
+PE0444;Dos perchas de  dos aisladores para cruzamiento  montadas  en poste  de sección 4 ½" Arv.;und;Dos perchas de  dos aisladores para cruzamiento p/poste  de sección 4 1/2" Arv.;7,00
+PE0445;Dos perchas de dos  aisladores para cruzamiento  montadas  en poste  de sección 5 ½" Arv.;und;Dos perchas de dos  aisladores para cruzamiento  p/poste  de sección 5 1/2" Arv.;7,00
+PE0447;Dos perchas de  cuatro aisladores p/cruzamiento  montadas  en poste  de sección 4 ½" Arv.;und;Dos perchas de  cuatro aisladores p/cruzamiento p/poste  de sección 4 1/2" Arv.;6,00
+PE0448;Dos perchas de  cuatro aisladores p/cruzamiento  montadas  en poste de  sección 5 ½" Arv.;und;Dos perchas de  cuatro aisladores p/cruzamiento p/poste de  sección 5 1/2" Arv.;6,00
+PE0450;Dos perchas  de  cinco  aisladores  para cruzamiento montadas en poste de sección 4 ½" Arv.;und;Dos perchas  de  cinco  aisladores  para cruzamiento p/poste de sección 4 1/2" Arv.;5,00
+PE0451;Dos perchas  de  cinco  aisladores  para cruzamiento montadas  en poste sección 5 ½" Arv.;und;Dos perchas  de  cinco  aisladores  para cruzamiento p/poste   sección 5 1/2" Arv.;5,00
+PE0453;Dos perchas de  dos aisladores para amarre en  alineación  montadas en poste de sección 3 ½" Arv.;und;Dos perchas de  dos aisladores para amarre en  alineación p/poste de sección 3 1/2" Arv.;7,00
+PE0454;Dos perchas  de dos aisladores para amarre en  alineación  montadas en poste de sección 4 ½" Arv.;und;Dos perchas  de dos aisladores para amarre en  alineación  p/poste de sección 4 1/2" Arv.;7,00
+PE0455;Dos perchas de  dos aisladores para amarre en  alineación  montadas en poste de sección 5 ½" Arv.;und;Dos perchas de  dos aisladores para amarre en  alineación p/poste de sección 5 1/2" Arv.;7,00
+PE0456;Dos perchas  de dos aisladores  p/amarre en alineación montadas en poste  de sección 6 ?" Arv.;und;Dos perchas  de dos aisladores  p/amarre en alineación p/poste  de sección 6 5/8" Arv.;7,00
+PE0457;Dos perchas  de  cuatro  aisladores para amarre en  alineación  montadas en poste de sección 4 ½" Arv;und;Dos perchas  de  cuatro  aisladores para amarre en  alineación p/poste de sección 4 1/2" Arv;6,00
+PE0458;Dos perchas de  cuatro  aisladores  para amarre en  alineación  montadas en poste de sección 5 ½" Arv;und;Dos perchas de  cuatro  aisladores  para amarre en  alineación p/poste de sección 5 1/2" Arv;6,00
+PE0459;Dos  perchas  de cuatro  aisladores para amarre en  alineación montadas  en poste sección 6 ?" Arv.;und;Dos  perchas  de cuatro  aisladores para amarre en  alineación p/poste sección 6 5/8" Arv.;6,00
+PE0460;Dos  perchas  de cinco  aisladores  para amarre en  alineación  montadas en poste de sección 4 ½" Arv.;und;Dos  perchas  de cinco  aisladores  para amarre en  alineación  p/poste de sección 4  1/2" Arv.;5,00
+PE0461;Dos  perchas  de  cinco  aisladores para amarre en  alineación  montadas en poste de sección 5 ½" Arv;und;Dos  perchas  de  cinco  aisladores para amarre en  alineación p/poste de sección 5 1/2" Arv;5,00
+PE0462;Dos  perchas  de  cinco  aisladores para amarre en  alineación montadas  en poste sección 6 ?" Arv.;und;Dos  perchas  de  cinco  aisladores para amarre en  alineación p/poste sección 6 5/8" Arv.;5,00
+PE0463;Dos perchas de dos aisladores para conexión en "T" montadas en poste de sección 4 ½" Arv.;und;Dos perchas de dos aisladores para conexión en "T" montadas en poste de sección 4 1/2" Arv.;7,00
+PE0464;Dos perchas de dos aisladores para conexión en "T" montadas en poste de sección 5 ½" Arv.;und;Dos perchas de dos aisladores para conexión en "T" montadas en poste de sección 5 1/2" Arv.;7,00
+PE0467;Dos perchas de  cuatro  aisladores  para conexión en  "T"  montadas en poste sección 4 ½" Arv.;und;Dos perchas de  cuatro  aisladores  para conexión en  "T"  montadas en poste sección 4 1/2" Arv.;6,00
+PE0468;Dos perchas  de cuatro  aisladores  para conexión en  "T"  montadas en poste sección 5 ½" Arv.;und;Dos perchas  de cuatro  aisladores  para conexión en  "T"  montadas en poste sección 5 1/2" Arv.;6,00
+PE0470;Dos perchas de  cinco aisladores p/conexión en "T" montadas en poste de sección 4 ½" Arv.;und;Dos perchas de  cinco aisladores p/conexión en "T" montadas en poste de sección 4 1/2" Arv.;5,00
+PE0471;Dos perchas de  cinco aisladores p/conexión en "T" montadas en poste de sección 5 ½" Arv.;und;Dos perchas de  cinco aisladores p/conexión en "T" montadas en poste de sección 5 1/2" Arv.;5,00
+PE0473;Tres perchas de  dos aisladores montadas en poste de sección 4 ½" Arv.;und;Tres perchas de  dos aisladores montadas en poste de sección 4 1/2" Arv.;6,00
+PE0474;Tres perchas de  dos aisladores montadas en poste de sección 5 ½" Arv.;und;Tres perchas de  dos aisladores montadas en poste de sección 5 1/2" Arv.;6,00
+PE0475;Tres  perchas  de  dos  aisladores  para conexión "T"  montadas en poste  de sección 6 ?" Arv.;und;Tres  perchas  de  dos  aisladores  para conexión "T"  montadas en poste  de sección 6 5/8" Arv.;6,00
+PE0476;Tres perchas de cuatro aisladores monta-as en poste de sección 4 ½" Arv.;und;Tres perchas de cuatro aisladores monta-as en poste de sección 4 1/2" Arv.;5,00
+PE0477;Tres perchas de cuatro aisladores montadas en poste de sección 5 ½" Arv.;und;Tres perchas de cuatro aisladores montadas en poste de sección 5 1/2" Arv.;5,00
+PE0478;Tres perchas de cuatro aisladores montadas en poste de sección 6 ?" Arv.;und;Tres perchas de cuatro aisladores montadas en poste de sección 6 5/8" Arv.;5,00
+PE0479;Tres perchas de  cinco aisladores montadas en poste sección 4 ½" Arv.;und;Tres perchas de  cinco aisladores montadas en poste sección 4 1/2" Arv.;4,00
+PE0480;Tres perchas de  cinco aisladores montadas en poste sección 5 ½" Arv.;und;Tres perchas de  cinco aisladores montadas en poste sección 5 1/2" Arv.;4,00
+PE0481;Tres perchas de  cinco aisladores montadas en poste sección 6 ?" Arv.;und;Tres perchas de  cinco aisladores monta-das en poste sección 6 5/8" Arv.;4,00
+PE0484;Cuatro perchas de cuatro aisladores montadas en poste sección 4 ½" Arv.;und;Cuatro perchas de cuatro aisladores montadas en poste sección 4 1/2" Arv.;4,00
+PE0485;Cuatro perchas de cuatro aisladores montadas en poste sección 5 ½" Arv.;und;Cuatro perchas de cuatro aisladores montadas en poste sección 5 1/2" Arv.;4,00
+PE0488;Cuatro perchas de  cinco aisladores montadas en poste de sección 4 ½" Arv;und;Cuatro perchas de  cinco aisladores montadas en poste de sección 4 1/2" Arv;4,00
+PE0489;Cuatro perchas de  cinco aisladores montadas en poste de sección 5 ½" Arv;und;Cuatro perchas de  cinco aisladores montadas en poste de sección 5 1/2" Arv;4,00
+PE0491;Percha para alineación para alumbrado público montada en poste tubular de acero de 20 m seccion 7 ½" Arv.;und;Percha para alineación para A.P. montada en poste tubular de acero de 20 m seccion 7 ½" Arv.;10,00
+PE0492;Percha para amarre terminal para alumbrado público montada en poste tubular de acero de 20 m seccion 7 ½" Arv.;und;Percha para amarre terminal para A.P. montada en poste tubular de acero de 20 m seccion 7 ½" Arv.;9,00
+PO0101;Poste  tubular de acero de 8.23 m 27' de longitud sección 4-3" EC: 116 kg.;und;Poste  tubular de acero de 8.23 m 27' de longitud sección 4-3" EC: 116 kg.;10,00
+PO0102;Poste  tubular de acero de 8.23 m 27' de longitud sección 5-4" EC: 178 kg.;und;Poste  tubular de acero de 8.23 m 27' de longitud sección 5-4" EC: 178 kg.;10,00
+PO0104;Poste  tubular de acero de 9.75 m 32' de longitud sección 6-5-4" EC: 340 kg.;und;Poste  tubular de acero de 9.75 m 32' de longitud sección 6-5-4" EC: 340 kg.;10,00
+PO0105;Poste tubular de acero de 10.67 m 35' de longitud sección 6-5-4" EC: 223 kg.;und;Poste tubular de acero de 10.67 m 35' de longitud sección 6-5-4" EC: 223 kg.;8,00
+PO0106;Poste tubular de acero de 10.67 m 35' de longitud sección 7-5-4" EC: 315 kg.;und;Poste tubular de acero de 10.67 m 35' de longitud sección 7-5-4" EC: 315 kg.;8,00
+PO0107;Poste tubular de acero de 11.28 m 37' de longitud sección 7-5-4" EC: 295 kg.;und;Poste tubular de acero de 11.28 m 37' de longitud sección 7-5-4" EC: 295 kg.;8,00
+PO0108;Poste tubular de acero de 11.28 m 37' de longitud sección 8-6-5" EC: 359 kg.;und;Poste tubular de acero de 11.28 m 37' de longitud sección 8-6-5" EC: 359 kg.;8,00
+PO0112;Poste tubular de acero de 12.20 m 40' de longitud sección 8-6-4" EC: 290 kg.;und;Poste tubular de acero de 12.20 m 40' de longitud sección 8-6-4" EC: 290 kg.;6,00
+PO0113;Poste tubular de acero de 12.20 m 40' de longitud sección 8-6-5" EC: 437 kg.;und;Poste tubular de acero de 12.20 m 40' de longitud sección 8-6-5" EC: 437 kg.;6,00
+PO0116;Poste tubular de acero de 13.72 m 45' de longitud sección 8-6-4" EC: 256 kg.;und;Poste tubular de acero de 13.72 m 45' de longitud sección 8-6-4" EC: 256 kg.;5,00
+PO0117;Poste tubular de acero de 13.72 m 45' de longitud sección 8-6-5" EC: 388 kg.;und;Poste tubular de acero de 13.72 m 45' de longitud sección 8-6-5" EC: 388 kg.;5,00
+PO0121;Poste tubular de acero de 15.00 m 50' de longitud sección 8-6-5" EC: 375 kg.;und;Poste tubular de acero de 15.00 m 50' de longitud sección 8-6-5" EC: 375 kg.;4,00
+PO0122;Poste tubular de acero de 15.00 m 50' de longitud sección 9-7-5" EC: 402 kg.;und;Poste tubular de acero de 15.00 m 50' de longitud sección 9-7-5" EC: 402 kg.;4,00
+PO0126;Poste tubular de acero de 20 m de longitud sección 9-8-5" EC: 289 kg.;und;Poste tubular de acero de 20 m de longitud sección 9-8-5" EC: 289 kg.;4,00
+PO0129;Poste hexagonal de 8 m con brazo sencillo con su luminaria VS M-400 400 W;und;Poste hexagonal de 8 mts. con brazo sencillo con su luminaria VS M-400 400 W;5,00
+PO0130;Poste hexagonal de 8  m con brazo doble con sus luminarias VS M-400/400W;und;Poste hexagonal de 8  mts. con brazo doble con sus luminarias VS M-400/400W;4,00
+PO0136;Poste hexagonal de  9 m con brazo doble con sus luminarias VS M-400/400W.;und;Poste  hexagonal de  9 m con brazo doble con sus luminarias VS M-400/400W.;4,00
+PO0140;Poste  hexagonal de 9 m con brazo sencillo con su luminaria VS M-400/400W.;und;Poste  hexagonal de 9 m con brazo sencillo con su luminaria VS M-400/400W.;5,00
+PO0141;Tubo de acero galvanizado de 4,5 m de  longitud  sección 6 ?" para soporte de reconectador.;und;Tubo de acero galv. de 4,5 m de longitud sección 6 ?" p/soporte de reconectador.;8,00
+PO0142;Estructura autosoportante con poste tubular de acero de 8.23 m  de longitud de sección 5-4".;und;Estructura autosoportante con poste tubular de acero de 8.23 m de longitud de sección 5-4".;7,00
+PO0146;Estructura autosoportante con poste tubular de acero de 11.28 m 37'  de longitud sección 7-5-4";und;Estructura autosoportante con poste tubular de acero de 11.28 m 37' sección 7-5-4";5,00
+PO0147;Estructura autosoportante con poste tubular de acero de 11.28  m 37' de longitud sección 8-6-5".;und;Estructura autosoportante con poste tubular de acero de 11.28 m 37' sección 8-6-5".;5,00
+PO0149;Estructura autosoportante con poste tubular de acero 12.20 m 40' de longitud sección 8-6-5".;und;Estructura autosoportante con poste tubular de acero 12.20 m 40' sección 8-6-5".;4,00
+PO0153;Estructura autosoportante con poste tubular de acero 13.72 m 45' de longitud sección 8-6-5".;und;Estructura autosoportante con poste tubular de acero 13.72 m 45' sección 8-6-5".;3,00
+PO0156;Estructura autosoportante triple con poste tubular de acero de 13.72 m 45' de longitud sección 8-6-5”.;und;Estructura autosoportante triple con poste tubular de acero de 13.72 m 45' sección 8-6-5”.;2,00
+PO0159;Estructura autosoportante con poste tubular de acero de 15.00 m 50' de longitud sección 8-6-5".;und;Estructura autosoportante con poste tubular de acero de 15 m 50' sección 8-6-5".;2,00
+PO0161;Estructura autosoportante con poste tubular de acero 15.00 m 50' de longitud sección 9-7-5".;und;Estructura autosoportante con poste tubular de acero 15 m 50' sección 9-7-5".;2,00
+PO0164;Estructura autosoportante triple con poste tubular de acero de 15 m 50' de longitud de sección 8-6-5".;und;Estructura autosoportante triple con poste tubular de acero de 15 m 50' de sección 8-6-5".;2,00
+PO0197;Conexión a tierra en poste tubular de acero para media tensión.;und;Conexión  a   tierra  en  poste  tubular de acero para media tensión;7,00
+PO1700;Pintura de un poste hexagonal de 8 m hasta 9 m con su brazo de alumbrado público.;und;Pintura de un poste hexagonal de 8 m hasta 9 m con su brazo de ap.;16,00
+PO1702;Pintura de un poste de 27' 8.23 m.;und;Pintura de un poste de 27' 8.23 m.;22,00
+PO1704;Pintura de un poste de 30' hasta 35'.;und;Pintura de un poste de 30' hasta 35'.;20,00
+PO1705;Pintura de un poste de 37' hasta 40'.;und;Pintura de un poste de 37' hasta 40'.;18,00
+PO1706;Pintura de un poste de 45' hasta 50'.;und;Pintura de un poste de 45' hasta 50'.;16,00
+PO1710;Pintura de estructura autosoportante de 27'.;und;Pintura de estructura autosoportante de 27'.;15,00
+PO1711;Pintura de estructura autosoportante de 37' hasta 40'.;und;Pintura de estructura autosoportante de 37' hasta 40'.;13,00
+PO1712;Pintura  de estructura autosoportante de 45' hasta 50'.;und;Pintura  de estructura autosoportante de 45' hasta 50'.;10,00
+PR0800;Cortacorriente en cruceta existente para linea 13.8 kV.;und;Cortacorriente en cruceta existente para linea 13.8 kV.;14,00
+PR0801;Cortacorriente en cruceta existente para linea 34.5 kV.;und;Cortacorriente en cruceta existente para linea 34.5 kV.;14,00
+PR0804;Tres cortacorrientes en cruceta existente para línea trifásica 13.8 kV.;und;Tres cortacorrientes en cruceta existente para línea trifásica 13.8 kV.;12,00
+PR0805;Tres cortacorrientes en cruceta existente para linea trifásica 34.5 kV.;und;Tres cortacorrientes en cruceta existente para linea trifásica 34.5 kV.;12,00
+PR0810;Dos cortacorrientes en cruceta doble de 1.80 m en derivación para linea monofásica 13.8 kV en poste de sección 4 ½”;und;Dos cortacorrientes en cruceta doble de 1.80 m en deriv. p/linea 1f 13.8 kV en poste de secc.4 ½”;6,00
+PR0811;Tres cortacorrientes en cruceta doble de 1.80 m en derivación para linea trifásica 13.8 kV en poste de sección 5 ½”.;und;Tres cortacorrientes en cruceta doble de 1.80 m en derivación para linea trifásica 13.8 kV en poste de sección 5 ½”;5,00
+PR0817;Dos cortacorrientes en cruceta doble de 1.80 m en amarre para línea monofásica 13.8 kV en poste de sección 4 ½”.;und;Dos  cortacorrientes  en   cruceta doble de 1.80 m en amarre para linea monofásica 13.8 kV en poste de sección 4 ½”;6,00
+PR0818;Tres cortacorrientes en cruceta doble de 1.80 m en amarre para línea trifasica 13.8 kV en poste de sección 5 ½”.;und;Tres cortacorrientes en cruceta doble de 1.80 m p/amarre para lin. 3f 13.8 kV en poste de secc. 5 ½”.;5,00
+PR0831;Tres cortacorrientes en cruceta doble de 2.40 m en derivación para línea trifásica 34.5 kV en poste de sección 5 ½”.;und;Tres cortacorrientes en cruceta doble de 2.40 m p/deriv. Lin 3f 34.5 kV en poste de sección 5 ½”;3,00
+PR0900;Seccionador  en cruceta doble  existente para línea a 13.8 kV.;und;Seccionador  en cruceta doble  existente para línea a 13.8 kV.;12,00
+PR0901;Seccionador en  cruceta doble  existente para linea a 34.5 kV.;und;Seccionador en  cruceta doble  existente para linea a 34.5 kV.;12,00
+PR0904;Tres seccionadores en cruceta doble existente para linea trifásica  13.8 kV.;und;Tres seccionadores en cruceta doble existente para linea trifásica  13.8 kV.;10,00
+PR0905;Tres seccionadores en cruceta doble existente para línea trifásica 13.8 kV Arv 394.5 kcmil.;und;Tres seccionadores en cruceta doble existente para linea trifásica 13.8 kV Arv 394.5 kcmil.;10,00
+PR0911;Tres seccionadores en cruceta doble existente para linea trifásica 34.5 kV Arv.;und;Tres seccionadores en cruceta doble existente para linea trifásica 34.5 kV Arv.;10,00
+PR0912;Tres seccionadores en cruceta doble existente para línea trifásica 34.5 kV Arv 394.5 kcmil.;und;Tres seccionadores en cruceta doble existente para línea trifásica 34.5 kV Arv 394.5 kcmil.;10,00
+PR0915;Tres seccionadores  en cruceta  doble de 1.80 m para línea trifásica 13.8 kV en poste de sección 4 ½” Arv.;und;Tres seccionadores en cruceta doble de1.80 mts. p/linea  3f 13.8 kV  en poste de sec. 4 ½” Arv.;4,00
+PR0916;Tres seccionadores en cruceta doble de 1,80 m para línea trifásica 13.8 kV poste sección 4 ½" Arv 394.5 kcmil.;und;Tres seccionadores en cruceta doble de 1,80 m p/linea 3f 13.8 kV poste sec.4 ½" Arv 394.5 kcmil.;4,00
+PR0929;Tres seccionadores en cruceta doble de 2.40 m para línea trifásica 34.5 kV en poste de sección 5 ½" Arv.;und;Tres seccionadores en  cruceta  doble de 2.40 m p/linea 3f 34.5 kV en poste de sec.5 ½" Arv.;3,00
+PR0930;Tres seccionadores en cruceta  doble de 2.40 m para línea trifásica 34.5 kV en poste sección 5 ½" Arv. 394.5 kcmil.;und;Tres seccionadores en cruceta doble de 2.40 m p/linea 3f 34.5 kV en poste sec. 5 ½" Arv. 394.5 kcmil.;3,00
+PR0937;Tres seccionadores en cruceta doble de 2.40 m en derivación para línea trifásica 13.8 kV en poste de sección 5 ½” Arv.;und;Tres seccionadores  en cruceta  doble de 2.40 m en  deriv.  p/línea 3f 13.8 kV en poste de secc. 5 ½” Arv;3,00
+PR0938;Tres seccionadores en cruceta doble de 2.40 m en derivación para línea trifásica 13.8 kV en poste de sección 5 ½" Arv.;und;Tres seccionadores  en cruceta  doble de 2.40 m en deriv. p/linea 3f 13.8kV poste secc. 5 ½" Arv;3,00
+PR0944;Tres seccionadores en cruceta doble de 2.40 m en derivación para línea trifásica 34.5 kV en poste seción 5 ½” Arv.;und;Tres seccionadores en cruceta doble de 2.40 m en derivación p/línea 3f 34.5 kV en poste sec.5 ½” Arv.;3,00
+PR0945;Tres seccionadores en cruceta doble de 2.40 m en derivación para línea trifásica 34.5 kV poste sección 5 ½" Arv.;und;Tres seccionadores en cruceta doble de 2.40 m en derivación p/línea 3f 34.5 kV poste secc.5 ½";3,00
+PR0951;Tres seccionadores en cruceta doble de 2.40 m en amarre para línea trifásica 13.8 kV en poste de sección 5 ½” Arv.;und;Tres seccionadores  en cruceta  doble de 2.40 m en amarre para lín. 3f 13.8 kV en poste de secc. 5 ½” Arv.;3,00
+PR0952;Tres seccionadores en cruceta doble de 2.40 m en amarre para línea trifásica 13.8 kV poste sección 5 ½" Arv.;und;Tres seccionadores en cruceta doble de 2.40 m en amarre  p/lin.trifásica 13.8 kV poste secc.5 ½";3,00
+PR0958;Tres seccionadores en cruceta doble de 2.40 m en amarre para línea trifásica 34.5 kV en poste de sección 5 ½” Arv.;und;Tres seccionadores en cruceta doble de 2.40 m en amarre para lín. 3f 34.5 kV en poste de secc. 5 ½” Arv.;3,00
+PR0959;Tres seccionadores en cruceta doble de 2.40 m en amarre para línea trifásica 34.5 kV poste sección 5 ½" Arv.;und;Tres seccionadores  en cruceta  doble de 2.40 m en amarre p/lin. 3f 34.5kV poste secc.5 ½";3,00
+PR1000;Pararrayo en cruceta existente para línea a 13.8 kV.;und;Pararrayo en cruceta existente  para línea a 13.8 kV.;14,00
+PR1001;Pararrayo en cruceta existente para linea a 34.5 kV.;und;Pararrayo en cruceta existente para linea a 34.5 kV.;14,00
+PR1007;Tres pararrayos en cruceta existente para linea trifásica 13.8 kV con su conexión a tierra  Arv.;und;Tres pararrayos en cruceta existente p/línea trifásica 13.8 kV con su conexión a tierra  Arv.;12,00
+PR1008;Tres pararrayos en cruceta existente para linea trifásica 34.5 kV con su conexión a tierra Arv.;und;Tres pararrayos en cruceta existente p/línea trifásica 34.5 kV con su conexión a tierra Arv.;12,00
+PR1014;Dos pararrayos, dos cortacorrientes para linea monofásica 13.8 kV en cruceta 1.80 m en poste de transformación.;und;Dos pararrayos, dos cortacorrientes p/línea 1f 13.8 kV en cruceta 1.80 m en poste de transformación;4,00
+PR1020;Tres pararrayos, tres cortacorrientes para linea trifásica 13.8 kV en cruceta 1.80 m en poste de transformación.;und;Tres pararrayos, tres cortacorrientes p/línea 3f 13.8 kV en cruceta 1.80 m en poste de transformación;3,00
+PR1027;Tres pararrayos, tres cortacorrientes para linea trifásica 13.8 kV en cruceta 2.40 m en poste transformación.;und;Tres pararrayos, tres cortacorrientes para linea trifásica 13.8 kV en cruceta 2.40 m en poste transformación.;2,00
+PR1175;Reconectador trifasico de 15 kV en redes de distribución con caja de control y sus accesorios.;und;Reconectador trifasico de 15 kV en redes de distribución con caja de control y sus accesorios.;4,00
+PT0132;Poste hexagonal de 8 m con dos reflectores rotativos tipo interperie de 400 W 220 V.;und;Poste hexagonal de 8 m con dos reflectores  rotativos  tipo interperie de 400 W220 V.;5,00
+SE0026;Paredes de bloque de concreto acabado obra limpia por las dos caras incluye machones, vigas corona y fundaciones.;m2;Paredes de bloque de concreto acabado obra limpia por las dos caras ;18,00
+SE0080;Levantamiento  topográfico área subestación de distribución incluye  levantami- plano altimétrico y perimetral;m2;Levantamiento  topográfico área subestación de distribución ;2500,00
+SE0083;Preparación del terreno remoción de capa vegetal.;m3;Preparación del terreno remoción de capa vegetal.;1500,00
+SE0085;Relleno  para  acceso  al terreno de la subestación.;m3;Relleno  para  acceso  al terreno de la subestación.;12,00
+SE0086;Losa de concreto para acceso subestación de distribución;m3;Losa de concreto para acceso subestación de distribución;9,00
+SE0087;Excavación en tierra  con retro excavador para asiento de la subestación.;und;Excavación en tierra  con retro excavador para asiento de la subestación.;180,00
+SE0089;Relleno y compactación con equipo liviano.;m3;Relleno y compactación con equipo liviano.;8,00
+SE0092;Imprimación asfáltica.;m2;Imprimación asfáltica;1800,00
+SE0095;Base de piedra picada Nº 2.;m3;Base de piedra picada Nº 2.;20,00
+SE0170;Estructura metálica para pórtico a 13.8 kV con 4 postes tubulares de acero según planos de montaje/taller  S/E distribución.;und;Estructura metálica para pórtico a 13.8 kV con 4 postes tubulares de acero S/E distribución.;0,20
+SE0171;Estructura metálica con viga UPL para pórtico a 13.8 kV con 4 postes tubulares de acero según planos S/E distribución.;und;Estructura metálica con viga UPL para pórtico a 13.8 kV con 4 postes S/E distribución.;0,20
+SE0173;Estructura metálica para pórtico a 34.5 kV con 2 postes tubulares de acero según planos de montaje/taller S/E distribución.;und;Estructura metálica  para pórtico a 34.5kV con 2 postes S/E distribución;0,60
+SE0174;Estructura metálica con viga UPL para pórtico a 34.5 kV con 2 postes tubulares planos de montaje/taller S/E distribución.;und;Estructura metálica con viga UPL para pórtico a 34.5 kV con 2 postes S/E distribución.;0,60
+SE0176;Estructura metálica para pórtico a 34.5 kV con 4 postes tubulares de acero según planos de montaje/taller S/E distribución.;und;Estructura metálica para pórtico a 34.5 kV con 4 postes S/E distribución.;0,30
+SE0178;Pórtico en 13.8 kV para banco de reguladores.;und;Pórtico en 13.8 kV para banco de reguladores.;0,60
+SE0180;Cerca de   malla  ciclón calibre 9 con 6 hilos de alambre de púas no incluye brocal.;m;Cerca de   malla  ciclón calibre 9 con 6 hilos de alambre de púas no incluye brocal.;10,00
+SE0184;Portón  malla  ciclón calibre Nº 9.;m;Portón  malla  ciclón calibre Nº 9.;12,00
+SE0187;Concertina de cuchillas cortas galvanizadas diámetro.;m;Concertina de cuchillas cortas galvanizadas diámetro;40,00
+SE0189;Puertas  correderas o portones de perfiles  de hierro.;und;Puertas  correderas o portones de perfiles  de hierro.;7,00
+SE0236;Fundación para tubo de acero para soporte de reconectador.;und;Fundación para tubo de acero para soporte de reconectador.;6,00
+SE0250;Fundación para interruptor de potencia de 34.5 kV 1.75X1.03X0.40 m.;und;Fundación para interruptor de potencia de 34.5 kV 1.75X1.03X0.40 m.;3,00
+SE0253;Fundación para gabinete de protección y medición 1.07X0.60X0.60 m.;und;Fundación para gabinete de protección y medición 1.07X0.60X0.60 m.;3,00
+SE0257;Fundación para transformador de potencia de 34.5/13.8 kV de 10 MVA 2.5X2.5X0.4;und;Fundación para transformador de potencia de 34.5/13.8 kV de 10 MVA 2.5X2.5X0.4;1,00
+SE0298;Guaya entre pórticos de 34.5 kV de dos postes y  pórtico de 13.8 kV de cuatro postes subestación distribución.;und;Guaya  entre  pórticos de 34.5 kV y  pórticos de 13.8 kV subestación distribución;10,00
+SE0850;Tres cortacorrientes tipo subestación para by-pass en 34.5 kV.;und;Tres cortacorrientes tipo subestación para by-pass en 34.5 kV.;3,00
+SE098;Drenaje interno subestación de distribución a 34.5/13.8 kV 30X40 cm.;m;Drenaje interno subestación de distribución a 34.5/13.8 kV. 30x40 cm.;10,00
+SE0980;Seccionador tripolar de 15 kV para enlace de barras en subestación distribución 34.5/13.8 kV.;und;Seccionador tripolar de 15 kV para  enlace de barras en subestación  distribución 34.5/13.8 kV.;4,00
+SE0984;Tres seccionadores monopolares de 34.5 kV tipo subestación.;und;Tres seccionadores monopolares de 34.5 kV tipo subestación.;3,00
+SE0988;Tres seccionadores  monopolares de 15 kV tipo subestación.;und;Tres seccionadores  monopolares de 15 kV tipo subestación.;3,00
+SE0993;Tres seccionadores fusibles tipo by-pass monopolares  de 15 kV  tipo  subestación.;und;Tres seccionadores fusibles tipo by-pass monopolares  de 15 kV  tipo  subestación;2,00
+SE1040;Tres pararrayos  de 12 kV  tipo subestación.;und;Tres pararrayos  de 12 kV  tipo subestación;8,00
+SE1050;Apantallamiento para pórtico 34.5 kV de 2 postes tubulares de acero.;und;Apantallamiento para pórtico 34.5 kV de 2 postes tubulares de acero.;6,00
+SE1051;Apantallamiento para pórtico 13.8 kV de 4 postes tubulares de acero subestación de distribución 34.5/13,8 kV.;und;Apantallamiento  para pórtico 13.8 kV de 4 postes tubulares en subestacion;3,00
+SE1163;Dos  transformadores  de  potencial para medición de barra de 13.8 kV subestación de distribución a 34.5 /13,8 kV.;und;Dos transformadores de potencial para medición de barra de 13.8 kV S/E;6,00
+SE1165;Tres transformadores de corriente a 34.5 kV para protecciones.;und;Tres transformadores de corriente a 34.5 kV para protecciones.;4,00
+SE1170;Transformador  de  potencia  trifásica a34.5/13.8 kV 12-16 MVA.;und;Transformador  de  potencia  trifásica a34.5/13.8 kV 12-16 MVA.;0,10
+SE1178;Reconectador  trifasico  de   15 kV  con actuador magnético, caja  de   control y cable umbilical, incluye conectores;und;Reconectador  trifásico  de   15 kV  en S/E ;4,00
+SE1181;Reconectador  trifasico  de   38 kV  con actuador  magnético, caja de  control  y cable umbilical, incluye conectores;und;Reconectador  trifasico  de   38 kV  en S/E;4,00
+SE1188;Batería sellada recargable 12 V AH/26 BAT-02 Noja Power.;und;Batería sellada recargable 12 V AH/26 bat-02 Noja Power;16,00
+SE1189;Batería sellada recargable 12 V AH/13 BAT-02 tipo Cooper.;und;Batería sellada recargable 12 V AH/13 bat-02 tipo Cooper;16,00
+SE1190;Interruptor principal de potencia a 34.5 kV tipo OX36 o similar.;und;Interruptor principal de potencia a 34.5 kV tipo OX36 o similar.;0,20
+SE1192;Gabinete  principal tipo interperie para equipos de medición y protección;und;Gabinete  principal tipo interperie para equipos de medición y protección;0,15
+SE1500;Barra 13.8 kV con conductor de cobre 4/0 en pórtico construido con 4 postes tubulares de acero.;und;Barra 13.8 kV con conductor de cobre 4/0 en pórtico construido con 4 postes tubulares de acero.;3,00
+SE1501;Barra 13.8 kV con  tubo de cobre en pórtico construido  con 4  postes tubulares de acero.;und;Barra 13.8 kV con  tubo de cobre en pórtico construido  con 4  postes tubulares de acero.;0,70
+SE1502;Barra 13.8 kV con conductor de cobre de 350 kcmil en pórtico construido con 4 postes tubulares de acero;und;Barra 13.8 kV con conductor de cobre de 350 kcmil en pórtico construido con 4 postes;1,00
+SE1507;Llegada a barra 13.8 kV  conductor cobre 4/0 AWG  subestación    de  distribución 34.5/13.8 kV.;und;Llegada a barra 13.8 kV  conductor cobre 4/0 AWG  subestación    de  distribución 34.5/13.8 kV.;0,50
+SE1508;Llegada a barra 13.8 kV  conductor cobre350 kcmil subestación   de  distribución 34.5/13.8 kV.;und;Llegada a barra 13.8 kV  conductor cobre350 kcmil subestación   de  distribución 34.5/13.8 kV.;0,30
+SE1512;Llegada a  barra  34.5 kV subestación de distribución 34.5/13.8 kV.;und;Llegada a  barra  34.5 kV subestación de distribución 34.5/13.8 kV.;0,30
+SE1515;Salida a 13.8 kV subestación de  distribución 34.5/13.8 kV.;und;Salida a 13.8 kV subestación de  distribución 34.5/13.8 kV.;0,30
+SE1519;Acople de barra 13.8 kV subestación de distribución 34.5/13.8 kV.;und;Acople de  barra  13.8 kV subestación de distribución 34.5/13.8 kV.;0,50
+SE1528;Malla de puesta a  tierra  con sus conexiones para  subestación de distribución de área 30X30 m2 radial I;und;Malla de puesta a  tierra  con sus conexiones para  S/E de distribución de área 30 x 30 m radial I;0,30
+SE1529;Malla de puesta a  tierra con  sus conexiones para  subestación de distribución de área 30X30 m2 radial II;und;Malla de puesta a  tierra con  sus conexiones para S/E de distribución de área 30 x 30 m radial II;0,10
+SE1540;Estudio de suelo.;sg;Estudio de suelo.;1,00
+SE1546;Transporte y traslado de equipos de potencia.;viaje;Transporte y traslado de equipos de potencia.;1,00
+SE1551;Acabados finales y limpieza total para subestación distribución 34.5/13.8 kV.;sg;Acabados  finales  y limpieza total para subestación distribución 34.5/13.8 kV.;0,25
+SE1556;Pruebas  de  aceptación  y  puesta   en servicio subestación distribución 34.5/ 13.8 kV.;sg;Pruebas  de  aceptación  y  puesta   en servicio subestación distribución 34.5/ 13.8 kV.;0,10
+SE1562;Obras eléctricas provisionales para construcción subestación distribución de 34.5/13.8 kV.;und;Obras   eléctricas   provisionales  para construcción subestación distribución de 34.5/13.8 kV.;0,40
+SE1567;Planos   de  construcción  y detalle  de subestación de distribución 34.5/13.8 kV;sg;Planos   de  construcción  y detalle  de subestación de distribución 34.5/13.8 kV;0,15
+SE1573;Supervisión  y  coordinación del montaje subestación de distribución 34.5/13.8 kV;sg;Supervisión  y  coordinación del montaje subestación de distribución 34.5/13.8 kV;0,05
+SU0300;Bancada de dos tubos PVC de 2" para baja tensión con envolvente de concreto  B2C-2" 2X1;m;Bancada de dos tubos PVC de 2" para BT con envolvente de concreto  B2C-2" 2X1;16,00
+SU0301;Bancada de dos tubos PVC de 4" para baja tensión con envolvente de concreto  B2C-4" 2X1;m;Bancada de dos tubos PVC de 4" para BT con envolvente de concreto  B2C-4" 2X1.;18,00
+SU0302;Bancada de dos tubos PVC de 6" para baja tensión con envolvente de concreto  B2C-6" 2X1;m;Bancada de dos tubos PVC de 6" para BT con envolvente de concreto  B2C-6" 2X1;20,00
+SU0308;Bancada de dos  tubos PVC de 4" para media tensión  con  envolvente de concreto A2C-4" 2X1;m;Bancada de dos  tubos PVC de 4" para MT con envolvente de concreto A2C-4" 2X1.;18,00
+SU0309;Bancada de dos  tubos PVC de 6" para media tensión  con  envolvente de concreto A2C-6" 2X1.;m;Bancada de dos  tubos PVC de 6" para MT con  envolvente de concreto a2C-6" 2x1.;20,00
+SU0315;Bancada de  cuatro  tubos PVC de 4" para baja tensión con  envolvente de concreto B4C-4" 2X2.;m;Bancada de  cuatro  tubos PVC de 4" para BT con  envolvente de concreto B4C-4" 2X2.;10,00
+SU0324;Bancada de  cuatro  tubos PVC de 4" para media tensión con envolvente de concreto A4C-4" 2X2;m;Bancada de  cuatro  tubos PVC de 4" para MT con envolvente de concreto A4C-4" 2X2.;10,00
+SU0325;Bancada de  cuatro  tubos PVC de 6" para media tensión con envolvente de concreto A4C-6" 2X2.;m;Bancada de  cuatro  tubos PVC de 6" para MT con envolvente de concreto A4C-6" 2X2.;12,00
+SU0333;Bancada de seis tubos pvc de 4" para baja tensión  con  envolvente  de concreto B6C-4" 2X3.;m;Bancada de seis tubos pvc de 4" para BT con envolvente de concreto B6C-4" 2X3.;5,00
+SU0334;Bancada de seis tubos PVC de 6" para baja tensión  con  envolvente  de concreto B6C-6" 2X3;und;Bancada de seis tubos PVC de 6" para BT con envolvente de concreto B6C-6" 2X3.;7,00
+SU0350;Tanquilla de paso para media tensión de 100X140 cm con tapa de hierro fundido tipo liviano.;und;Tanquilla de paso para media tensión de 100X140 cm con tapa de hierro fundido tipo liviano.;2,00
+SU0352;Tanquilla  de  empate y  derivación para baja tensión 30X40X80 cm tipo T1 con tapa de lamina estríada;und;Tanquilla de empate y derivación para BT 30X40X80 cm tipo T1 ;5,00
+SU0353;Tanquilla  de  empate y  derivación para baja tensión 50X70X80 cm tipo T2 con tapa de lamina estríada;und;Tanquilla de empate y derivación para BT 50X70X80 cm tipo T2 ;4,00
+SU0354;Tanquilla de empate y derivación para baja tensión 80X100X100 cm tipo T3 con tapa de lamina estíada;und;Tanquilla de empate y derivación para BT 80 x 100 x 100 cm  tipo T3;2,00
+SU0380;Caseta de  transformación  hasta 500 kVA tipo C-42 de 4,10X3 m.;und;Caseta de  transformación  hasta 500 kVA tipo C-42 de 4,10 x 3 m.;0,10
+SU0390;Conduit y curva rígido de acero galvanizado en poste  para bajante en baja tensión de 2" de diametro;und;Conduit y curva rígido de AG en poste para bajante en baja tensión de 2" de diametro;10,00
+SU0392;Conduit y curva rígido de acero galvanizado en poste  para bajante en baja tensión de 6" de diametro;und;Conduit y curva rígido de AG en poste para bajante en baja tensión de 6" de diametro;5,00
+SU0396;Tubo conduit galvanizado de 4" con sistema de fijación para sujeción de cable de potencia;m;Tubo conduit galvanizado de 4" con sistema de fijación para sujeción de cable de potencia;8,00
+TR0727;Adaptadores para conexión de banco de transformación monofásico montado en poste tubular de acero;und;Adaptadores para conexión de banco de transformación 1f en poste tubular de acero;16,00
+TR0728;Adaptadores para conexión de banco de transformación trifasico montado en poste tubular de acero;und;Adaptadores para conexión de banco de transformación 3f en poste tubular de acero;16,00
+TR1100;Transformador  monofásico de  10 kVA con relación  13800/120-240 V en poste tubular de acero.;und;Transformador 1f de 10 kVA con relación 13800/120-240 V en poste tubular de acero.;8,00
+TR1101;Transformador monofásico de 15 kVA. con relación  13800/120-240 V en poste tubular de acero.;und;Transformador 1f de 15 kVA con relación 13800/120-240 V en poste tubular de acero.;8,00
+TR1102;Transformador monofásico de  25 kVA con relación 13800/120-240 V  en poste tubular de acero.;und;Transformador 1f de 25 kVA con relación 13800/120-240 V  en poste tubular de acero.;7,00
+TR1103;Transformador monofásico de 37.5 kVA con relación 13800/120-240 V  en poste tubular de acero.;und;Transformador 1f de 37.5 kVA con relación 13800/120-240 V  en poste tubular de acero.;7,00
+TR1104;Transformador  monofásico de 50  kVA con relación 13800/120-240 V  en poste tubular de acero.;und;Transformador 1f de 50  kVA con relación 13800/120-240 V  en poste tubular de acero.;6,00
+TR1105;Transformador  monofásico  de 75 kVA con relación 13800/120-240 V  en poste tubular de acero.;und;Transformador 1f de 75 kVA con relación 13800/120-240 V  en poste tubular de acero.;6,00
+TR1106;Transformador  monofásico de 100 kVA con relación 13800/120-240 V  en poste tubular de acero.;und;Transformador 1f de 100 kVA con relación 13800/120-240 V  en poste tubular de acero.;5,00
+TR1111;Transformador  monofásico  de 15 kVA con relación 19920/120-240 V  en poste tubular de acero.;und;Transformador  1f de 15 kVA con relación 19920/120-240 V  en poste tubular de acero.;8,00
+TR1112;Transformador  monofásico de 25  kVA con relación 19920/120-240 V  en poste tubular de acero.;und;Transformador 1f de 25  kVA con relación 19920/120-240 V  en poste tubular de acero.;8,00
+TR1113;Transformador  monofásico de 37.5 kVA con relación 19920/120-240 V  en poste tubular de acero.;und;Transformador 1f de 37.5 kVA con relación 19920/120-240 V  en poste tubular de acero.;7,00
+TR1114;Transformador monofásico  de  50 kVA con relación 19920/120-240 V  en poste tubular de acero.;und;Transformador 1f de  50 kVA con relación 19920/120-240 V  en poste tubular de acero.;7,00
+TR1126;Tres transformadores  monofásico de  15 kVA con relación 13800/120-240 V en poste tubular de acero.;und;Tres transformadores  1f de  15 kVA con relación 13800/120-240 V en poste tubular de acero.;6,00
+TR1127;Tres transformadores  monofásico de  25 kVA con relación 13800/120-240 V en poste tubular de acero.;und;Tres transformadores 1f  de  25 kVA con relación 13800/120-240 V en poste tubular de acero.;6,00
+TR1128;Tres transformadores monofásico de 37.5 kVA con relación 13800/120-240 V en poste tubular de acero.;und;Tres transformadores 1f de 37.5 kVA con relación 13800/120-240 V en poste tubular de acero.;5,00
+TR1129;Tres  transformadores  monofásico de 50 kVA con relación 13800/120-240 V en poste tubular de acero.;und;Tres  transformadores 1f de 50 kVA con relación 13800/120-240 V en poste tubular de acero.;4,00
+TR1130;Tres transformadores  monofásico  de 75 kVA con relación 13800/120-240 V en poste tubular de acero.;und;Tres transformadores 1f de 75 kVA con relación 13800/120-240 V en poste tubular de acero.;4,00
+TR1131;Tres transformadores  monofásico de 100 kVA con  relación 13800/120-240 V en caseta.;und;Tres transformadores 1f de 100 kVA con  relación 13800/120-240 V en caseta.;3,00
+TR1132;Tres transformadores monofásico de 167.5 kVA con relación 13800/120-240 V en caseta.;und;Tres transformadores  1f de 167.5 kVA  con  relación 13800/120-240 V en caseta.;2,00
+TR1143;Reubicación de un transformador  monofásico de 25 kVA  relación 13800/120-240V en poste tubular de acero;und;Reubicación de un transformador 1f de 25 kVA  relación 13800/120-240V en poste tubular de acero;4,00
+TR1144;Reubicación de un  transformador monofásico de 37.5 kVA relación 13.800/120-240V en poste tubular de acero;und;Reubicación de un  transformador 1f  de 37.5 kVA relación 13.800/120-240V en poste tubular de acero;4,00
+TR1145;Reubicación de un transformador  monofásico  de 50 kVA relación 13800/120-240V en poste tubular de acero;und;Reubicación de un transformador 1f de 50 kVA relación 13800/120-240V en poste tubular de acero;4,00
+TR1146;Reubicación de un transformador  monofásico de 75 kVA relación  13800/120-240V en poste tubular de acero;und;Reubicación de un transformador 1f de 75 kVA relación  13800/120-240V en poste tubular de acero;3,00
+TR1150;Reubicación de  tres  transformadores de 25 kVA relación 13800/120-240 V en poste tubular de acero.;und;Reubicación de  tres  transformadores de 25 kVA relación 13800/120-240 V en poste tubular de acero.;4,00
+TR1151;Reubicación  de  tres transformadores de 37.5 kVA   relación 13800/120-240 V   en poste tubular de acero;und;Reubicación de tres transformadores de 37.5 kVA relación 13800/120-240 V en poste;3,00
+TR1152;Reubicación de tres transformadores de 50 kVA relación 13800/120-240 V en poste tubular de acero;und;Reubicación de tres transformadores de 50 kVA relación 13800/120-240 V en poste ;3,00
+VI0273;Un viento a  un  ancla  para retenida en baja tensión.;und;Un viento a  un  ancla  para retenida en baja tensión.;16,00
+VI0274;Un viento a  contra viento para  retenida en baja tensión.;und;Un viento a  contra viento para  retenida en baja tensión.;10,00
+VI0275;Viento en bandera  para retenida en baja tensión.;und;Viento en bandera  para retenida en baja tensión.;16,00
+VI0277;Un torna punta para retenida en baja tensión con poste de 7.10 m.;und;Un torna punta para retenida en baja tensión con poste de 7.10 m.;10,00
+VI0279;Un torna punta  para  retenida  en  media tensión con poste de 9.75 m.;und;Un torna punta  para  retenida  en  media tensión con poste de 9.75 m.;8,00
+VI0282;Un viento a un   ancla  para retenida en media tensión.;und;Un viento a un   ancla  para retenida en media tensión.;14,00
+VI0283;Un viento a un contra viento para retenida en media tensión.;und;Un viento a un contra viento para retenida en media tensión.;8,00
+VI0284;Un viento  en bandera  para  retenida en media tensión.;und;Un viento  en bandera  para  retenida en media tensión.;14,00
+VI0286;Dos vientos a un ancla  para retenida en media tensión.;und;Dos vientos a un ancla  para retenida en media tensión.;12,00
+VI0287;Dos vientos a  dos anclas  para retenida en media y baja tensión.;und;Dos vientos a  dos anclas  para retenida en media y baja tensión.;8,00
+VI0289;Dos vientos a un contra viento a un ancla para retenida media y baja tensión.;und;Dos vientos a un contra viento a un ancla para retenida media y baja tensión.;6,00
+VI0291;Dos vientos  en  bandera a un ancla para retenida en media y baja tensión.;und;Dos vientos  en  bandera a un ancla para retenida en media y baja tensión.;10,00
+VI0295;Guaya entre dos postes.;und;Guaya entre dos postes.;14,00
+VI1707;Pintura de un contraviento o tornapunta.;und;Pintura de un contraviento o tornapunta.;20,00
