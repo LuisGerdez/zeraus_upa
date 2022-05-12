@@ -109,6 +109,28 @@ def load_data(request, accion):
 
             except FileNotFoundError:
                 print("Archivo no encontrado!")
+
+        elif accion == "precio_materiales":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "MATERIALESPRECIOS.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+                    
+                    try:
+                        material = Materiales.objects.get(codigo=data[0])
+                        material.precio = data[3].replace(",", ".")
+                        print(material, "ha actualizado su precio", "(" + str(total) + "/" + str(current) + ")")
+                    except IntegrityError:
+                        print("Material " + data[0] + " no se ha actualizado precio correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
         
     return HttpResponseRedirect(reverse("index"))
 
