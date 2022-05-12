@@ -335,6 +335,64 @@ def load_data(request, accion):
 
             except FileNotFoundError:
                 print("Archivo no encontrado!")
+
+        elif accion == "analisis_partidas_personal_1":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PARPERSONAL_1.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+                    
+                    try:
+                        partida = Partidas.objects.get(codigo=data[0])
+                        personal = Equipos.objects.get(codigo=data[1])
+
+                        partida.personal.add(personal)
+                        partida.save()
+
+                        personal.setCantidad(partida, float(data[2].replace(",", ".")))
+                        personal.save()
+
+                        print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
+                    except IntegrityError:
+                        print("Partida " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+
+        elif accion == "analisis_partidas_personal_2":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PARPERSONAL_2.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+                    
+                    try:
+                        partida = Partidas.objects.get(codigo=data[0])
+                        personal = Equipos.objects.get(codigo=data[1])
+
+                        partida.personal.add(personal)
+                        partida.save()
+
+                        personal.setCantidad(partida, float(data[2].replace(",", ".")))
+                        personal.save()
+
+                        print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
+                    except IntegrityError:
+                        print("Partida " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
         
     return HttpResponseRedirect(reverse("index"))
 
