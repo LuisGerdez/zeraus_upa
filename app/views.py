@@ -152,7 +152,7 @@ def load_data(request, accion):
 
                         if data[1] == "001":
                             equipo.precio = data[4].replace(",", ".")
-                            equipo.depreciacion = float("{:f}".format(data[2]))
+                            equipo.depreciacion = "{:f}".format(float(data[2]))
                             equipo.save()
                             print(equipo, "ha actualizado su precio y depreciacion", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
