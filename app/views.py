@@ -186,7 +186,7 @@ def load_data(request, accion):
             except FileNotFoundError:
                 print("Archivo no encontrado!")
 
-        elif accion == "analisis_partidas_materiales_0":
+        elif accion == "analisis_partidas_materiales_clear":
             for partida in Partidas.objects.all():
                 partida.materiales.clear()
                 partida.save()
