@@ -124,7 +124,9 @@ def load_data(request, accion):
                     
                     try:
                         material = Materiales.objects.get(codigo=data[0])
+
                         material.precio = data[3].replace(",", ".")
+                        material.save()
                         print(material, "ha actualizado su precio", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Material " + data[0] + " no se ha actualizado precio correctamente", "(" + str(total) + "/" + str(current) + ")")
