@@ -350,7 +350,7 @@ def load_data(request, accion):
                     
                     try:
                         partida = Partidas.objects.get(codigo=data[0])
-                        personal = Equipos.objects.get(codigo=data[1])
+                        personal = Personal.objects.get(codigo=data[1])
 
                         partida.personal.add(personal)
                         partida.save()
@@ -379,7 +379,7 @@ def load_data(request, accion):
                     
                     try:
                         partida = Partidas.objects.get(codigo=data[0])
-                        personal = Equipos.objects.get(codigo=data[1])
+                        personal = Personal.objects.get(codigo=data[1])
 
                         partida.personal.add(personal)
                         partida.save()
