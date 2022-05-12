@@ -135,6 +135,32 @@ def load_data(request, accion):
             except FileNotFoundError:
                 print("Archivo no encontrado!")
 
+        elif accion == "precio_equipos":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "EQUIPOSPRECIOS.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+                    
+                    try:
+                        equipo = Equipos.objects.get(codigo=data[0])
+
+                        if data[1] == "001":
+                            equipo.precio = data[4].replace(",", ".")
+                            equipo.depreciacion = "{:f}".format(data[2])
+                            equipo.save()
+                            print(equipo, "ha actualizado su precio y depreciacion", "(" + str(total) + "/" + str(current) + ")")
+                    except IntegrityError:
+                        print("Equipo " + data[0] + " no se ha actualizado precio correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+
         elif accion == "precio_personal":
             try:
                 file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PERSONALPRECIOS.txt", "r", errors='replace')
