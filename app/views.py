@@ -26,6 +26,14 @@ def index(request):
 
 def load_data(request, accion):
     if request.user.is_superuser:
+        if accion == "delete_all":
+            Areas.objects.all().delete()
+            Equipos.objects.all().delete()
+            Materiales.objects.all().delete()
+            Personal.objects.all().delete()
+            Partidas.objects.all().delete()
+            print("Todo eliminado con exito!")
+            
         if accion == "equipos":
             try:
                 file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "EQUIPOS.txt", "r", errors='replace')
