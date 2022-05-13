@@ -409,6 +409,36 @@ def load_data(request, accion):
             except FileNotFoundError:
                 print("Archivo no encontrado!")
         
+        elif accion == "obras_partidas":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "OBRAPARTIDA.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+                    
+                    try:
+                        if Obras.objects.filter(codigo=data[0]).exists():
+                            obra = Obras.objects.get(codigo=data[0])
+                            partida = Partidas.objects.get(codigo=data[1])
+
+                            obra.partidas.add(partida)
+                            obra.save()
+
+                            partida.setCantidad(obra, float(data[2].replace(",", ".")))
+                            partida.save()
+
+                            print(obra, " relacionada con partidas ", "(" + str(total) + "/" + str(current) + ")")
+                    except IntegrityError:
+                        print("Obra " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+                
     return HttpResponseRedirect(reverse("index"))
 
 
