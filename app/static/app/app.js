@@ -2046,7 +2046,24 @@ function fill_table(tipo, arg1 = null, arg2 = null) {
 			
 			$('#tabla_analisis_' + arg2).DataTable({
 				'dom': 'Bfrtip',
-				'buttons': [{'text': 'Agregar ' + arg2, 'attr':  {'id': 'btn_agregar_' + arg2}}],
+				'buttons': [{
+					'text': 'Agregar ' + arg2,
+					'attr':  {'id': 'btn_agregar_' + arg2},
+					'action':
+						function (e) {
+							if(!(document.querySelector('#partida_codigo').value.split('|')[0]) == '') {
+								if(arg2 == 'materiales') {
+									$('#agregarMaterialesModal').modal('show');
+								} else if(arg2 == 'equipos') {
+									$('#agregarEquiposModal').modal('show');
+								} else if(arg2 == 'personal') {
+									$('#agregarPersonalModal').modal('show');
+								}
+							} else {
+								bootstrapAlert('Por favor seleccione una partida!', 'info');
+							}
+						}
+				}],
 				'responsive': true,
 				'pageLength': 50,
 				'scrollY': '200px',
@@ -2182,7 +2199,7 @@ function fill_table(tipo, arg1 = null, arg2 = null) {
 
 	setTimeout(() => {
 		update_table_event(tipo);
-	}, 160);
+	}, 120);
 }
 
 function update_table_event(tipo) {
@@ -2419,33 +2436,6 @@ function update_table_event(tipo) {
 			}, 200);
 	    });
 	} else if(tipo == 'analisis_partidas') {
-		$('#btn_agregar_materiales').off('click');
-		$('#btn_agregar_materiales').on('click', function(e) {
-			if(!(document.querySelector('#partida_codigo').value.split('|')[0]) == '') {
-				$('#agregarMaterialesModal').modal('show');
-			} else {
-				bootstrapAlert('Por favor seleccione una partida!', 'info');
-			}
-		});
-
-		$('#btn_agregar_equipos').off('click');
-		$('#btn_agregar_equipos').on('click', function(e) {
-			if(!(document.querySelector('#partida_codigo').value.split('|')[0]) == '') {
-				$('#agregarEquiposModal').modal('show');
-			} else {
-				bootstrapAlert('Por favor seleccione una partida!', 'info');
-			}
-		});
-
-		$('#btn_agregar_personal').off('click');
-		$('#btn_agregar_personal').on('click', function(e) {
-			if(!(document.querySelector('#partida_codigo').value.split('|')[0]) == '') {
-				$('#agregarPersonalModal').modal('show');
-			} else {
-				bootstrapAlert('Por favor seleccione una partida!', 'info');
-			}
-		});
-
 		$('#tabla_materiales_agregar tbody').off('click', '.btn_agregar_materiales');
 		$('#tabla_materiales_agregar tbody').on('click', '.btn_agregar_materiales', function () {
 			var row = $(this).parents('tr')[0];
