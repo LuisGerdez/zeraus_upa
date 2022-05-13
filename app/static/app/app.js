@@ -2050,7 +2050,7 @@ function fill_table(tipo, arg1 = null, arg2 = null) {
 					'text': 'Agregar ' + arg2,
 					'attr':  {'id': 'btn_agregar_' + arg2},
 					'action':
-						function (e) {
+						function(e) {
 							if(!(document.querySelector('#partida_codigo').value.split('|')[0]) == '') {
 								if(arg2 == 'materiales') {
 									$('#agregarMaterialesModal').modal('show');
@@ -2160,7 +2160,18 @@ function fill_table(tipo, arg1 = null, arg2 = null) {
 			
 			$('#tabla_presupuestos').DataTable({
 				'dom': 'Bfrtip',
-				'buttons': [{'text': 'Agregar partidas', 'attr':  {'id': 'btn_agregar_partidas'}}],
+				'buttons': [{
+					'text': 'Agregar partidas',
+					'attr':  {'id': 'btn_agregar_partidas'},
+					'action':
+						function(e) {
+							if(!(document.querySelector('#obra_codigo').value.split('|')[0]) == '') {
+								$('#agregarPartidasModal').modal('show');
+							} else {
+								bootstrapAlert('Por favor seleccione una obra!', 'info');
+							}
+						}
+				}],
 				'responsive': true,
 				'pageLength': 50,
 				'scrollY': '200px',
@@ -2779,15 +2790,6 @@ function update_table_event(tipo) {
 	        }
 	    });
 	} else if(tipo == 'presupuestos') {
-		$('#btn_agregar_partidas').off('click');
-		$('#btn_agregar_partidas').on('click', function(e) {
-			if(!(document.querySelector('#obra_codigo').value.split('|')[0]) == '') {
-				$('#agregarPartidasModal').modal('show');
-			} else {
-				bootstrapAlert('Por favor seleccione una obra!', 'info');
-			}
-		});
-
 		$('#tabla_partidas_agregar tbody').off('click', '.btn_agregar_partidas');
 		$('#tabla_partidas_agregar tbody').on('click', '.btn_agregar_partidas', function () {
 			var row = $(this).parents('tr')[0];
