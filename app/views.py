@@ -422,7 +422,7 @@ def load_data(request, accion):
                     data = line.split(";")
                     
                     try:
-                        if Obras.objects.filter(codigo=data[0]).exists():
+                        if Partidas.objects.filter(codigo=data[1]).exists():
                             obra = Obras.objects.get(codigo=data[0])
                             partida = Partidas.objects.get(codigo=data[1])
 
@@ -438,7 +438,7 @@ def load_data(request, accion):
 
             except FileNotFoundError:
                 print("Archivo no encontrado!")
-                
+
     return HttpResponseRedirect(reverse("index"))
 
 
