@@ -212,16 +212,17 @@ def load_data(request, accion):
                     data = line.split(";")
                     
                     try:
-                        partida = Partidas.objects.get(codigo=data[0])
-                        material = Materiales.objects.get(codigo=data[1])
+                        if Partidas.objects.filter(codigo=data[0]).exists():
+                            partida = Partidas.objects.get(codigo=data[0])
+                            material = Materiales.objects.get(codigo=data[1])
 
-                        partida.materiales.add(material)
-                        partida.save()
+                            partida.materiales.add(material)
+                            partida.save()
 
-                        material.setCantidad(partida, float(data[2].replace(",", ".")))
-                        material.save()
+                            material.setCantidad(partida, float(data[2].replace(",", ".")))
+                            material.save()
 
-                        print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
+                            print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Partida " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
@@ -241,16 +242,17 @@ def load_data(request, accion):
                     data = line.split(";")
                     
                     try:
-                        partida = Partidas.objects.get(codigo=data[0])
-                        material = Materiales.objects.get(codigo=data[1])
+                        if Partidas.objects.filter(codigo=data[0]).exists():
+                            partida = Partidas.objects.get(codigo=data[0])
+                            material = Materiales.objects.get(codigo=data[1])
 
-                        partida.materiales.add(material)
-                        partida.save()
+                            partida.materiales.add(material)
+                            partida.save()
 
-                        material.setCantidad(partida, float(data[2].replace(",", ".")))
-                        material.save()
+                            material.setCantidad(partida, float(data[2].replace(",", ".")))
+                            material.save()
 
-                        print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
+                            print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Partida " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
@@ -270,16 +272,17 @@ def load_data(request, accion):
                     data = line.split(";")
                     
                     try:
-                        partida = Partidas.objects.get(codigo=data[0])
-                        material = Materiales.objects.get(codigo=data[1])
+                        if Partidas.objects.filter(codigo=data[0]).exists():
+                            partida = Partidas.objects.get(codigo=data[0])
+                            material = Materiales.objects.get(codigo=data[1])
 
-                        partida.materiales.add(material)
-                        partida.save()
+                            partida.materiales.add(material)
+                            partida.save()
 
-                        material.setCantidad(partida, float(data[2].replace(",", ".")))
-                        material.save()
+                            material.setCantidad(partida, float(data[2].replace(",", ".")))
+                            material.save()
 
-                        print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
+                            print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Partida " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
@@ -299,16 +302,17 @@ def load_data(request, accion):
                     data = line.split(";")
                     
                     try:
-                        partida = Partidas.objects.get(codigo=data[0])
-                        equipo = Equipos.objects.get(codigo=data[1])
+                        if Partidas.objects.filter(codigo=data[0]).exists():
+                            partida = Partidas.objects.get(codigo=data[0])
+                            equipo = Equipos.objects.get(codigo=data[1])
 
-                        partida.equipos.add(equipo)
-                        partida.save()
+                            partida.equipos.add(equipo)
+                            partida.save()
 
-                        equipo.setCantidad(partida, float(data[2].replace(",", ".")))
-                        equipo.save()
+                            equipo.setCantidad(partida, float(data[2].replace(",", ".")))
+                            equipo.save()
 
-                        print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
+                            print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Partida " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
@@ -328,16 +332,17 @@ def load_data(request, accion):
                     data = line.split(";")
                     
                     try:
-                        partida = Partidas.objects.get(codigo=data[0])
-                        equipo = Equipos.objects.get(codigo=data[1])
+                        if Partidas.objects.filter(codigo=data[0]).exists():
+                            partida = Partidas.objects.get(codigo=data[0])
+                            equipo = Equipos.objects.get(codigo=data[1])
 
-                        partida.equipos.add(equipo)
-                        partida.save()
+                            partida.equipos.add(equipo)
+                            partida.save()
 
-                        equipo.setCantidad(partida, float(data[2].replace(",", ".")))
-                        equipo.save()
+                            equipo.setCantidad(partida, float(data[2].replace(",", ".")))
+                            equipo.save()
 
-                        print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
+                            print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Partida " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
@@ -357,16 +362,17 @@ def load_data(request, accion):
                     data = line.split(";")
                     
                     try:
-                        partida = Partidas.objects.get(codigo=data[0])
-                        personal = Personal.objects.get(codigo=data[1])
+                        if Partidas.objects.filter(codigo=data[0]).exists():
+                            partida = Partidas.objects.get(codigo=data[0])
+                            personal = Personal.objects.get(codigo=data[1])
 
-                        partida.personal.add(personal)
-                        partida.save()
+                            partida.personal.add(personal)
+                            partida.save()
 
-                        personal.setCantidad(partida, float(data[2].replace(",", ".")))
-                        personal.save()
+                            personal.setCantidad(partida, float(data[2].replace(",", ".")))
+                            personal.save()
 
-                        print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
+                            print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Partida " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
@@ -386,16 +392,17 @@ def load_data(request, accion):
                     data = line.split(";")
                     
                     try:
-                        partida = Partidas.objects.get(codigo=data[0])
-                        personal = Personal.objects.get(codigo=data[1])
+                        if Partidas.objects.filter(codigo=data[0]).exists():
+                            partida = Partidas.objects.get(codigo=data[0])
+                            personal = Personal.objects.get(codigo=data[1])
 
-                        partida.personal.add(personal)
-                        partida.save()
+                            partida.personal.add(personal)
+                            partida.save()
 
-                        personal.setCantidad(partida, float(data[2].replace(",", ".")))
-                        personal.save()
+                            personal.setCantidad(partida, float(data[2].replace(",", ".")))
+                            personal.save()
 
-                        print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
+                            print(partida, " relacionada con materiales ", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Partida " + data[0] + " no se ha relacionado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
