@@ -2182,7 +2182,7 @@ function fill_table(tipo, arg1 = null, arg2 = null) {
 
 	setTimeout(() => {
 		update_table_event(tipo);
-	}, 120);
+	}, 160);
 }
 
 function update_table_event(tipo) {
