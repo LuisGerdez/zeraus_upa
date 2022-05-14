@@ -1,6 +1,6 @@
-ALB004; Albañil de 2a ;dia
-ALB005; Albañil de 1a ;dia
-ALB125; Albañil refractario;dia
+ALB004; Albanil de 2a ;dia
+ALB005; Albanil de 1a ;dia
+ALB125; Albanil refractario;dia
 ALI145; Alineador de grua (regge) ;dia
 ARM146; Armador metalico;dia
 ASI105; Asistente;dia
@@ -34,7 +34,7 @@ CHO131; Chofer de camion mezclador de 8 ;dia
 CHO139; Chocritero guniitero;dia
 COM233; Computista ( fuera del tabulador C.V.C );dia
 CUA088; Cuadrilla colocacion concreto;dia
-CUA089; Cuadrilla de albañileria ;dia
+CUA089; Cuadrilla de albanileria ;dia
 CUA090; Cuadrilla de cabilla ;dia
 CUA091; Cuadrilla de carpinteria ;dia
 CUA092; Cuadrilla de encofrado ;dia
@@ -66,37 +66,37 @@ FAB141; Fabricador armador ;dia
 GRA019; Granitero de 2a ;dia
 GRA020; Granitero de 1a ;dia
 IMP025; Impermeabilizador ;dia
-ING200; Profesional CIV tipo p1 entre 0 a 1 año;dia
-ING201; Profesional CIV tipo p1 entre 1 a 2 años;dia
-ING202; Profesional CIV tipo p2 entre 2 a 3 años;dia
-ING203; Profesional CIV tipo p2 entre 3 a 4 años;dia
-ING204; Profesional CIV tipo p2 entre 4 a 5 años;dia
-ING205; Profesional CIV tipo p3 entre 5 a 6 años;dia
-ING206; Profesional CIV tipo p3 entre 6 a 7 años;dia
-ING207; Profesional CIV tipo p4 entre 7 a 8 años;dia
-ING208; Profesional CIV tipo p4 entre 8 a 9 años;dia
-ING209; Profesional CIV tipo p5 entre 9 a 10 años;dia
-ING210; Profesional CIV tipo p5 entre 10 a 11 años;dia
-ING211; Profesional CIV tipo p6 entre 11 a 12 años;dia
-ING212; Profesional CIV tipo p6 entre 12 a 13 años;dia
-ING213; Profesional CIV tipo p7 entre 13 a 14 años;dia
-ING214; Profesional CIV tipo p7 entre 14 a 15 años;dia
-ING215; Profesional CIV tipo p8 entre 15 a 16 años;dia
-ING216; Profesional CIV tipo p8 entre 16 a 17 años;dia
-ING217; Profesional CIV tipo p8 entre 17 a 18 años;dia
-ING218; Profesional CIV tipo p8 entre 18 a 19 años;dia
-ING219; Profesional CIV tipo p9 entre 19 a 20 años;dia
-ING220; Profesional CIV tipo p9a entre 20 a 21 años;dia
-ING221; Profesional CIV tipo p9a entre 21 a 22 años;dia
-ING222; Profesional CIV tipo p9a entre 22 a 23 años;dia
-ING223; Profesional CIV tipo p9a entre 23 a 24 años;dia
-ING224; Profesional CIV tipo p9a entre 24 a 25 años;dia
-ING225; Profesional CIV tipo p10 entre 25 a 26 años;dia
-ING226; Profesional CIV tipo p10 entre 26 a 27 años;dia
-ING227; Profesional CIV tipo p10 entre 27 a 28 años;dia
-ING228; Profesional CIV tipo p10 entre 28 a 29 años;dia
-ING229; Profesional CIV tipo p10 entre 29 a 30 años;dia
-ING234; Profesional CIV mas de 30 años ;dia
+ING200; Profesional CIV tipo p1 entre 0 a 1 ano;dia
+ING201; Profesional CIV tipo p1 entre 1 a 2 anos;dia
+ING202; Profesional CIV tipo p2 entre 2 a 3 anos;dia
+ING203; Profesional CIV tipo p2 entre 3 a 4 anos;dia
+ING204; Profesional CIV tipo p2 entre 4 a 5 anos;dia
+ING205; Profesional CIV tipo p3 entre 5 a 6 anos;dia
+ING206; Profesional CIV tipo p3 entre 6 a 7 anos;dia
+ING207; Profesional CIV tipo p4 entre 7 a 8 anos;dia
+ING208; Profesional CIV tipo p4 entre 8 a 9 anos;dia
+ING209; Profesional CIV tipo p5 entre 9 a 10 anos;dia
+ING210; Profesional CIV tipo p5 entre 10 a 11 anos;dia
+ING211; Profesional CIV tipo p6 entre 11 a 12 anos;dia
+ING212; Profesional CIV tipo p6 entre 12 a 13 anos;dia
+ING213; Profesional CIV tipo p7 entre 13 a 14 anos;dia
+ING214; Profesional CIV tipo p7 entre 14 a 15 anos;dia
+ING215; Profesional CIV tipo p8 entre 15 a 16 anos;dia
+ING216; Profesional CIV tipo p8 entre 16 a 17 anos;dia
+ING217; Profesional CIV tipo p8 entre 17 a 18 anos;dia
+ING218; Profesional CIV tipo p8 entre 18 a 19 anos;dia
+ING219; Profesional CIV tipo p9 entre 19 a 20 anos;dia
+ING220; Profesional CIV tipo p9a entre 20 a 21 anos;dia
+ING221; Profesional CIV tipo p9a entre 21 a 22 anos;dia
+ING222; Profesional CIV tipo p9a entre 22 a 23 anos;dia
+ING223; Profesional CIV tipo p9a entre 23 a 24 anos;dia
+ING224; Profesional CIV tipo p9a entre 24 a 25 anos;dia
+ING225; Profesional CIV tipo p10 entre 25 a 26 anos;dia
+ING226; Profesional CIV tipo p10 entre 26 a 27 anos;dia
+ING227; Profesional CIV tipo p10 entre 27 a 28 anos;dia
+ING228; Profesional CIV tipo p10 entre 28 a 29 anos;dia
+ING229; Profesional CIV tipo p10 entre 29 a 30 anos;dia
+ING234; Profesional CIV mas de 30 anos ;dia
 INS078; Instalador electromecanico de 2a;dia
 INS079; Instalador electromecanico de 1a;dia
 INS138; Instalador de medidor de gas ;dia
@@ -118,7 +118,7 @@ MAE029; Maestro de obras de 1a;dia
 MAE048; Maestro de voladuras ;dia
 MAE074; Maestro mecanico ;dia
 MAE081; Maestro de obras electromecanica;dia
-MAE106; Maestro albañil ;dia
+MAE106; Maestro albanil ;dia
 MAQ031; Maquinista de concreto de 2a ;dia
 MAQ032; Maquinista de concreto de 1a ;dia
 MEC070; Mecanico de gasolina de 2a ;dia

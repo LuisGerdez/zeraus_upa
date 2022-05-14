@@ -1,18 +1,18 @@
-AP1400;Brazo de alumbrado publico de ¾' X 1.20 m con luminaria  M-520  en poste de seccion 3 ½".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.3 1/2".;16,00
-AP1401;Brazo de alumbrado publico de ¾' X 1.20 m con luminaria  M-520  en poste de seccion 4 ½".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.4 1/2".;16,00
-AP1402;Brazo de alumbrado publico de ¾' X 1.20 m con luminaria  M-520  en poste de seccion 5 ½".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.5 1/2".;16,00
-AP1403;Brazo de alumbrado publico de ¾' X 1.20 m con luminaria  M-520  en poste de seccion  6 ?".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.6 5/8".;16,00
-AP1412;Brazo de alumbrado publico  cuello cisne de 2.20 M  luminaria VS M-200 150 W montada en poste de seccion 3 ½".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.3 1/2";14,00
-AP1413;Brazo de alumbrado publico  cuello cisne de 2.20 m  luminaria VS M-200-150 W montada en poste de seccion 4 ½".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.4 1/2";14,00
-AP1414;Brazo de alumbrado publico  cuello cisne de 2.20 m  luminaria VS M-200-150 W montada en poste de seccion 5 ½".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.5 1/2";14,00
+AP1400;Brazo de alumbrado publico de 3/4' X 1.20 m con luminaria  M-520  en poste de seccion 3 1/2".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.3 1/2".;16,00
+AP1401;Brazo de alumbrado publico de 3/4' X 1.20 m con luminaria  M-520  en poste de seccion 4 1/2".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.4 1/2".;16,00
+AP1402;Brazo de alumbrado publico de 3/4' X 1.20 m con luminaria  M-520  en poste de seccion 5 1/2".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.5 1/2".;16,00
+AP1403;Brazo de alumbrado publico de 3/4' X 1.20 m con luminaria  M-520  en poste de seccion  6 ?".;und;Brazo de AP de 3/4'x 1.20m con luminaria  M-520  en poste de secc.6 5/8".;16,00
+AP1412;Brazo de alumbrado publico  cuello cisne de 2.20 M  luminaria VS M-200 150 W montada en poste de seccion 3 1/2".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.3 1/2";14,00
+AP1413;Brazo de alumbrado publico  cuello cisne de 2.20 m  luminaria VS M-200-150 W montada en poste de seccion 4 1/2".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.4 1/2";14,00
+AP1414;Brazo de alumbrado publico  cuello cisne de 2.20 m  luminaria VS M-200-150 W montada en poste de seccion 5 1/2".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.5 1/2";14,00
 AP1415;Brazo de alumbrado publico  cuello cisne de 2.20 m  luminaria VS M-200-150 W montada en poste de seccion 6 ?".;und;Brazo de AP C/cisne 2.20 m luminaria VS M-200 150 W en poste de secc.6 5/8";14,00
-AP1422;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-250 W montada en poste de seccion 3 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc.3 1/2";12,00
-AP1423;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-250 W montada en poste de seccion 4 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc.4 1/2";12,00
-AP1424;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400 250 W montada en poste de seccion 5 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc. 5 1/2";12,00
+AP1422;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-250 W montada en poste de seccion 3 1/2".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc.3 1/2";12,00
+AP1423;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-250 W montada en poste de seccion 4 1/2".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc.4 1/2";12,00
+AP1424;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400 250 W montada en poste de seccion 5 1/2".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc. 5 1/2";12,00
 AP1425;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400 250 W montada en poste de seccion 6 ?".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-250 W en poste de secc.6 5/8";12,00
-AP1428;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de seccion 3 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.3 1/2";12,00
-AP1429;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de seccion 4 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.4 1/2";12,00
-AP1430;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de seccion 5 ½".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.5 1/2";12,00
+AP1428;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de seccion 3 1/2".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.3 1/2";12,00
+AP1429;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de seccion 4 1/2".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.4 1/2";12,00
+AP1430;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de seccion 5 1/2".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.5 1/2";12,00
 AP1431;Brazo de alumbrado publico  cuello cisne de 3.20 m  luminaria VS M-400-400 W montada en poste de seccion 6 ?".;und;Brazo de AP C/cisne 3.20 m  luminaria VS M-400-400 W en poste de secc.6 5/8";12,00
 AP1432;Brazo de alumbrado publico tipo trebol de  cuatro (04)  luminaria  M-400-400 W montada en poste tubular de acero de 20 m.;und;Brazo de A.P. tipo trebol de  cuatro (04)  luminaria  M-400-400 W montada en poste 20 m.;6,00
 AP1434;Brazo de alumbrado publico tipo margarita de  seis (06)  luminaria  M-400-400 W montada en poste de acero de 20 m.;und;Brazo de AP tipo margarita de seis (06) luminaria M-400-400 W en poste de 20 m.;5,00
@@ -24,42 +24,42 @@ AR1734;Pica liviana de 7 m de ancho facil acceso.;km;Pica liviana de 7 mts de an
 AR1738;Pica pesada de 7 m de ancho facil acceso.;km;Pica pesada de 7 mts de ancho facil acceso.;0,70
 AR1742;Tala de  arboles de 15 a 40 cm de diametro facil acceso.;und;Tala de  arboles de 15 a 40 cm de diametro facil acceso.;10,00
 AR1746;Tala de  arboles de 45 a 60 cm de diametro facil acceso.;und;Tala de  arboles de 45 a 60 cm de diametro facil acceso.;7,00
-CA0719;Conector automatico para conductor Arvidal del Nº 2 a 4/0.;und;Conector automatico para conductor Arvidal del Nº 2 a 4/0.;16,00
+CA0719;Conector automatico para conductor Arvidal del N. 2 a 4/0.;und;Conector automatico para conductor Arvidal del N. 2 a 4/0.;16,00
 CA1303;Bajante para transformador monofasico de 37.5 kVA  con  relacion 13800/120-240 V.;und;Bajante p/transformador monofasico de 37.5 kVA 13800/120-240 V.;10,00
 CA1304;Bajante para transformador monofasico de 50 kVA con relacion 13800/120-240 V.;und;Bajante p/transformador monofasico de 50 kVA 13800/120-240 V.;10,00
 CA1310;Bajante  para banco  trifasico  con tres transformadores de 37.5 kVA con relacion 13800/120-240 V.;und;Bajante p/banco trifasico con tres transformadores de 37.5 kVA 13800/120-240 V.;5,00
 CA1311;Bajante  para  banco trifasico  con tres transformadores de  50 kVA con  relacion 13800/120-240 V.;und;Bajante p/banco trifasico con tres transformadores de 50 kVA 13800/120-240 V.;5,00
-CA1315;Bajante de 13.8 kV con copas terminales tipo exterior a red subterranea para cable Nº 2 AWG XLPE-PVC °C 15 kV.;und;Bajante de 13.8 kV con copas terminales t/ext. red subterranea p/cable Nº 2 AWG XLPE-PVC °C 15 kV.;3,00
-CA1316;Bajante  de 13.8 kV con copas terminales tipo exterior a red subterranea para cable Nº 4/0 AWG XLPE-PVC.;und;Bajante 13.8 kV con copas terminales t/ext. cable Nº 4/0 AWG XLPE-PVC;5,00
-CA1317;Bajante de 13.8 kV  con copas terminales tipo exterior a red subterranea para cable Nº 500 kcmil XLPE-PVC.;und;Bajante 13.8 kV con copas terminales t/ext. Cable Nº 500 kcmil XLPE-PVC;2,00
-CA1318;Bajante de 13.8 kV  con copas terminales tipo exterior a red subterranea para cable Nº 750 kcmil XLPE-PVC.;und;Bajante 13.8 kV con copas terminales t/ext. Cable Nº 750 kcmil XLPE-PVC;2,00
-CA1322;Bajante de 34.5 kV con  copas terminales tipo exterior a red subterranea para cable Nº 2 AWG XLPE-PVC.;und;Bajante de 34.5 kV con  copas terminales t/ext. cable Nº 2 AWG XLPE-PVC;5,00
-CA1323;Bajante de 34.5 kV con  copas terminales tipo exterior a red subterranea para cable Nº 4/0 AWG XLPE-PVC.;und;Bajante de 34.5 kV con  copas terminales t/ext. cable Nº 4/0 AWG XLPE-PVC;5,00
-CA1324;Bajante de  34.5 kV con copas terminales tipo exterior a red subterranea para cable Nº 350 kcmil XLPE-PVC.;und;Bajante de  34.5 kV con copas terminales t/ext. cable Nº 350 kcmil XLPE-PVC;3,00
-CA1325;Bajante de 34.5 kV con copas terminales tipo exterior a red subterranea para cable Nº 500 kcmil XLPE-PVC-90°C 34 kV.;und;Bajante de 34.5 kV con copas terminales t/ext. red subterranea p/cable Nº 500 kcmil XLPE-PVC-90°C 34 kV.;2,00
-CA1330;Bajante  de  baja  tension  con cable de cobre Nº 2 AWG TTU 90 °C 600 V.;und;Bajante  de  baja  tension  con cable de cobre Nº 2 AWG TTU 90 °C 600 V.;7,00
-CA1331;Bajante  de  baja  tension  con cable de cobre Nº 2/0 AWG TTU 90 °C 600 V.;und;Bajante  de  baja  tension  con cable de cobre Nº 2/0 AWG TTU 90 °C 600 V.;5,00
-CA1332;Bajante  de  baja  tension  con cable de cobre Nº 4/0 AWG TTU 90 °C 600 V.;und;Bajante  de  baja  tension  con cable de cobre Nº 4/0 AWG TTU 90 °C 600 V.;5,00
-CA1333;Bajante  de  baja  tension  con cable de cobre  Nº 350 kcmil TTU 90 °C 600 V.;und;Bajante  de  baja  tension  con cable de cobre  Nº 350 kcmil TTU 90 °C 600 V.;3,00
-CA1334;Bajante  de  baja  tension con  cable de cobre  Nº 500 kcmil TTU 90 °C 600 V.;und;Bajante  de  baja  tension con  cable de cobre  Nº 500 kcmil TTU 90 °C 600 V.;3,00
-CA1340;Cableado de cable  de control PVC-PVC Nº 4X12 AWG en tuberia.;m;Cableado de cable  de control PVC-PVC Nº 4X12 AWG en tuberia;120,00
-CA1341;Cableado de cable  de control PVC-PVC Nº 6X10 AWG en tuberia.;m;Cableado de cable  de control PVC-PVC Nº 6X10 AWG en tuberia;120,00
-CA1345;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 8 AWG en tuberia.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 8 AWG en tuberia.;100,00
-CA1346;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 6 AWG en tuberia.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 6 AWG en tuberia.;100,00
-CA1347;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 2 AWG en tuberia.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 2 AWG en tuberia.;80,00
-CA1349;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 2/0 AWG en tuberia.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V Nº 2/0 AWG en tuberia.;60,00
-CA1354;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 2 AWG en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 2 AWG en tuberia;40,00
-CA1356;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 2/0 AWG en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 2/0 AWG en tuberia;20,00
-CA1358;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 4/0 AWG en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 4/0 AWG en tuberia.;10,00
-CA1360;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 350 kcmil en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 350 kcmil en tuberia.;12,00
-CA1361;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 500 kcmil en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V Nº 500 kcmil en tuberia.;10,00
-CA1374;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 KV Nº 2 AWG en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 KV Nº 2 AWG en tuberia;20,00
-CA1378;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 4/0 AWG en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 4/0 AWG en tuberia;20,00
-CA1380;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 500 kcmil en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 500 kcmil en tuberia;10,00
-CA1381;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 750 kcmil en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV Nº 750 kcmil en tuberia;8,00
-CA1389;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 KV Nº 2 AWG en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 KV Nº 2 AWG en tuberia;20,00
-CA1390;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV Nº 4/0 AWG en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV Nº 4/0 AWG en tuberia;10,00
-CA1392;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV Nº 500 kcmil en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV Nº 500 kcmil en tuberia;10,00
+CA1315;Bajante de 13.8 kV con copas terminales tipo exterior a red subterranea para cable N. 2 AWG XLPE-PVC °C 15 kV.;und;Bajante de 13.8 kV con copas terminales t/ext. red subterranea p/cable N. 2 AWG XLPE-PVC °C 15 kV.;3,00
+CA1316;Bajante  de 13.8 kV con copas terminales tipo exterior a red subterranea para cable N. 4/0 AWG XLPE-PVC.;und;Bajante 13.8 kV con copas terminales t/ext. cable N. 4/0 AWG XLPE-PVC;5,00
+CA1317;Bajante de 13.8 kV  con copas terminales tipo exterior a red subterranea para cable N. 500 kcmil XLPE-PVC.;und;Bajante 13.8 kV con copas terminales t/ext. Cable N. 500 kcmil XLPE-PVC;2,00
+CA1318;Bajante de 13.8 kV  con copas terminales tipo exterior a red subterranea para cable N. 750 kcmil XLPE-PVC.;und;Bajante 13.8 kV con copas terminales t/ext. Cable N. 750 kcmil XLPE-PVC;2,00
+CA1322;Bajante de 34.5 kV con  copas terminales tipo exterior a red subterranea para cable N. 2 AWG XLPE-PVC.;und;Bajante de 34.5 kV con  copas terminales t/ext. cable N. 2 AWG XLPE-PVC;5,00
+CA1323;Bajante de 34.5 kV con  copas terminales tipo exterior a red subterranea para cable N. 4/0 AWG XLPE-PVC.;und;Bajante de 34.5 kV con  copas terminales t/ext. cable N. 4/0 AWG XLPE-PVC;5,00
+CA1324;Bajante de  34.5 kV con copas terminales tipo exterior a red subterranea para cable N. 350 kcmil XLPE-PVC.;und;Bajante de  34.5 kV con copas terminales t/ext. cable N. 350 kcmil XLPE-PVC;3,00
+CA1325;Bajante de 34.5 kV con copas terminales tipo exterior a red subterranea para cable N. 500 kcmil XLPE-PVC-90°C 34 kV.;und;Bajante de 34.5 kV con copas terminales t/ext. red subterranea p/cable N. 500 kcmil XLPE-PVC-90°C 34 kV.;2,00
+CA1330;Bajante  de  baja  tension  con cable de cobre N. 2 AWG TTU 90 °C 600 V.;und;Bajante  de  baja  tension  con cable de cobre N. 2 AWG TTU 90 °C 600 V.;7,00
+CA1331;Bajante  de  baja  tension  con cable de cobre N. 2/0 AWG TTU 90 °C 600 V.;und;Bajante  de  baja  tension  con cable de cobre N. 2/0 AWG TTU 90 °C 600 V.;5,00
+CA1332;Bajante  de  baja  tension  con cable de cobre N. 4/0 AWG TTU 90 °C 600 V.;und;Bajante  de  baja  tension  con cable de cobre N. 4/0 AWG TTU 90 °C 600 V.;5,00
+CA1333;Bajante  de  baja  tension  con cable de cobre  N. 350 kcmil TTU 90 °C 600 V.;und;Bajante  de  baja  tension  con cable de cobre  N. 350 kcmil TTU 90 °C 600 V.;3,00
+CA1334;Bajante  de  baja  tension con  cable de cobre  N. 500 kcmil TTU 90 °C 600 V.;und;Bajante  de  baja  tension con  cable de cobre  N. 500 kcmil TTU 90 °C 600 V.;3,00
+CA1340;Cableado de cable  de control PVC-PVC N. 4X12 AWG en tuberia.;m;Cableado de cable  de control PVC-PVC N. 4X12 AWG en tuberia;120,00
+CA1341;Cableado de cable  de control PVC-PVC N. 6X10 AWG en tuberia.;m;Cableado de cable  de control PVC-PVC N. 6X10 AWG en tuberia;120,00
+CA1345;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V N. 8 AWG en tuberia.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V N. 8 AWG en tuberia.;100,00
+CA1346;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V N. 6 AWG en tuberia.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V N. 6 AWG en tuberia.;100,00
+CA1347;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V N. 2 AWG en tuberia.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V N. 2 AWG en tuberia.;80,00
+CA1349;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V N. 2/0 AWG en tuberia.;m;Cableado de 3 cables de cobre, 1p, THHN  90 °C 600 V N. 2/0 AWG en tuberia.;60,00
+CA1354;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 2 AWG en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 2 AWG en tuberia;40,00
+CA1356;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 2/0 AWG en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 2/0 AWG en tuberia;20,00
+CA1358;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 4/0 AWG en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 4/0 AWG en tuberia.;10,00
+CA1360;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 350 kcmil en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 350 kcmil en tuberia.;12,00
+CA1361;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 500 kcmil en tuberia.;m;Cableado de 4 cables de cobre, 1P,  TTU 90 °C 600 V N. 500 kcmil en tuberia.;10,00
+CA1374;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 KV N. 2 AWG en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 KV N. 2 AWG en tuberia;20,00
+CA1378;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV N. 4/0 AWG en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV N. 4/0 AWG en tuberia;20,00
+CA1380;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV N. 500 kcmil en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV N. 500 kcmil en tuberia;10,00
+CA1381;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV N. 750 kcmil en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 15 kV N. 750 kcmil en tuberia;8,00
+CA1389;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 KV N. 2 AWG en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 KV N. 2 AWG en tuberia;20,00
+CA1390;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV N. 4/0 AWG en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV N. 4/0 AWG en tuberia;10,00
+CA1392;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV N. 500 kcmil en tuberia.;m;Cableado de 3 cables de cobre,1P, XLPE- PVC 90 °C 35 kV N. 500 kcmil en tuberia;10,00
 CA1600;Adaptadores para conexion de acometidas en baja tension red monofasica.;und;Adaptadores para conexion  de acometidas en baja tension red monofasica;50,00
 CA1601;Adaptadores para conexion  de acometidas en baja tension red trifasica.;Und;Adaptadores para conexion  de acometidas en baja tension red trifasica;30,00
 CA1602;Acometida residencial subterranea en baja tension calibre 2X6 + 1X8 AWG.;und;Acometida residencial subterranea en baja tension calibre 2X6 + 1X8 AWG.;10,00
@@ -71,80 +71,80 @@ CO0495;Conectores para  puente   aereo  en baja tension en red monofasica Arv.;u
 CO0496;Conectores para  puente   aereo  en baja tension en red trifasica Arv.;und;Conectores para  puente   aereo  en baja tension en red trifasica Arv.;14,00
 CO0497;Conectores  para percha  terminal en red monofasica Arv.;und;Conectores  para percha  terminal en red monofasica Arv.;14,00
 CO0498;Conectores para  percha terminal  en red trifasica Arv.;und;Conectores para  percha terminal  en red trifasica Arv.;14,00
-CO0677;Conector terminal  de dos ojos para  conductor  Arvidal del  Nº 2/0  al 4/0 AWG.;und;Conector terminal  de dos ojos para  conductor  Arvidal del  Nº 2/0  al 4/0 AWG.;16,00
+CO0677;Conector terminal  de dos ojos para  conductor  Arvidal del  N. 2/0  al 4/0 AWG.;und;Conector terminal  de dos ojos para  conductor  Arvidal del  N. 2/0  al 4/0 AWG.;16,00
 CO0692;Cadena de aisladores polimericos 34.5 kV en cruceta existente.;und;Cadena de aisladores polimericos 34.5 kV en cruceta existente.;16,00
 CO0693;Cadena de aisladores polimericos 34.5 kV en  cruceta  existente  linea  Arv. 394.5 kcmil.;und;Cadena de aisladores polimericos 34.5 kV en  cruceta  existente  linea  Arv 394.5 kcmil;16,00
-CO0698;Grapa terminal de  aluminio tipo mordaza para conductor Arvidal del Nº 2 al 4/0.;und;Grapa terminal de  aluminio tipo mordaza p/conductor Arvidal del N.º 2 al 4/0.;16,00
-CO0699;Grapa terminal de  aluminio tipo mordaza para conductor  Arvidal del  Nº 266,5 al 556,5 kcmil.;und;Grapa terminal de  aluminio tipo mordaza p/cond.  Arvidal  del  Nº 266,5 al 556,5 kcmil;16,00
-CO0705;Grapa de aluminio tipo pistola para conductor Arvidal del Nº 2/0 al 4/0.;und;Grapa de aluminio tipo pistola para conductor Arvidal del Nº 2/0 al 4/0.;16,00
-CO0706;Grapa de aluminio tipo pistola para conductor Arvidal Nº 394.5 kcmil.;und;Grapa de aluminio tipo pistola para conductor Arvidal N.º 394.5 kcmil;16,00
-CO0712;Conector a compresion aluminio YHD para conductor Arvidal Nº 2/0 al 4/0.;und;Conector a compresion aluminio YHD para conductor Arvidal Nº 2/0 al 4/0.;16,00
+CO0698;Grapa terminal de  aluminio tipo mordaza para conductor Arvidal del N. 2 al 4/0.;und;Grapa terminal de  aluminio tipo mordaza p/conductor Arvidal del N.. 2 al 4/0.;16,00
+CO0699;Grapa terminal de  aluminio tipo mordaza para conductor  Arvidal del  N. 266,5 al 556,5 kcmil.;und;Grapa terminal de  aluminio tipo mordaza p/cond.  Arvidal  del  N. 266,5 al 556,5 kcmil;16,00
+CO0705;Grapa de aluminio tipo pistola para conductor Arvidal del N. 2/0 al 4/0.;und;Grapa de aluminio tipo pistola para conductor Arvidal del N. 2/0 al 4/0.;16,00
+CO0706;Grapa de aluminio tipo pistola para conductor Arvidal N. 394.5 kcmil.;und;Grapa de aluminio tipo pistola para conductor Arvidal N.. 394.5 kcmil;16,00
+CO0712;Conector a compresion aluminio YHD para conductor Arvidal N. 2/0 al 4/0.;und;Conector a compresion aluminio YHD para conductor Arvidal N. 2/0 al 4/0.;16,00
 CO0713;Conector a  compresion  aluminio tipo H para conductor Arvidal 394.5 kcmil.;und;Conector a  compresion  aluminio tipo H para conductor Arvidal 394.5 kcmil.;16,00
 CO0740;Brida de sujecion  para cable de guarda en alineacion.;und;Brida de sujecion  para cable de guarda en alineacion;16,00
 CO0741;Brida de sujecion para  cable de guarda en amarre.;und;Brida de sujecion para  cable de guarda en amarre.;16,00
 CO0742;Brida de sujecion  para cable de guarda en terminal.;und;Brida de sujecion  para cable de guarda en terminal.;16,00
-CO1200;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG media tension.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG media tension.;10,00
-CO1201;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG media tension.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG media tension.;9,00
-CO1202;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG media tension.;8000;6000;8,00
-CO1203;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG media tension.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG media tension.;7,00
-CO1207;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 394.5 kcmil media tension.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 394.5 kcmil media tension.;5,00
-CO1211;Tensado sobre aisladores de 100 m de conductor ACSR Nº 266.8 kcmil media tension.;hm;Tensado sobre aisladores de 100 m de conductor ACSR Nº 266.8 kcmil media tension.;5,00
-CO1212;Tensado sobre aisladores de 100 m de conductor ACSR Nº 336.4 kcmil media tension.;hm;Tensado sobre aisladores de 100 m de conductor ACSR Nº 336.4 kcmil media tension.;5,00
-CO1217;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG media tension.;hm;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG media tension.;12,00
-CO1218;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG media tension.;hm;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG media tension.;11,00
-CO1219;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG media tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG media tension.;10,00
-CO1220;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG media tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG media tension.;9,00
-CO1221;Retenzado sobre aisladores de 100 m de conductor ACSR  Nº 336.4 kcmil media tension.;hm;Retenzado sobre aisladores de 100 m de conductor ACSR  Nº 336.4 kcmil media tension.;7,00
-CO1222;Retensado sobre aisladores de 100 m de conductor Arvidal  Nº 394.5 kcmil media tension.;hm;Retensado sobre aisladores de 100 m de conductor Arvidal Nº 394.5 kcmil media tension.;7,00
+CO1200;Tensado sobre aisladores de 100 m de conductor Arvidal N. 2 AWG media tension.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal N. 2 AWG media tension.;10,00
+CO1201;Tensado sobre aisladores de 100 m de conductor Arvidal N. 1/0 AWG media tension.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal N. 1/0 AWG media tension.;9,00
+CO1202;Tensado sobre aisladores de 100 m de conductor Arvidal N. 2/0 AWG media tension.;8000;6000;8,00
+CO1203;Tensado sobre aisladores de 100 m de conductor Arvidal N. 4/0 AWG media tension.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal N. 4/0 AWG media tension.;7,00
+CO1207;Tensado sobre aisladores de 100 m de conductor Arvidal N. 394.5 kcmil media tension.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal N. 394.5 kcmil media tension.;5,00
+CO1211;Tensado sobre aisladores de 100 m de conductor ACSR N. 266.8 kcmil media tension.;hm;Tensado sobre aisladores de 100 m de conductor ACSR N. 266.8 kcmil media tension.;5,00
+CO1212;Tensado sobre aisladores de 100 m de conductor ACSR N. 336.4 kcmil media tension.;hm;Tensado sobre aisladores de 100 m de conductor ACSR N. 336.4 kcmil media tension.;5,00
+CO1217;Retensado sobre aisladores de 100 m de conductor Arvidal N. 2 AWG media tension.;hm;Retensado sobre aisladores de 100 m de conductor Arvidal N. 2 AWG media tension.;12,00
+CO1218;Retensado sobre aisladores de 100 m de conductor Arvidal N. 1/0 AWG media tension.;hm;Retensado sobre aisladores de 100 m de conductor Arvidal N. 1/0 AWG media tension.;11,00
+CO1219;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 2/0 AWG media tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 2/0 AWG media tension.;10,00
+CO1220;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 4/0 AWG media tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 4/0 AWG media tension.;9,00
+CO1221;Retenzado sobre aisladores de 100 m de conductor ACSR  N. 336.4 kcmil media tension.;hm;Retenzado sobre aisladores de 100 m de conductor ACSR  N. 336.4 kcmil media tension.;7,00
+CO1222;Retensado sobre aisladores de 100 m de conductor Arvidal  N. 394.5 kcmil media tension.;hm;Retensado sobre aisladores de 100 m de conductor Arvidal N. 394.5 kcmil media tension.;7,00
 CO1230;Tensado sobre aisladores de 100 m de conductor Arvidal N° 2 AWG baja tension.;hm;Tensado sobre aisladores de 100m de conductor Arvidal N° 2 AWG baja tension.;8,00
-CO1231;Tensado sobre aisladores 100 m de conductor Arvidal Nº 1/0 AWG baja tension.;hm;Tensado sobre aisladores 100 m de conductor Arvidal Nº 1/0 AWG baja tension.;7,00
+CO1231;Tensado sobre aisladores 100 m de conductor Arvidal N. 1/0 AWG baja tension.;hm;Tensado sobre aisladores 100 m de conductor Arvidal N. 1/0 AWG baja tension.;7,00
 CO1232;Tensado sobre aisladores de 100 m de conductor Arvidal N° 2/0 AWG baja tension.;hm;Tensado sobre aisladores de 100 m de conductor Arvidal N° 2/0 AWG baja tension.;6,00
-CO1233;Tensado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG baja tension.;hm;Tensado sobreaisladores de 100 m de conductor Arvidal Nº 4/0 AWG baja tension.;5,00
-CO1240;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG baja tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2 AWG baja tension.;10,00
-CO1241;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG baja tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 1/0 AWG baja tension.;9,00
-CO1242;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG baja tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 2/0 AWG baja tension.;8,00
-CO1243;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG baja tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal Nº 4/0 AWG baja tension.;7,00
+CO1233;Tensado sobre aisladores de 100 m de conductor Arvidal N. 4/0 AWG baja tension.;hm;Tensado sobreaisladores de 100 m de conductor Arvidal N. 4/0 AWG baja tension.;5,00
+CO1240;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 2 AWG baja tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 2 AWG baja tension.;10,00
+CO1241;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 1/0 AWG baja tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 1/0 AWG baja tension.;9,00
+CO1242;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 2/0 AWG baja tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 2/0 AWG baja tension.;8,00
+CO1243;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 4/0 AWG baja tension.;hm;Retenzado sobre aisladores de 100 m de conductor Arvidal N. 4/0 AWG baja tension.;7,00
 CO1250;Tensado de 100 m de guaya de acero 5/16" para cable guarda linea de MT;hm;Tensado de 100 m de guaya de acero 5/16" para cable guarda linea de MT;10,00
-CO1255;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 2 AWG.;und;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 2 AWG.;18,00
-CO1256;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 1/0 AWG.;und;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 1/0 AWG.;18,00
-CO1257;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 2/0 AWG.;und;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 2/0 AWG.;18,00
-CO1258;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 4/0 AWG.;und;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 4/0 AWG.;18,00
-CO1259;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 394.5 kcmil.;und;Juego de varilla de armado para linea trifasica conductor Arvidal Nº 394.5 kcmil.;16,00
-CO1260;Juego de varilla de armado para linea trifasica conductor ACSR desde Nº 266.8 hasta 336.4 kcmil.;und;Juego de varilla de armado para linea trifasica conductor ACSR desde Nº 266.8 hasta 336.4 kcmil.;16,00
+CO1255;Juego de varilla de armado para linea trifasica conductor Arvidal N. 2 AWG.;und;Juego de varilla de armado para linea trifasica conductor Arvidal N. 2 AWG.;18,00
+CO1256;Juego de varilla de armado para linea trifasica conductor Arvidal N. 1/0 AWG.;und;Juego de varilla de armado para linea trifasica conductor Arvidal N. 1/0 AWG.;18,00
+CO1257;Juego de varilla de armado para linea trifasica conductor Arvidal N. 2/0 AWG.;und;Juego de varilla de armado para linea trifasica conductor Arvidal N. 2/0 AWG.;18,00
+CO1258;Juego de varilla de armado para linea trifasica conductor Arvidal N. 4/0 AWG.;und;Juego de varilla de armado para linea trifasica conductor Arvidal N. 4/0 AWG.;18,00
+CO1259;Juego de varilla de armado para linea trifasica conductor Arvidal N. 394.5 kcmil.;und;Juego de varilla de armado para linea trifasica conductor Arvidal N. 394.5 kcmil.;16,00
+CO1260;Juego de varilla de armado para linea trifasica conductor ACSR desde N. 266.8 hasta 336.4 kcmil.;und;Juego de varilla de armado para linea trifasica conductor ACSR desde N. 266.8 hasta 336.4 kcmil.;16,00
 CO9025;Estribos en linea   trifasica a 13.8 kV con cuadrilla de lineas energizadas.;und;Estribos en linea trifasica a 13.8 kV con cuadrilla de lineas energizadas.;16,00
-CR0504;Cruceta de 1.80 m en alineacion  montada en poste de seccion 4 ½" linea monofasica 13.8 kV Arv.;und;Cruceta de 1.80 m en alineacion p/poste de sec.4 1/2" linea 1f 13.8 kV Arv.;13,00
-CR0505;Cruceta de 1.80 m en alineacion  montada en poste de seccion 4 ½"  linea trifasica 13.8 kV Arv.;und;Cruceta de 1.80 m en alineacion p/poste de sec. 4 1/2"  linea 3f 13.8 kV Arv.;12,00
-CR0506;Cruceta de 1.80 m en alineacion montada en poste de seccion 5 ½"  linea trifasica 13.8 kV Arv.;und;Cruceta de 1.80 m en alineacion p/poste de sec. 5 1/2"  linea 3f 13.8 kV Arv.;12,00
-CR0509;Cruceta de 2.40 m en alineacion  montada en poste de seccion 4 ½"  linea trifasica 13.8 kV Arv.;und;Cruceta de 2.40 m en alineacion p/poste de sec. 4 1/2"  linea 3f 13.8 kV Arv.;10,00
-CR0510;Cruceta de 2.40 m en alineacion  montada en poste de seccion 5 ½"  linea trifasica 13.8 kV Arv.;und;Cruceta de 2.40 m en alineacion p/poste de sec. 5 1/2"  linea 3f 13.8 kV Arv.;10,00
-CR0513;Cruceta de 2.40 m en alineacion  montada en poste de seccion 4 ½"  linea trifasica 34.5 kV Arv.;und;Cruceta de 2.40 m en alineacion p/poste de sec. 4 1/2"  linea 3f 34.5 kV Arv.;10,00
-CR0514;Cruceta de 2.40 m en alineacion  montada en poste de seccion 5 ½"  linea trifasica 34.5 kV Arv.;und;Cruceta de 2.40 m en alineacion p/poste de sec. 5 1/2"  linea 3f 34.5 kV Arv.;10,00
-CR0517;Cruceta sencilla de 2.40 m en suspension montada en poste de seccion  4 ½" linea trifasica 13.8 kV Arv.;und;Cruceta de 2.40 m en suspension p/poste de sec. 4 1/2" linea 3f 13.8 kV Arv.;10,00
-CR0518;Cruceta sencilla de 2.40 m en suspension montada en poste de seccion 5 ½" linea trifasica 13.8 kV Arv.;und;Cruceta de 2.40 m en suspension p/poste de sec. 5 1/2" linea 3f 13.8 kV Arv.;10,00
-CR0519;Cruceta sencilla de 2.40 m en suspension montada  en poste de seccion 5 ½" linea trifasica 13.8 kV Arv. 394.5 kcmil;und;Cruceta de 2.40 m en suspension p/poste de sec. 5 1/2" linea 3f 13.8 kV Arv.394.5 kcmil;10,00
-CR0522;Cruceta sencilla de 2.40 m en suspension montada  en poste de seccion  4 ½" linea trifasica 34.5 kV Arv.;und;Cruceta de 2.40 m en suspension p/poste de sec. 4 1/2" linea 3f 34.5 kV Arv.;10,00
-CR0523;Cruceta sencilla de 2.40 m en suspension montada  en poste de seccion  5 ½" linea trifasica 34.5 kV Arv;und;Cruceta de 2.40 m en suspension p/poste de sec. 5 1/2" linea 3f 34.5 kV Arv;10,00
-CR0524;Cruceta sencilla de 2.40 m en suspension montada  en poste de seccion  5 ½" linea trifasica 34.5 kV Arv;und;Cruceta de 2.40 m en suspension p/poste de sec. 5 1/2" linea 3f 34.5 kV Arv;10,00
-CR0527;Cruceta sencilla de 3.20 m en suspension montada  en poste de seccion  5 ½" linea trifasica 13.8 kV Arv.;und;Cruceta de 3.20 m en suspension p/poste de sec. 5 1/2" linea 3f 13.8 kV Arv.;8,00
-CR0528;Cruceta sencilla de 3.20 m en suspension montada  en poste de seccion  5 ½" linea trifasica 34.5 kV Arv.;und;Cruceta de 3.20 m en suspension p/poste de sec. 5 1/2" linea 3f 34.5 kV Arv.;8,00
-CR0531;Tres crucetas sencillas de 2.40m en suspension en poste 5 ½" linea doble terna trifasica 13.8 kV Arv. 394 kcmil.;und;Tres crucetas de 2.40m en suspension p/poste 5 1/2" linea DT 3f 13.8 kV 394 kcmil.;3,00
-CR0532;Tres crucetas sencillas de 2.40m en suspension en poste 5 ½" linea doble terna trifasica 34.5 kV Arv.;und;Tres crucetas de 2.40m en suspension en p/poste sec.5 1/2" linea DT 3f 34.5 kV;3,00
-CR0539;Dos crucetas sencillas de 1.80 m para cruzamiento montadas en poste seccion 4 ½" linea monofasica 13,8 kV Arv.;und;Dos  crucetas de 1.80 m p/cruzamiento en  p/poste sec.1/2" linea 1f 13,8 kV Arv.;7,00
-CR0540;Dos crucetas sencillas de 1.80 m para cruzamiento montadas en poste seccion 4 ½" linea trifasica 13,8 kV Arv.;und;Dos  crucetas de 1.80 m para cruzamiento p/poste sec.4 1/2" linea 3f 13,8 kV Arv;7,00
-CR0541;Dos crucetas sencillas de 1.80 m para cruzamiento montadas en poste seccion 5 ½" linea trifasica 13,8 kV Arv.;und;Dos  crucetas de 1.80 m para cruzamiento p/poste sec.5 1/2" linea 3f 13,8 kV Arv;7,00
-CR0543;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste seccion 4 ½" linea trifasica 13,8 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.4 1/2" linea 3f 13,8 kV Arv.;5,00
-CR0544;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste seccion 5 ½" linea trifasica 13,8 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.5 1/2" linea 3f 13,8 kV Arv.;5,00
-CR0547;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste seccion 4 ½" linea trifasica 34,5 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.41/2" linea 3f 34,5 kV Arv.;5,00
-CR0548;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste seccion 5 ½" linea trifasica 34,5 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.5 1/2" linea 3f 34,5 kV Arv.;5,00
-CR0553;Cruceta doble de 1.80 m para angulos 170°-180° montada en poste de seccion 4 ½" linea monofasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 170°-180° p/poste de sec.4 1/2" linea 1f 13,8 kV Arv.;7,00
-CR0554;Cruceta doble de 1.80 m para angulos 170°-180° montada en poste de seccion 4 ½" linea trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 170°-180° p/poste de sec.4 1/2" linea 3f 13,8 kV Arv.;7,00
-CR0555;Cruceta doble de 1.80 m para angulos 170°-180° montada en poste de seccion 5 ½" linea  trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 170°-180° p/poste de sec.5 1/2" linea 3f 13,8 kV Arv.;7,00
-CR0558;Cruceta  doble  de  2.40 m  para angulos 170°-180°  montada  en poste de  seccion 4 ½" linea  trifasica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para angulos 170°-180° p/poste de sec.4 1/2" linea 3f 13,8 kV Arv.;5,00
-CR0559;Cruceta  doble  de  2.40 m  para angulos 170°-180°  montada  en poste de  seccion 5 ½" linea  trifasica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para angulos 170°-180° p/poste de sec.5 1/2" linea 3f 13,8 kV Arv.;5,00
-CR0562;Cruceta  doble  de  2.40 m  para angulos 170°-180°  montada  en poste de  seccion 4 ½" linea  trifasica 34,5 kV Arv.;und;Cruceta doble de 2.40 m para angulos 170°-180° p/poste de sec.4 1/2" linea 3f 34,5 kV Arv.;5,00
-CR0563;Cruceta  doble  de  2.40 m  para angulos 170°-180°  montada  en poste de  seccion 5 ½" linea  trifasica 34,5 kV Arv.;und;Cruceta doble de 2.40 m para angulos 170°-180° p/poste de sec.5 1/2" linea 3f 34,5 kV Arv.;5,00
-CR0569;Cruceta doble de 1.80 m para angulos 120°-170° montada en poste de seccion 4 ½" linea monofasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 120°-170° p/poste de sec.4 1/2" linea 1f 13,8 kV Arv.;7,00
-CR0570;Cruceta doble de 1.80 m para angulos 120°-170° montada en poste de seccion 4 ½" linea Trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 120°-170° p/poste de sec.4 1/2" linea 3f 13,8 kV Arv.;7,00
-CR0571;Cruceta doble de 1.80 m para angulos 120°-170° montada en poste de seccion 5½" linea Trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 120°-170° p/poste de sec.5 1/2" linea 3f 13,8 kV Arv.;7,00
-CR0574;Cruceta  doble  de  2.40 m  para angulos 120°-170°  montada  en poste de  seccion 4 ½" linea trifasica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para angulos 120°-170° p/poste de sec.4 1/2" linea 3f 13,8 kV Arv.;5,00
-CR0575;Cruceta  doble  de  2.40 m  para angulos 120°-170°  montada  en poste de  seccion 5 ½" linea trifasica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para angulos 120°-170° p/poste de sec.5 1/2" linea 3f 13,8 kV Arv.;5,00
+CR0504;Cruceta de 1.80 m en alineacion  montada en poste de seccion 4 1/2" linea monofasica 13.8 kV Arv.;und;Cruceta de 1.80 m en alineacion p/poste de sec.4 1/2" linea 1f 13.8 kV Arv.;13,00
+CR0505;Cruceta de 1.80 m en alineacion  montada en poste de seccion 4 1/2"  linea trifasica 13.8 kV Arv.;und;Cruceta de 1.80 m en alineacion p/poste de sec. 4 1/2"  linea 3f 13.8 kV Arv.;12,00
+CR0506;Cruceta de 1.80 m en alineacion montada en poste de seccion 5 1/2"  linea trifasica 13.8 kV Arv.;und;Cruceta de 1.80 m en alineacion p/poste de sec. 5 1/2"  linea 3f 13.8 kV Arv.;12,00
+CR0509;Cruceta de 2.40 m en alineacion  montada en poste de seccion 4 1/2"  linea trifasica 13.8 kV Arv.;und;Cruceta de 2.40 m en alineacion p/poste de sec. 4 1/2"  linea 3f 13.8 kV Arv.;10,00
+CR0510;Cruceta de 2.40 m en alineacion  montada en poste de seccion 5 1/2"  linea trifasica 13.8 kV Arv.;und;Cruceta de 2.40 m en alineacion p/poste de sec. 5 1/2"  linea 3f 13.8 kV Arv.;10,00
+CR0513;Cruceta de 2.40 m en alineacion  montada en poste de seccion 4 1/2"  linea trifasica 34.5 kV Arv.;und;Cruceta de 2.40 m en alineacion p/poste de sec. 4 1/2"  linea 3f 34.5 kV Arv.;10,00
+CR0514;Cruceta de 2.40 m en alineacion  montada en poste de seccion 5 1/2"  linea trifasica 34.5 kV Arv.;und;Cruceta de 2.40 m en alineacion p/poste de sec. 5 1/2"  linea 3f 34.5 kV Arv.;10,00
+CR0517;Cruceta sencilla de 2.40 m en suspension montada en poste de seccion  4 1/2" linea trifasica 13.8 kV Arv.;und;Cruceta de 2.40 m en suspension p/poste de sec. 4 1/2" linea 3f 13.8 kV Arv.;10,00
+CR0518;Cruceta sencilla de 2.40 m en suspension montada en poste de seccion 5 1/2" linea trifasica 13.8 kV Arv.;und;Cruceta de 2.40 m en suspension p/poste de sec. 5 1/2" linea 3f 13.8 kV Arv.;10,00
+CR0519;Cruceta sencilla de 2.40 m en suspension montada  en poste de seccion 5 1/2" linea trifasica 13.8 kV Arv. 394.5 kcmil;und;Cruceta de 2.40 m en suspension p/poste de sec. 5 1/2" linea 3f 13.8 kV Arv.394.5 kcmil;10,00
+CR0522;Cruceta sencilla de 2.40 m en suspension montada  en poste de seccion  4 1/2" linea trifasica 34.5 kV Arv.;und;Cruceta de 2.40 m en suspension p/poste de sec. 4 1/2" linea 3f 34.5 kV Arv.;10,00
+CR0523;Cruceta sencilla de 2.40 m en suspension montada  en poste de seccion  5 1/2" linea trifasica 34.5 kV Arv;und;Cruceta de 2.40 m en suspension p/poste de sec. 5 1/2" linea 3f 34.5 kV Arv;10,00
+CR0524;Cruceta sencilla de 2.40 m en suspension montada  en poste de seccion  5 1/2" linea trifasica 34.5 kV Arv;und;Cruceta de 2.40 m en suspension p/poste de sec. 5 1/2" linea 3f 34.5 kV Arv;10,00
+CR0527;Cruceta sencilla de 3.20 m en suspension montada  en poste de seccion  5 1/2" linea trifasica 13.8 kV Arv.;und;Cruceta de 3.20 m en suspension p/poste de sec. 5 1/2" linea 3f 13.8 kV Arv.;8,00
+CR0528;Cruceta sencilla de 3.20 m en suspension montada  en poste de seccion  5 1/2" linea trifasica 34.5 kV Arv.;und;Cruceta de 3.20 m en suspension p/poste de sec. 5 1/2" linea 3f 34.5 kV Arv.;8,00
+CR0531;Tres crucetas sencillas de 2.40m en suspension en poste 5 1/2" linea doble terna trifasica 13.8 kV Arv. 394 kcmil.;und;Tres crucetas de 2.40m en suspension p/poste 5 1/2" linea DT 3f 13.8 kV 394 kcmil.;3,00
+CR0532;Tres crucetas sencillas de 2.40m en suspension en poste 5 1/2" linea doble terna trifasica 34.5 kV Arv.;und;Tres crucetas de 2.40m en suspension en p/poste sec.5 1/2" linea DT 3f 34.5 kV;3,00
+CR0539;Dos crucetas sencillas de 1.80 m para cruzamiento montadas en poste seccion 4 1/2" linea monofasica 13,8 kV Arv.;und;Dos  crucetas de 1.80 m p/cruzamiento en  p/poste sec.1/2" linea 1f 13,8 kV Arv.;7,00
+CR0540;Dos crucetas sencillas de 1.80 m para cruzamiento montadas en poste seccion 4 1/2" linea trifasica 13,8 kV Arv.;und;Dos  crucetas de 1.80 m para cruzamiento p/poste sec.4 1/2" linea 3f 13,8 kV Arv;7,00
+CR0541;Dos crucetas sencillas de 1.80 m para cruzamiento montadas en poste seccion 5 1/2" linea trifasica 13,8 kV Arv.;und;Dos  crucetas de 1.80 m para cruzamiento p/poste sec.5 1/2" linea 3f 13,8 kV Arv;7,00
+CR0543;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste seccion 4 1/2" linea trifasica 13,8 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.4 1/2" linea 3f 13,8 kV Arv.;5,00
+CR0544;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste seccion 5 1/2" linea trifasica 13,8 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.5 1/2" linea 3f 13,8 kV Arv.;5,00
+CR0547;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste seccion 4 1/2" linea trifasica 34,5 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.41/2" linea 3f 34,5 kV Arv.;5,00
+CR0548;Dos crucetas sencillas de 2.40 m para cruzamiento montadas en poste seccion 5 1/2" linea trifasica 34,5 kV Arv.;und;Dos  crucetas  de 2.40 m para cruzamiento  p/poste sec.5 1/2" linea 3f 34,5 kV Arv.;5,00
+CR0553;Cruceta doble de 1.80 m para angulos 170°-180° montada en poste de seccion 4 1/2" linea monofasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 170°-180° p/poste de sec.4 1/2" linea 1f 13,8 kV Arv.;7,00
+CR0554;Cruceta doble de 1.80 m para angulos 170°-180° montada en poste de seccion 4 1/2" linea trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 170°-180° p/poste de sec.4 1/2" linea 3f 13,8 kV Arv.;7,00
+CR0555;Cruceta doble de 1.80 m para angulos 170°-180° montada en poste de seccion 5 1/2" linea  trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 170°-180° p/poste de sec.5 1/2" linea 3f 13,8 kV Arv.;7,00
+CR0558;Cruceta  doble  de  2.40 m  para angulos 170°-180°  montada  en poste de  seccion 4 1/2" linea  trifasica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para angulos 170°-180° p/poste de sec.4 1/2" linea 3f 13,8 kV Arv.;5,00
+CR0559;Cruceta  doble  de  2.40 m  para angulos 170°-180°  montada  en poste de  seccion 5 1/2" linea  trifasica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para angulos 170°-180° p/poste de sec.5 1/2" linea 3f 13,8 kV Arv.;5,00
+CR0562;Cruceta  doble  de  2.40 m  para angulos 170°-180°  montada  en poste de  seccion 4 1/2" linea  trifasica 34,5 kV Arv.;und;Cruceta doble de 2.40 m para angulos 170°-180° p/poste de sec.4 1/2" linea 3f 34,5 kV Arv.;5,00
+CR0563;Cruceta  doble  de  2.40 m  para angulos 170°-180°  montada  en poste de  seccion 5 1/2" linea  trifasica 34,5 kV Arv.;und;Cruceta doble de 2.40 m para angulos 170°-180° p/poste de sec.5 1/2" linea 3f 34,5 kV Arv.;5,00
+CR0569;Cruceta doble de 1.80 m para angulos 120°-170° montada en poste de seccion 4 1/2" linea monofasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 120°-170° p/poste de sec.4 1/2" linea 1f 13,8 kV Arv.;7,00
+CR0570;Cruceta doble de 1.80 m para angulos 120°-170° montada en poste de seccion 4 1/2" linea Trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 120°-170° p/poste de sec.4 1/2" linea 3f 13,8 kV Arv.;7,00
+CR0571;Cruceta doble de 1.80 m para angulos 120°-170° montada en poste de seccion 51/2" linea Trifasica 13,8 kV Arv.;und;Cruceta doble de 1.80 m para angulos 120°-170° p/poste de sec.5 1/2" linea 3f 13,8 kV Arv.;7,00
+CR0574;Cruceta  doble  de  2.40 m  para angulos 120°-170°  montada  en poste de  seccion 4 1/2" linea trifasica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para angulos 120°-170° p/poste de sec.4 1/2" linea 3f 13,8 kV Arv.;5,00
+CR0575;Cruceta  doble  de  2.40 m  para angulos 120°-170°  montada  en poste de  seccion 5 1/2" linea trifasica 13,8 kV Arv.;und;Cruceta doble de 2.40 m para angulos 120°-170° p/poste de sec.5 1/2" linea 3f 13,8 kV Arv.;5,00

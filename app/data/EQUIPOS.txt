@@ -46,7 +46,7 @@ HER043;Machete de 20";Und;
 HER044;Lima plana de  12";Und;
 HER045;Herramientas para cableado subterraneo;Und;
 HER087;Nivel de tres burbujas de 14";Und;
-HER091;Herramientas de albañileria;Und;
+HER091;Herramientas de albanileria;Und;
 HER120;Cizalla  T/Tijera manual de 24";Und;
 HER123;Barra metalica de 1.47 m;Und;
 HER124;Mandarria de mango largo de 6 kg;Und;
