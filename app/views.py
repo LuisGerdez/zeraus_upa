@@ -750,6 +750,8 @@ def excel_apu(request, codigo):
             for p in partidas:
                 partida = Partidas.objects.get(codigo=p["codigo"])
 
+                p["rendimiento_final"] = float("{0:.2f}".format((p["rendimiento"]/(1+((obra.grado_dificultad/100))))))
+
                 p["materiales"] = [material.serialize() for material in partida.materiales.all()]
                 p["materiales_total"] = 0
                 
@@ -772,7 +774,7 @@ def excel_apu(request, codigo):
                     e["price_total"] = numberCurrencyFormat(e["cantidad"] * (currencyToFloat(e["price"]) * e["depreciacion"]))
                     p["equipos_total"] = p["equipos_total"] + currencyToFloat(e["price_total"])
                 p["equipos_total"] = numberCurrencyFormat(p["equipos_total"])
-                p["equipos_unitario"] = numberCurrencyFormat(currencyToFloat(p["equipos_total"]) / p["rendimiento"])
+                p["equipos_unitario"] = numberCurrencyFormat(currencyToFloat(p["equipos_total"]) / p["rendimiento_final"])
 
                 p["personal"] = [personal.serialize() for personal in partida.personal.all()]
                 p["personal_cant"] = 0
@@ -790,7 +792,7 @@ def excel_apu(request, codigo):
                 p["personal_alimentacion"] = numberCurrencyFormat(obra.bono_alimentacion * p["personal_cant"])
                 p["personal_total_fcas"] = numberCurrencyFormat(currencyToFloat(p["personal_total"]) + currencyToFloat(p["personal_fcas"]))
                 p["personal_total_fcas_alimentacion"] = numberCurrencyFormat(currencyToFloat(p["personal_total_fcas"]) + currencyToFloat(p["personal_alimentacion"]))
-                p["personal_unitario"] = numberCurrencyFormat(currencyToFloat(p["personal_total_fcas_alimentacion"]) / p["rendimiento"])
+                p["personal_unitario"] = numberCurrencyFormat(currencyToFloat(p["personal_total_fcas_alimentacion"]) / p["rendimiento_final"])
 
                 p["costo_directo_unidad"] = numberCurrencyFormat(currencyToFloat(p["materiales_unitario"]) + currencyToFloat(p["equipos_unitario"]) + currencyToFloat(p["personal_unitario"]))
                 p["f_administracion"] = numberCurrencyFormat(currencyToFloat(p["costo_directo_unidad"]) * (obra.f_administracion/100))
@@ -840,7 +842,7 @@ def excel_apu(request, codigo):
                 ws["E8"] = "Rendimiento:"
                 ws["E8"].font = Font(bold=True)
                 ws["F8"].alignment = Alignment(horizontal="right", vertical="center")
-                ws["F8"] = partida["rendimiento"]
+                ws["F8"] = partida["rendimiento_final"]
 
                 # Fecha
                 ws["E1"].alignment = Alignment(horizontal="right", vertical="center")
@@ -1230,6 +1232,8 @@ def excel_presupuesto_obra(request, codigo):
                 p["num"] = num
                 p["cantidad"] = partida.getCantidad(obra)
 
+                p["rendimiento_final"] = float("{0:.2f}".format((p["rendimiento"]/(1+((obra.grado_dificultad/100))))))
+
                 p["materiales"] = [material.serialize() for material in partida.materiales.all()]
                 p["materiales_total"] = 0
                 
@@ -1250,15 +1254,16 @@ def excel_presupuesto_obra(request, codigo):
                     e["price"] = equipo.getPriceBs(area)
                     e["price_total"] = (e["cantidad"] * (e["price"] * e["depreciacion"]))
                     p["equipos_total"] = p["equipos_total"] + e["price_total"]
-                p["equipos_unitario"] = (p["equipos_total"] / p["rendimiento"])
+                p["equipos_unitario"] = (p["equipos_total"] / p["rendimiento_final"])
 
                 p["personal"] = [personal.serialize() for personal in partida.personal.all()]
-                p["personal_cant"] = partida.personal.all().count()
+                p["personal_cant"] = 0
                 p["personal_total"] = 0
 
                 for pers in p["personal"]:
                     personal = Personal.objects.get(codigo=pers["codigo"])
                     pers["cantidad"] = personal.getCantidad(partida)
+                    p["personal_cant"] = int(p["personal_cant"] + pers["cantidad"])
                     pers["price"] = personal.getPriceBs(area)
                     pers["price_total"] = (pers["cantidad"] * pers["price"])
                     p["personal_total"] = p["personal_total"] + pers["price_total"]
@@ -1266,7 +1271,7 @@ def excel_presupuesto_obra(request, codigo):
                 p["personal_alimentacion"] = obra.bono_alimentacion * p["personal_cant"]
                 p["personal_total_fcas"] = p["personal_total"] + p["personal_fcas"]
                 p["personal_total_fcas_alimentacion"] = p["personal_total_fcas"] + p["personal_alimentacion"]
-                p["personal_unitario"] = (p["personal_total_fcas_alimentacion"] / p["rendimiento"])
+                p["personal_unitario"] = (p["personal_total_fcas_alimentacion"] / p["rendimiento_final"])
 
                 p["costo_directo_unidad"] = p["materiales_unitario"] + p["equipos_unitario"] + p["personal_unitario"]
                 p["f_administracion"] = ((p["costo_directo_unidad"]) * (obra.f_administracion/100))
@@ -1408,7 +1413,7 @@ def excel_presupuesto_obra(request, codigo):
             ws["A" + str(row)] = "Dificultad de la Obra:"
             ws.merge_cells("A" + str(row) + ":C" + str(row))
             ws["D" + str(row)].alignment = Alignment(horizontal="left", vertical="center")
-            ws["D" + str(row)] = "???"
+            ws["D" + str(row)] = obra.grado_dificultad
 
             # Subtototal
             ws["G" + str(row)].alignment = Alignment(horizontal="right", vertical="center")
@@ -1527,6 +1532,8 @@ def pdf_apu(request, codigo):
             for p in partidas:
                 partida = Partidas.objects.get(codigo=p["codigo"])
 
+                p["rendimiento_final"] = float("{0:.2f}".format((p["rendimiento"]/(1+((obra.grado_dificultad/100))))))
+
                 p["materiales"] = [material.serialize() for material in partida.materiales.all()]
                 p["materiales_total"] = 0
                 
@@ -1549,7 +1556,7 @@ def pdf_apu(request, codigo):
                     e["price_total"] = numberCurrencyFormat(e["cantidad"] * (currencyToFloat(e["price"]) * e["depreciacion"]))
                     p["equipos_total"] = p["equipos_total"] + currencyToFloat(e["price_total"])
                 p["equipos_total"] = numberCurrencyFormat(p["equipos_total"])
-                p["equipos_unitario"] = numberCurrencyFormat(currencyToFloat(p["equipos_total"]) / p["rendimiento"])
+                p["equipos_unitario"] = numberCurrencyFormat(currencyToFloat(p["equipos_total"]) / p["rendimiento_final"])
 
                 p["personal"] = [personal.serialize() for personal in partida.personal.all()]
                 p["personal_cant"] = 0
@@ -1567,7 +1574,7 @@ def pdf_apu(request, codigo):
                 p["personal_alimentacion"] = numberCurrencyFormat(obra.bono_alimentacion * p["personal_cant"])
                 p["personal_total_fcas"] = numberCurrencyFormat(currencyToFloat(p["personal_total"]) + currencyToFloat(p["personal_fcas"]))
                 p["personal_total_fcas_alimentacion"] = numberCurrencyFormat(currencyToFloat(p["personal_total_fcas"]) + currencyToFloat(p["personal_alimentacion"]))
-                p["personal_unitario"] = numberCurrencyFormat(currencyToFloat(p["personal_total_fcas_alimentacion"]) / p["rendimiento"])
+                p["personal_unitario"] = numberCurrencyFormat(currencyToFloat(p["personal_total_fcas_alimentacion"]) / p["rendimiento_final"])
 
                 p["costo_directo_unidad"] = numberCurrencyFormat(currencyToFloat(p["materiales_unitario"]) + currencyToFloat(p["equipos_unitario"]) + currencyToFloat(p["personal_unitario"]))
                 p["f_administracion"] = numberCurrencyFormat(currencyToFloat(p["costo_directo_unidad"]) * (obra.f_administracion/100))
@@ -1613,6 +1620,8 @@ def pdf_presupuesto_obra(request, codigo):
                 p["num"] = num
                 p["cantidad"] = partida.getCantidad(obra)
 
+                p["rendimiento_final"] = float("{0:.2f}".format((p["rendimiento"]/(1+((obra.grado_dificultad/100))))))
+
                 p["materiales"] = [material.serialize() for material in partida.materiales.all()]
                 p["materiales_total"] = 0
                 
@@ -1633,15 +1642,16 @@ def pdf_presupuesto_obra(request, codigo):
                     e["price"] = equipo.getPriceBs(area)
                     e["price_total"] = (e["cantidad"] * (e["price"] * e["depreciacion"]))
                     p["equipos_total"] = p["equipos_total"] + e["price_total"]
-                p["equipos_unitario"] = (p["equipos_total"] / p["rendimiento"])
+                p["equipos_unitario"] = (p["equipos_total"] / p["rendimiento_final"])
 
                 p["personal"] = [personal.serialize() for personal in partida.personal.all()]
-                p["personal_cant"] = partida.personal.all().count()
+                p["personal_cant"] = 0
                 p["personal_total"] = 0
 
                 for pers in p["personal"]:
                     personal = Personal.objects.get(codigo=pers["codigo"])
                     pers["cantidad"] = personal.getCantidad(partida)
+                    p["personal_cant"] = int(p["personal_cant"] + pers["cantidad"])
                     pers["price"] = personal.getPriceBs(area)
                     pers["price_total"] = (pers["cantidad"] * pers["price"])
                     p["personal_total"] = p["personal_total"] + pers["price_total"]
@@ -1649,7 +1659,7 @@ def pdf_presupuesto_obra(request, codigo):
                 p["personal_alimentacion"] = obra.bono_alimentacion * p["personal_cant"]
                 p["personal_total_fcas"] = p["personal_total"] + p["personal_fcas"]
                 p["personal_total_fcas_alimentacion"] = p["personal_total_fcas"] + p["personal_alimentacion"]
-                p["personal_unitario"] = (p["personal_total_fcas_alimentacion"] / p["rendimiento"])
+                p["personal_unitario"] = (p["personal_total_fcas_alimentacion"] / p["rendimiento_final"])
 
                 p["costo_directo_unidad"] = p["materiales_unitario"] + p["equipos_unitario"] + p["personal_unitario"]
                 p["f_administracion"] = ((p["costo_directo_unidad"]) * (obra.f_administracion/100))
@@ -1733,6 +1743,8 @@ def reporte_apu(request, codigo):
             for p in partidas:
                 partida = Partidas.objects.get(codigo=p["codigo"])
 
+                p["rendimiento_final"] = float("{0:.2f}".format((p["rendimiento"]/(1+((obra.grado_dificultad/100))))))
+
                 p["materiales"] = [material.serialize() for material in partida.materiales.all()]
                 p["materiales_total"] = 0
                 
@@ -1755,7 +1767,7 @@ def reporte_apu(request, codigo):
                     e["price_total"] = numberCurrencyFormat(e["cantidad"] * (currencyToFloat(e["price"]) * e["depreciacion"]))
                     p["equipos_total"] = p["equipos_total"] + currencyToFloat(e["price_total"])
                 p["equipos_total"] = numberCurrencyFormat(p["equipos_total"])
-                p["equipos_unitario"] = numberCurrencyFormat(currencyToFloat(p["equipos_total"]) / p["rendimiento"])
+                p["equipos_unitario"] = numberCurrencyFormat(currencyToFloat(p["equipos_total"]) / p["rendimiento_final"])
 
                 p["personal"] = [personal.serialize() for personal in partida.personal.all()]
                 p["personal_cant"] = 0
@@ -1773,7 +1785,7 @@ def reporte_apu(request, codigo):
                 p["personal_alimentacion"] = numberCurrencyFormat(obra.bono_alimentacion * p["personal_cant"])
                 p["personal_total_fcas"] = numberCurrencyFormat(currencyToFloat(p["personal_total"]) + currencyToFloat(p["personal_fcas"]))
                 p["personal_total_fcas_alimentacion"] = numberCurrencyFormat(currencyToFloat(p["personal_total_fcas"]) + currencyToFloat(p["personal_alimentacion"]))
-                p["personal_unitario"] = numberCurrencyFormat(currencyToFloat(p["personal_total_fcas_alimentacion"]) / p["rendimiento"])
+                p["personal_unitario"] = numberCurrencyFormat(currencyToFloat(p["personal_total_fcas_alimentacion"]) / p["rendimiento_final"])
 
                 p["costo_directo_unidad"] = numberCurrencyFormat(currencyToFloat(p["materiales_unitario"]) + currencyToFloat(p["equipos_unitario"]) + currencyToFloat(p["personal_unitario"]))
                 p["f_administracion"] = numberCurrencyFormat(currencyToFloat(p["costo_directo_unidad"]) * (obra.f_administracion/100))
@@ -1813,6 +1825,8 @@ def reporte_presupuesto_obra(request, codigo):
                 p["num"] = num
                 p["cantidad"] = partida.getCantidad(obra)
 
+                p["rendimiento_final"] = float("{0:.2f}".format((p["rendimiento"]/(1+((obra.grado_dificultad/100))))))
+
                 p["materiales"] = [material.serialize() for material in partida.materiales.all()]
                 p["materiales_total"] = 0
                 
@@ -1833,15 +1847,16 @@ def reporte_presupuesto_obra(request, codigo):
                     e["price"] = equipo.getPriceBs(area)
                     e["price_total"] = (e["cantidad"] * (e["price"] * e["depreciacion"]))
                     p["equipos_total"] = p["equipos_total"] + e["price_total"]
-                p["equipos_unitario"] = (p["equipos_total"] / p["rendimiento"])
+                p["equipos_unitario"] = (p["equipos_total"] / p["rendimiento_final"])
 
                 p["personal"] = [personal.serialize() for personal in partida.personal.all()]
-                p["personal_cant"] = partida.personal.all().count()
+                p["personal_cant"] = 0
                 p["personal_total"] = 0
 
                 for pers in p["personal"]:
                     personal = Personal.objects.get(codigo=pers["codigo"])
                     pers["cantidad"] = personal.getCantidad(partida)
+                    p["personal_cant"] = int(p["personal_cant"] + pers["cantidad"])
                     pers["price"] = personal.getPriceBs(area)
                     pers["price_total"] = (pers["cantidad"] * pers["price"])
                     p["personal_total"] = p["personal_total"] + pers["price_total"]
@@ -1849,7 +1864,7 @@ def reporte_presupuesto_obra(request, codigo):
                 p["personal_alimentacion"] = obra.bono_alimentacion * p["personal_cant"]
                 p["personal_total_fcas"] = p["personal_total"] + p["personal_fcas"]
                 p["personal_total_fcas_alimentacion"] = p["personal_total_fcas"] + p["personal_alimentacion"]
-                p["personal_unitario"] = (p["personal_total_fcas_alimentacion"] / p["rendimiento"])
+                p["personal_unitario"] = (p["personal_total_fcas_alimentacion"] / p["rendimiento_final"])
 
                 p["costo_directo_unidad"] = p["materiales_unitario"] + p["equipos_unitario"] + p["personal_unitario"]
                 p["f_administracion"] = ((p["costo_directo_unidad"]) * (obra.f_administracion/100))
