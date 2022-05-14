@@ -4,6 +4,7 @@
 <html lang="es">
     <head>
         <title>{% block title %}Zeraus UPA{% endblock %}</title>
+        <link rel="shortcut icon" href="{% static 'favicon/favicon.gif' %}"/>
         <link href="{% static 'app/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
         <link href="{% static 'app/bootstrap-icons-1.5.0/bootstrap-icons.css' %}" rel="stylesheet">
         <link href="{% static 'app/jquery.dataTables.min.css' %}" rel="stylesheet">
@@ -20,8 +21,8 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3" id="nav-menu">
             <a class="navbar-brand" href="{% url 'index' %}">
+                <img src="{% static 'app/images/corpoelec-logo.png' %}" width="150" height="35">
                 <img src="{% static 'app/images/zs-logo.png' %}" width="35" height="35" class="border border-white rounded">
-                <a class="navbar-brand" href="{% url 'index' %}">Zeraus UPA</a>
             </a>
             
 

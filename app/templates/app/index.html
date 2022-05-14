@@ -4,43 +4,60 @@
 
 {% block body %}
     
-    <div class="container p-5 my-5 shadow-lg" style="background-color: #ffffffb3;">
+    <div class="container p-5 my-4 shadow-lg" style="background-color: #ffffffb3;">
         {% if user.is_authenticated %}
             <center>
-                <h1 class="display-3">Bienvenido a Zeraus UPA</h1>
+                <h1 style="color: #243a70;" class="display-3"><b>Bienvenido a Zeraus UPA</b></h1>
                 <div id="carouselSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
+
                         <div class="carousel-item active">
-                            <h1 class="display-4">Accede a las funciones disponibles a través del menú de navegación!</h1>
+                            <h1 class="display-4" style="font-size: 40px;">Herramienta para formulación de presupuestos de obras previo análisis de precios unitarios, es un modelo práctico para costos por unidad de partidas que conforman los presupuestos de obras.</h1>
                         </div>
 
                         <div class="carousel-item">
-                            <h1 class="display-4">Crea reportes en formatos PDF y Microsoft Office Excel!</h1>
+                            <h1 class="display-4" style="font-size: 40px;">Accede a las funciones disponibles a través del menú de navegación!</h1>
                         </div>
 
                         <div class="carousel-item">
-                            <h1 class="display-4">Fácil de usar</h1>
+                            <h1 class="display-4" style="font-size: 40px;">Crea reportes en formatos PDF y Microsoft Office Excel!</h1>
                         </div>
 
                         <div class="carousel-item">
-                            <h1 class="display-4">Tablas con opciones de búsqueda y filtrado!</h1>
+                            <h1 class="display-4" style="font-size: 40px;">Fácil de usar</h1>
+                        </div>
+
+                        <div class="carousel-item">
+                            <h1 class="display-4" style="font-size: 40px;">Tablas con opciones de búsqueda y filtrado!</h1>
                         </div>
                     </div>
                 </div>                
             </center>
         {% else %}
             <center>
-                <img src="{% static 'app/images/zs-logo.png' %}" style="margin: 0px;" width="160px" height="150px">
-            </center>
-            <br>
-            <header class="masthead">
-                <div class="masthead-subheading">
-                    Herramienta para ejecutar actividades de formulación de presupuestos de obras bajo la elaboración previa de análisis de precios unitarios, que es un modelo práctico para determinar los costos por unidad de las partidas que conforman los presupuestos de obras.
-                </div>
+                <h1 style="color: #243a70;" class="display-3"><b>Zeraus UPA</b></h1>
 
-                <a class="btn btn-light btn-lg rounded-pill border border-dark shadow" href="{% url 'login' %}" role="button">Comenzar</a>
-            </header>
+                <h1 class="display-4" style="font-size: 42px;">Sistema de Compútos de Obras</h1>
+                <h1 class="display-4" style="font-size: 42px;">Redes Eléctricas de Distribución</h1>
+
+                <br>
+
+                <a class="btn btn-light btn-lg rounded-pill border border-dark shadow" href="{% url 'login' %}" role="button">Iniciar sesión</a>
+            </center>
         {% endif %}
     </div>
-    
+
+    <footer class="page-footer font-small blue fixed-bottom">
+        <center>
+            <p>
+                <b>Desarrollado por</b>:<br>
+                <b>Tutor Industrial</b>: MSc. Ing. José M. Suárez Marín<br>
+                <b>Pasante</b>: Br. Luis C. Gerdez Pitre<br>
+                © 2022
+            </p>
+
+            <img src="{% static 'app/images/corpoelec-footer.png' %}" width="380" height="36">
+        </center>
+    </footer>
+        
 {% endblock %}
