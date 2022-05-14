@@ -55,6 +55,28 @@ def load_data(request, accion):
             except FileNotFoundError:
                 print("Archivo no encontrado!")
 
+        if accion == "equipos_rename":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "EQUIPOS.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+
+                    if Equipos.objects.filter(codigo=data[0]).exists():
+                        equipo = Equipos.objects.get(codigo=data[0])
+                        equipo.descripcion = data[1]
+                        equipo.unidad = data[2]
+                        equipo.save()
+                        print(equipo, "se ha renombrado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+
         elif accion == "materiales":
             try:
                 file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "MATERIALES.txt", "r", errors='replace')
@@ -72,6 +94,28 @@ def load_data(request, accion):
                         print(material, "se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Material " + data[0] + " no se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+
+        if accion == "materiales_rename":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "MATERIALES.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+
+                    if Materiales.objects.filter(codigo=data[0]).exists():
+                        material = Materiales.objects.get(codigo=data[0])
+                        material.descripcion = data[2]
+                        material.unidad = data[3]
+                        material.save()
+                        print(material, "se ha renombrado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
             except FileNotFoundError:
                 print("Archivo no encontrado!")
@@ -97,6 +141,28 @@ def load_data(request, accion):
             except FileNotFoundError:
                 print("Archivo no encontrado!")
 
+        if accion == "personal_rename":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PERSONAL.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+
+                    if Personal.objects.filter(codigo=data[0]).exists():
+                        personal = Personal.objects.get(codigo=data[0])
+                        personal.descripcion = data[1]
+                        personal.unidad = data[2]
+                        personal.save()
+                        print(personal, "se ha renombrado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+
         elif accion == "partidas":
             try:
                 file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PARTIDAS.txt", "r", errors='replace')
@@ -114,6 +180,29 @@ def load_data(request, accion):
                         print(partida, "se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
                     except IntegrityError:
                         print("Partida " + data[0] + " no se ha creado correctamente", "(" + str(total) + "/" + str(current) + ")")
+
+            except FileNotFoundError:
+                print("Archivo no encontrado!")
+
+        if accion == "partidas_rename":
+            try:
+                file = open(os.path.abspath(os.path.dirname(__file__)) + "/data/" + "PARTIDAS.txt", "r", errors='replace')
+                lines = file.readlines()
+
+                total = len(lines)
+                current = 0
+                
+                for line in lines:
+                    current = current + 1
+                    data = line.split(";")
+
+                    if Partidas.objects.filter(codigo=data[0]).exists():
+                        partida = Partidas.objects.get(codigo=data[0])
+                        partida.nombre = data[3]
+                        partida.descripcion = data[1]
+                        partida.unidad = data[2]
+                        partida.save()
+                        print(partida, "se ha renombrado correctamente", "(" + str(total) + "/" + str(current) + ")")
 
             except FileNotFoundError:
                 print("Archivo no encontrado!")
