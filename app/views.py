@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+import openpyxl
 from django.core.paginator import Paginator
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
@@ -677,6 +678,12 @@ def excel_lista_materiales(request, codigo):
             ws.title = "MATERIALES " + obra.codigo
 
             # ENCABEZADO
+            # Logo
+            img_path = os.path.abspath(os.path.dirname(__file__)) + "/static/app/images/corpoelec-logo-excel.png"
+            img = openpyxl.drawing.image.Image(img_path)
+            img.anchor = 'A1'
+            ws.add_image(img)
+
             # Codigo de obra
             ws["A3"].alignment = Alignment(horizontal="left", vertical="center")
             ws["A3"] = "Código Obra:"
@@ -903,6 +910,12 @@ def excel_apu(request, codigo):
                     ws = wb.create_sheet(partida["codigo"])
 
                 # ENCABEZADO
+                # Logo
+                img_path = os.path.abspath(os.path.dirname(__file__)) + "/static/app/images/corpoelec-logo-excel.png"
+                img = openpyxl.drawing.image.Image(img_path)
+                img.anchor = 'A1'
+                ws.add_image(img)
+                
                 # TITULO
                 ws["A3"].alignment = Alignment(horizontal="center", vertical="center")
                 ws["A3"] = "ANÁLISIS DE PRECIOS UNITARIOS"
@@ -1385,6 +1398,12 @@ def excel_presupuesto_obra(request, codigo):
             ws.title = "PRESUPUESTO " + obra.codigo
 
             # ENCABEZADO
+            # Logo
+            img_path = os.path.abspath(os.path.dirname(__file__)) + "/static/app/images/corpoelec-logo-excel.png"
+            img = openpyxl.drawing.image.Image(img_path)
+            img.anchor = 'A1'
+            ws.add_image(img)
+
             # Codigo de obra
             ws["A3"].alignment = Alignment(horizontal="left", vertical="center")
             ws["A3"] = "Código Obra:"
@@ -1588,11 +1607,11 @@ def pdf_lista_materiales(request, codigo):
             materiales_total_transporte = numberCurrencyFormat(currencyToFloat(materiales_total) + (currencyToFloat(materiales_total) * (obra.tarifa_transporte/100)))
 
             data = {
-                "exists": True,
                 "obra": obra,
                 "lista_materiales": lista_materiales,
                 "materiales_total": materiales_total,
                 "materiales_total_transporte": materiales_total_transporte,
+                "host": "http://" + request.META['HTTP_HOST']
             }
 
         except Obras.DoesNotExist:
@@ -1674,9 +1693,9 @@ def pdf_apu(request, codigo):
                 p["unitario"] = p["costo_directo_unidad_administracion_utilidad"]
 
             data = {
-                "exists": True,
                 "obra": obra,
-                "partidas": partidas
+                "partidas": partidas,
+                "host": "http://" + request.META['HTTP_HOST']
             }
         except Obras.DoesNotExist:
             return render(request, "app/reporte_apu.html", {
@@ -1768,9 +1787,9 @@ def pdf_presupuesto_obra(request, codigo):
             obra.total = numberCurrencyFormat(currencyToFloat(obra.subtotal_transporte) + currencyToFloat(obra.t_iva))
 
             data = {
-                "exists": True,
                 "obra": obra,
-                "partidas": partidas
+                "partidas": partidas,
+                "host": "http://" + request.META['HTTP_HOST']
             }
         except Obras.DoesNotExist:
             return render(request, "app/reporte_presupuesto_obra.html", {
