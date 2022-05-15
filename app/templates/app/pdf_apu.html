@@ -12,7 +12,7 @@
                     left: 50pt; width: 512pt; top: 20pt; height: 20pt;
                 }
                 @frame content_frame {          /* Content Frame */
-                    left: 45pt; width: 518pt; top: 40pt; height: 780pt;
+                    left: 45pt; width: 518pt; top: 26pt; height: 795pt;
                 }
                 @frame footer_frame {           /* Another static Frame */
                     -pdf-frame-content: footer_content;
@@ -40,6 +40,8 @@
         </div>
 
         {% for partida in partidas %}
+            <img src="{{ host }}{% static 'app/images/corpoelec-logo.png'%}" width="150" height="28"/>
+
             <h1 style="text-align: center; margin: 0px;">ANÁLISIS DE PRECIOS UNITARIOS</h1>
 
             <table style="border: none;">

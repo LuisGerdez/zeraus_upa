@@ -12,7 +12,7 @@
                     left: 50pt; width: 512pt; top: 20pt; height: 20pt;
                 }
                 @frame content_frame {          /* Content Frame */
-                    left: 45pt; width: 518pt; top: 50pt; height: 732pt;
+                    left: 45pt; width: 518pt; top: 32pt; height: 732pt;
                 }
                 @frame footer_frame {           /* Another static Frame */
                     -pdf-frame-content: footer_content;
@@ -38,6 +38,8 @@
         <div id="footer_content">
             Página <pdf:pagenumber> de <pdf:pagecount>
         </div>
+
+        <img src="{{ host }}{% static 'app/images/corpoelec-logo.png'%}" width="150" height="28"/>
 
         <table style="border: none;">
             <tr>
