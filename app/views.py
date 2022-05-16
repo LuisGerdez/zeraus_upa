@@ -651,7 +651,7 @@ def presupuestos(request):
 
 
 def excel_lista_materiales(request, codigo):
-    if(request.user.has_perm("app.report_presupuesto")):
+    if(request.user.has_perm("app.report_presupuesto_excel")):
         try:
             obra = Obras.objects.get(codigo=codigo)
             area = obra.area
@@ -833,7 +833,7 @@ def excel_lista_materiales(request, codigo):
 
 
 def excel_apu(request, codigo):
-    if(request.user.has_perm("app.report_presupuesto")):
+    if(request.user.has_perm("app.report_presupuesto_excel")):
         try:
             obra = Obras.objects.get(codigo=codigo)
             area = obra.area
@@ -1316,7 +1316,7 @@ def excel_apu(request, codigo):
 
 
 def excel_presupuesto_obra(request, codigo):
-    if(request.user.has_perm("app.report_presupuesto")):
+    if(request.user.has_perm("app.report_presupuesto_excel")):
         try:
             obra = Obras.objects.get(codigo=codigo)
             area = obra.area
@@ -1585,7 +1585,7 @@ def excel_presupuesto_obra(request, codigo):
 
 
 def pdf_lista_materiales(request, codigo):
-    if(request.user.has_perm("app.report_presupuesto")):
+    if(request.user.has_perm("app.report_presupuesto_pdf")):
         try:
             obra = Obras.objects.get(codigo=codigo)
             area = obra.area
@@ -1627,7 +1627,7 @@ def pdf_lista_materiales(request, codigo):
 
 
 def pdf_apu(request, codigo):
-    if(request.user.has_perm("app.report_presupuesto")):
+    if(request.user.has_perm("app.report_presupuesto_pdf")):
         try:
             obra = Obras.objects.get(codigo=codigo)
             area = obra.area
@@ -1710,7 +1710,7 @@ def pdf_apu(request, codigo):
 
 
 def pdf_presupuesto_obra(request, codigo):
-    if(request.user.has_perm("app.report_presupuesto")):
+    if(request.user.has_perm("app.report_presupuesto_pdf")):
         try:
             obra = Obras.objects.get(codigo=codigo)
             area = obra.area
@@ -2919,19 +2919,31 @@ def register(request):
                     # view_analisis, change_analisis
 
                     # view_obras, add_obras, change_obras, delete_obras
-                    # view_presupuesto, change_presupuesto, report_presupuesto
+                    # view_presupuesto, change_presupuesto
+                    # report_presupuesto, report_presupuesto_pdf, report_presupuesto_excel
 
                     for model in ["equipos", "materiales", "personal", "partidas", "areas", "precioequipos", "preciomateriales", "preciopersonal", "analisis", "obras", "presupuesto"]:
-                        for accion in ["add", "change", "delete", "view", "report"]:
+                        for accion in ["add", "change", "delete", "view", "report", "report_pdf", "report_excel"]:
                             if accion == "view":
                                 name = accion + "_" + model
                                 permission = Permission.objects.get(codename=name)
                                 new_user.user_permissions.add(permission)
 
-                            elif request.POST.get("check_" + accion + "_" + model, False) == "on":
-                                name = accion + "_" + model
-                                permission = Permission.objects.get(codename=name)
-                                new_user.user_permissions.add(permission)
+                            elif accion == "report_pdf":
+                                if request.POST.get("check_report_presupuesto_pdf", False) == "on":
+                                    permission = Permission.objects.get(codename="report_presupuesto_pdf")
+                                    new_user.user_permissions.add(permission)
+
+                            elif accion == "report_excel":
+                                if request.POST.get("check_report_presupuesto_excel", False) == "on":
+                                    permission = Permission.objects.get(codename="report_presupuesto_excel")
+                                    new_user.user_permissions.add(permission)
+
+                            else:
+                                if request.POST.get("check_" + accion + "_" + model, False) == "on":
+                                    name = accion + "_" + model
+                                    permission = Permission.objects.get(codename=name)
+                                    new_user.user_permissions.add(permission)
 
                     new_user.save()
                 except IntegrityError:
@@ -3009,15 +3021,28 @@ def modificar_usuarios(request):
                     user.user_permissions.clear()
 
                     for model in ["equipos", "materiales", "personal", "partidas", "areas", "precioequipos", "preciomateriales", "preciopersonal", "analisis", "obras", "presupuesto"]:
-                        for accion in ["add", "change", "delete", "view", "report"]:
+                        for accion in ["add", "change", "delete", "view", "report", "report_pdf", "report_excel"]:
                             if accion == "view":
                                 name = accion + "_" + model
                                 permission = Permission.objects.get(codename=name)
                                 user.user_permissions.add(permission)
-                            elif request.POST.get("check_" + accion + "_" + model, False) == "on":
-                                name = accion + "_" + model
-                                permission = Permission.objects.get(codename=name)
-                                user.user_permissions.add(permission)
+
+                            elif accion == "report_pdf":
+                                if request.POST.get("check_report_presupuesto_pdf", False) == "on":
+                                    permission = Permission.objects.get(codename="report_presupuesto_pdf")
+                                    user.user_permissions.add(permission)
+
+                            elif accion == "report_excel":
+                                if request.POST.get("check_report_presupuesto_excel", False) == "on":
+                                    permission = Permission.objects.get(codename="report_presupuesto_excel")
+                                    user.user_permissions.add(permission)
+
+                            else:
+                                if request.POST.get("check_" + accion + "_" + model, False) == "on":
+                                    name = accion + "_" + model
+                                    permission = Permission.objects.get(codename=name)
+                                    user.user_permissions.add(permission)
+
                 elif request.POST["tipo_usuario"] == "2":
                     user.is_superuser = True
 

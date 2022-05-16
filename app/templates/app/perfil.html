@@ -146,6 +146,12 @@
                     <div {% if "report_presupuesto" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
                         <i class="bi bi-check" style="color:green;"></i> Ver reportes de presupuestos
                     </div>
+                    <div {% if "report_presupuesto_pdf" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver reportes de presupuestos en PDF
+                    </div>
+                    <div {% if "report_presupuesto_excel" in user.permissions %} style="display: block;" {% else %} style="display: none;" {% endif %}>
+                        <i class="bi bi-check" style="color:green;"></i> Ver reportes de presupuestos en Excel
+                    </div>
                 </div>
             {% endif %}
         </div>

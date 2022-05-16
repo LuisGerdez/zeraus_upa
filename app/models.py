@@ -267,7 +267,9 @@ class Obras(models.Model):
 		permissions = (
 			("view_presupuesto", "Ver presupuestos"),
 			("change_presupuesto", "Modificar presupuestos"),
-			("report_presupuesto", "Ver reportes de presupuestos")
+			("report_presupuesto", "Ver reportes de presupuestos"),
+			("report_presupuesto_pdf", "Ver reportes de presupuestos en pdf"),
+			("report_presupuesto_excel", "Ver reportes de presupuestos en excel")
 		)
 
 

@@ -4,9 +4,17 @@
     {% if exists == True  %}
         <div class="container bg-light p-2 my-2 shadow-lg">
             <center>
-                <a class="btn btn-danger btn-sm" href="{% url 'pdf_apu' obra.codigo %}" target="_blank" role="button"><i class="bi bi-file-pdf"></i> Reporte en PDF</a>
-                
-                <a class="btn btn-success btn-sm" href="{% url 'excel_apu' obra.codigo %}" target="_blank" role="button"><i class="bi bi-file-excel"></i> Reporte en Excel</a>
+                {% if "report_presupuesto_pdf" in user.getPermissions %}
+                    <a class="btn btn-danger btn-sm" href="{% url 'pdf_apu' obra.codigo %}" target="_blank" role="button"><i class="bi bi-file-pdf"></i> Reporte en PDF</a>
+                {% else %}
+                    <button type="button" class="btn btn-danger btn-sm" disabled><i class="bi bi-file-pdf"></i> Reporte en PDF</button>
+                {% endif %}
+
+                {% if "report_presupuesto_excel" in user.getPermissions %}
+                    <a class="btn btn-success btn-sm" href="{% url 'excel_apu' obra.codigo %}" target="_blank" role="button"><i class="bi bi-file-excel"></i> Reporte en Excel</a>
+                {% else %}
+                    <button type="button" class="btn btn-success btn-sm" disabled><i class="bi bi-file-excel"></i> Reporte en Excel</button>
+                {% endif %}
             </center>
         </div>
         
