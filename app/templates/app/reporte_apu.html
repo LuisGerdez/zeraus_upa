@@ -32,10 +32,16 @@
 
                         <div id="collapse_{{ partida.codigo }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
-                                <p style="margin: 0;"><b>Código de la partida</b>: {{ partida.codigo }}</p>
-                                <p style="margin: 0;"><b>Descripción de la partida</b>: {{ partida.descripcion }}</p>
-                                <p style="margin: 0;"><b>Unidad</b>: {{ partida.unidad }}</p>
-                                <p style="margin: 0;"><b>Rendimiento</b>: {{ partida.rendimiento_final }}</p>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <p style="margin: 0;"><b>Código de la partida</b>: {{ partida.codigo }}</p>
+                                        <p style="margin: 0;"><b>Descripción de la partida</b>: {{ partida.descripcion }}</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p style="margin: 0;"><b>Unidad</b>: {{ partida.unidad }}</p>
+                                        <p style="margin: 0;"><b>Rendimiento</b>: {{ partida.rendimiento_final }}</p>
+                                    </div>
+                                </div>
 
                                 <br>
 

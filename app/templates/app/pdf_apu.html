@@ -52,6 +52,13 @@
                     <td style="border: none;">
                         <div style="text-align: left;">{{ partida.codigo }}</div>
                     </td>
+
+                    <td width="140px" style="border: none;">
+                        <div style="text-align: right; font-weight: bold;">Unidad:</div>
+                    </td>
+                    <td width="100px" style="border: none;">
+                        <div style="text-align: right;">{{ partida.unidad }}</div>
+                    </td>
                 </tr>
 
                 <tr>
@@ -61,23 +68,12 @@
                     <td style="border: none;">
                         <div style="text-align: left;">{{ partida.descripcion }}</div>
                     </td>
-                </tr>
 
-                <tr>
                     <td width="140px" style="border: none;">
-                        <div style="text-align: left; font-weight: bold;">Unidad:</div>
+                        <div style="text-align: right; font-weight: bold;">Rendimiento:</div>
                     </td>
-                    <td style="border: none;">
-                        <div style="text-align: left;">{{ partida.unidad }}</div>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td width="140px" style="border: none;">
-                        <div style="text-align: left; font-weight: bold;">Rendimiento:</div>
-                    </td>
-                    <td style="border: none;">
-                        <div style="text-align: left;">{{ partida.rendimiento_final }}</div>
+                    <td width="100px" style="border: none;">
+                        <div style="text-align: right;">{{ partida.rendimiento_final }}</div>
                     </td>
                 </tr>
             </table>
