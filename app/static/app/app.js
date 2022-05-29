@@ -555,56 +555,60 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		});
 
-		btn_copiar_modal.addEventListener('click', function(e) {
-			if(input_partida_codigo.value == '') {
-				bootstrapAlert('Por favor seleccione una partida a copiar!', 'info');
-			} else {
-				input_partida_original.value = input_partida_codigo.value;
-				input_partida_nueva.value = '';
-				$('#copiarModal').modal('show');
-			}
-		});
+		if(document.querySelector('#btn_copiar_modal')) {
+			btn_copiar_modal.addEventListener('click', function(e) {
+				if(input_partida_codigo.value == '') {
+					bootstrapAlert('Por favor seleccione una partida a copiar!', 'info');
+				} else {
+					input_partida_original.value = input_partida_codigo.value;
+					input_partida_nueva.value = '';
+					$('#copiarModal').modal('show');
+				}
+			});
+		}
 
-		btn_copiar.addEventListener('click', function(e) {
-			if(input_partida_nueva.value == '') {
-				bootstrapAlert('Por favor rellene el campo código de la partida nueva!', 'info');
-			} else {
-				bootstrapAlert('Copiando partida...', 'info');
-				fetch('/api/agregar/partidas_copia', {
-			    	method: 'POST',
-			    	body: JSON.stringify({
-			        	codigo_original: input_partida_original.value,
-			        	codigo_nueva: input_partida_nueva.value
-			    	})
-			   	})
-			    .then(response => response.json())
-			    .then(result => {
-			    	if(!result.error) {
-			    		input_partida_codigo.value = '';
-			    		input_partida_nombre.value = '';
-			    		input_partida_descripcion.value = '';
-			    		input_partida_unidad.value = '';
-			    		bootstrapAlert('Partida copiada con éxito!', 'success');
+		if(document.querySelector('#btn_copiar')) {
+			btn_copiar.addEventListener('click', function(e) {
+				if(input_partida_nueva.value == '') {
+					bootstrapAlert('Por favor rellene el campo código de la partida nueva!', 'info');
+				} else {
+					bootstrapAlert('Copiando partida...', 'info');
+					fetch('/api/agregar/partidas_copia', {
+				    	method: 'POST',
+				    	body: JSON.stringify({
+				        	codigo_original: input_partida_original.value,
+				        	codigo_nueva: input_partida_nueva.value
+				    	})
+				   	})
+				    .then(response => response.json())
+				    .then(result => {
+				    	if(!result.error) {
+				    		input_partida_codigo.value = '';
+				    		input_partida_nombre.value = '';
+				    		input_partida_descripcion.value = '';
+				    		input_partida_unidad.value = '';
+				    		bootstrapAlert('Partida copiada con éxito!', 'success');
 
-			    		setTimeout(() => {
-							fill_table('partidas');
-						}, 100);
-					} else if(result.error == 'AlreadyExist.') {
-			    		bootstrapAlert('Ya existe una partida con ese código!', 'warning');
-			    	} else if(result.error == 'DoesNotExist.') {
-			    		bootstrapAlert('La partida original no existe!', 'warning');
-			    	} else if(result.error == 'No permission.') {
-			    		bootstrapAlert('Tu cuenta no tiene permisos para copiar partidas!', 'info');
-			    	} else {
-			    		bootstrapAlert('Ha ocurrido un error al copiar la partida!', 'danger');
-			    	}
-			    })
-			    .catch(function(error) {
-			    	bootstrapAlert('Ha ocurrido un error al copiar la partida!', 'danger');
-			    	console.log('Error: ' + error);
-			    });
-			}
-		});
+				    		setTimeout(() => {
+								fill_table('partidas');
+							}, 100);
+						} else if(result.error == 'AlreadyExist.') {
+				    		bootstrapAlert('Ya existe una partida con ese código!', 'warning');
+				    	} else if(result.error == 'DoesNotExist.') {
+				    		bootstrapAlert('La partida original no existe!', 'warning');
+				    	} else if(result.error == 'No permission.') {
+				    		bootstrapAlert('Tu cuenta no tiene permisos para copiar partidas!', 'info');
+				    	} else {
+				    		bootstrapAlert('Ha ocurrido un error al copiar la partida!', 'danger');
+				    	}
+				    })
+				    .catch(function(error) {
+				    	bootstrapAlert('Ha ocurrido un error al copiar la partida!', 'danger');
+				    	console.log('Error: ' + error);
+				    });
+				}
+			});
+		}
 
 		fill_table('partidas');
 	}
