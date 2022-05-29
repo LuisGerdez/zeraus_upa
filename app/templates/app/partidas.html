@@ -31,6 +31,10 @@
                     <label for="partida_unidad">Unidad</label>
                     <input name="partida_unidad" type="text" class="form-control form-control-xs" id="partida_unidad">
                 </div>
+                <div class="col">
+                    <label for="partida_unidad">Rendimiento</label>
+                    <input name="partida_rendimiento" type="number" min="0" value="0" step=".01" onkeyup="if(this.value<0){this.value= this.value * -1}" class="form-control form-control-xs" id="partida_rendimiento">
+                </div>
             </div>
 
             <table class="table table-bordered table-sm compact" id="tabla_partidas">
@@ -40,6 +44,7 @@
                         <th class="th-hover" scope="col">Descripción de partidas</th>
                         <th style="display: none;" scope="col">Nombre</th>
                         <th style="display: none;" scope="col">Unidad</th>
+                        <th style="display: none;" scope="col">Rendimiento</th>
                     </tr>
                 </thead>
                 <tbody style="font-size: 12px;">

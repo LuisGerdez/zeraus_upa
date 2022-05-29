@@ -2234,7 +2234,7 @@ def agregar_api(request, tipo):
         if(request.user.has_perm("app.add_partidas")):
             if not Partidas.objects.filter(codigo=data.get("codigo", "").replace("/", "-")).exists():
                 try:
-                    partida = Partidas.objects.create(codigo=data.get("codigo", "").replace("/", "-"), nombre=data.get("nombre", ""), descripcion=data.get("descripcion", ""), unidad=data.get("unidad", ""))
+                    partida = Partidas.objects.create(codigo=data.get("codigo", "").replace("/", "-"), nombre=data.get("nombre", ""), descripcion=data.get("descripcion", ""), unidad=data.get("unidad", ""), rendimiento=data.get("rendimiento", ""))
                 except IntegrityError:
                     return JsonResponse({"error": "IntegrityError."}, status=417)
 
@@ -2465,6 +2465,7 @@ def modificar_api(request, tipo):
                 partida.nombre = data.get("nombre", "")
                 partida.descripcion = data.get("descripcion", "")
                 partida.unidad = data.get("unidad", "")
+                partida.rendimiento = data.get("rendimiento", "")
                 partida.save()
             except IntegrityError:
                 return JsonResponse({"error": "IntegrityError."}, status=417)

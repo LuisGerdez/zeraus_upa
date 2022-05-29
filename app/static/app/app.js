@@ -413,6 +413,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		const input_partida_nombre = document.querySelector('#partida_descripcion');
 		const input_partida_descripcion = document.querySelector('#partida_descripcion');
 		const input_partida_unidad = document.querySelector('#partida_unidad');
+		const input_partida_rendimiento = document.querySelector('#partida_rendimiento');
 		const input_partida_original = document.querySelector('#copiar_original');
 		const input_partida_nueva = document.querySelector('#copiar_nueva');
 
@@ -425,6 +426,8 @@ document.addEventListener('DOMContentLoaded', function() {
 				bootstrapAlert('Por favor rellene el campo descripcion!', 'info');
 			} else if(input_partida_unidad.value == '') {
 				bootstrapAlert('Por favor rellene el campo unidad!', 'info');
+			} else if(input_partida_rendimiento.value == '') {
+				bootstrapAlert('Por favor rellene el campo rendimiento!', 'info');
 			} else {
 				fetch('/api/agregar/partidas', {
 			    	method: 'POST',
@@ -432,7 +435,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			        	codigo: input_partida_codigo.value,
 			        	nombre: input_partida_nombre.value,
 			        	descripcion: input_partida_descripcion.value,
-			        	unidad: input_partida_unidad.value
+			        	unidad: input_partida_unidad.value,
+			        	rendimiento: input_partida_rendimiento.value
 			    	})
 			   	})
 			    .then(response => response.json())
@@ -442,6 +446,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			    		input_partida_nombre.value = '';
 			    		input_partida_descripcion.value = '';
 			    		input_partida_unidad.value = '';
+			    		input_partida_rendimiento.value = '';
 			    		bootstrapAlert('Partida agregada con éxito!', 'success');
 
 			    		setTimeout(() => {
@@ -471,6 +476,8 @@ document.addEventListener('DOMContentLoaded', function() {
 				bootstrapAlert('Por favor rellene el campo descripcion!', 'info');
 			} else if(input_partida_unidad.value == '') {
 				bootstrapAlert('Por favor rellene el campo unidad!', 'info');
+			} else if(input_partida_rendimiento.value == '') {
+				bootstrapAlert('Por favor rellene el campo rendimiento!', 'info');
 			} else {
 				fetch('/api/modificar/partidas', {
 			    	method: 'POST',
@@ -478,7 +485,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			        	codigo: input_partida_codigo.value,
 			        	nombre: input_partida_nombre.value,
 			        	descripcion: input_partida_descripcion.value,
-			        	unidad: input_partida_unidad.value
+			        	unidad: input_partida_unidad.value,
+			        	rendimiento: input_partida_rendimiento.value
 			    	})
 			   	})
 			    .then(response => response.json())
@@ -488,6 +496,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			    		input_partida_nombre.value = '';
 			    		input_partida_descripcion.value = '';
 			    		input_partida_unidad.value = '';
+			    		input_partida_rendimiento.value = '';
 			    		bootstrapAlert('Partida modificada con éxito!', 'success');
 
 			    		setTimeout(() => {
@@ -525,6 +534,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			    		input_partida_nombre.value = '';
 			    		input_partida_descripcion.value = '';
 			    		input_partida_unidad.value = '';
+			    		input_partida_rendimiento.value = '';
 			    		bootstrapAlert('Partida eliminada con éxito!', 'success');
 
 			    		setTimeout(() => {
@@ -1761,7 +1771,7 @@ function fill_table(tipo, arg1 = null, arg2 = null) {
 		.then(response => response.json())
 		.then(data => {
 			data.forEach(partida => {
-				var new_row = "<tr><td>" + partida.codigo + "</td><td>" + partida.descripcion + "</td><td style='display: none;'>" + partida.nombre  + "</td><td style='display: none;'>" + partida.unidad + "</td></tr>";
+				var new_row = "<tr><td>" + partida.codigo + "</td><td>" + partida.descripcion + "</td><td style='display: none;'>" + partida.nombre  + "</td><td style='display: none;'>" + partida.unidad + "</td><td style='display: none;'>" + partida.rendimiento + "</td></tr>";
 				tabla.append(new_row);
 		    });
 
@@ -2262,6 +2272,7 @@ function update_table_event(tipo) {
 		    	document.querySelector('#partida_descripcion').value = this.cells[1].innerHTML;
 		    	document.querySelector('#partida_nombre').value = this.cells[2].innerHTML;
 		    	document.querySelector('#partida_unidad').value = this.cells[3].innerHTML;
+		    	document.querySelector('#partida_rendimiento').value = this.cells[4].innerHTML;
 			}
 	    });
 	} else if(tipo == 'areas') {
